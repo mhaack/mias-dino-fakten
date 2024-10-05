@@ -1,3 +1,7 @@
+[build]
+  command = "pnpm run build"
+  publish = "dist"
+
 [[redirects]]
   from = "http://dinofakten.de/*"
   to = "https://dino-fakten.de/:splat"

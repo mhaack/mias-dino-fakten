@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.3",
-    "@astrojs/netlify": "^5.5.3",
     "@astrojs/rss": "^4.0.7",
     "@astrojs/sitemap": "^3.1.6",
     "@astrojs/svelte": "^5.7.0",
@@ -23,7 +22,7 @@
     "@fontsource-variable/jetbrains-mono": "^5.0.22",
     "@fontsource/roboto": "^5.0.14",
     "@swup/astro": "^1.4.1",
-    "astro": "^4.15.0",
+    "astro": "4.15.11",
     "astro-compress": "^2.3.1",
     "astro-icon": "^1.1.1",
     "colorjs.io": "^0.5.2",
