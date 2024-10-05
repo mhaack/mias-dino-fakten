@@ -1,0 +1,78 @@
+---
+import PostCard from '@components/PostCard.astro'
+import MainGridLayout from '@layouts/MainGridLayout.astro'
+import { getPostUrlBySlug } from '@utils/url-utils'
+
+import ButtonTag from '@components/control/ButtonTag.astro'
+import Heading from '@components/misc/Heading.astro'
+import ImageWrapper from '@components/misc/ImageWrapper.astro'
+import I18nKey from '@i18n/i18nKey'
+import { i18n } from '@i18n/translation'
+import { getAlphabeticalPosts } from '@utils/content-utils'
+
+const posts = await getAlphabeticalPosts()
+
+const groups: { letter: string; posts: typeof posts }[] = (() => {
+  const groupedPosts = posts.reduce(
+    (grouped: { [letter: string]: typeof posts }, post) => {
+      const letter = post.data.title.substring(0, 1)
+      if (!grouped[letter]) {
+        grouped[letter] = []
+      }
+      grouped[letter].push(post)
+      return grouped
+    },
+    {},
+  )
+
+  // convert the object to an array
+  const groupedPostsArray = Object.keys(groupedPosts).map(key => ({
+    letter: key,
+    posts: groupedPosts[key],
+  }))
+
+  // sort years by latest first
+  groupedPostsArray.sort((a, b) => a.letter.localeCompare(b.letter))
+  return groupedPostsArray
+})()
+
+let delay = -1
+delay++
+const interval = 50
+---
+<MainGridLayout>
+  <div class="card-base px-8 py-6">
+    <ImageWrapper id="dino" alt="dino icon" class="h-16 mb-2" src="assets/icons/diplodocus.png"></ImageWrapper>
+    <Heading>{i18n(I18nKey.allDinos)}</Heading>
+    <ol class="flex flex-wrap items-center justify-center text-[var(--primary)]">
+    {groups.map(group => (
+      <li class="mx-1 my-1">
+        <ButtonTag href={`#dinos-${group.letter.toLowerCase()}`}>{group.letter}</ButtonTag>
+      </li>
+    ))}
+    </ol>
+  </div>
+
+  {groups.map(group => (
+    <div class="flex flex-row w-full items-center h-[3.75rem]">
+      <div id={`dinos-${group.letter.toLowerCase()}`} class="w-1/6 md:w-1/12 transition text-2xl font-bold text-center text-75">{group.letter}</div>
+      <div class="w-5/6 md:w-11/12 transition text-left text-50">{group.posts.length} {group.posts.length == 1 ? i18n(I18nKey.dinoCount): i18n(I18nKey.dinosCount)}</div>
+    </div>
+    <div class="transition flex flex-col rounded-[var(--radius-large)] bg-[var(--card-bg)] py-1 md:py-0 md:bg-transparent md:gap-4 mb-4">
+    {group.posts.map(entry => (
+      <PostCard
+        entry={entry}
+        title={entry.data.title}
+        tags={entry.data.tags}
+        category={entry.data.category}
+        published={entry.data.published}
+        url={getPostUrlBySlug(entry.slug)}
+        image={entry.data.image}
+        description={entry.data.description}
+        draft={entry.data.draft}
+        class:list="onload-animation"
+        style={`animation-delay: calc(var(--content-delay) + ${delay++ * interval}ms);`}></PostCard>
+    ))}
+    </div>
+  ))}
+</MainGridLayout>

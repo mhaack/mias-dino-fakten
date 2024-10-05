@@ -35,4 +35,12 @@ export const en: Translation = {
   [Key.author]: 'Author',
   [Key.publishedAt]: 'Published at',
   [Key.license]: 'License',
+
+  // custom for dino page
+  [Key.dinoFacts]: 'Facts',
+  [Key.dinoOfTheMonth]: 'Dino of the Month',
+  [Key.dinoCount]: 'Dino',
+  [Key.dinosCount]: 'Dinos',
+  [Key.dinoTags]: 'Alle dino tags',
+  [Key.allDinos]: 'All Dinos',
 }

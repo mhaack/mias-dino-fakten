@@ -3,19 +3,20 @@ import Footer from '@components/Footer.astro'
 import Navbar from '@components/Navbar.astro'
 import BackToTop from '@components/control/BackToTop.astro'
 import SideBar from '@components/widget/SideBar.astro'
-import Layout from './Layout.astro'
 import { Icon } from 'astro-icon/components'
 import { siteConfig } from '../config'
+import Layout from './Layout.astro'
 
 interface Props {
   title?: string
   banner?: string
   description?: string
   lang?: string
-  setOGTypeArticle?: boolean;
+  setOGTypeArticle?: boolean
+  post?: object
 }
 
-const { title, banner, description, lang, setOGTypeArticle } = Astro.props
+const { title, banner, description, lang, setOGTypeArticle, post } = Astro.props
 const hasBannerCredit =
   siteConfig.banner.enable && siteConfig.banner.credit.enable
 const hasBannerLink = !!siteConfig.banner.credit.url
@@ -47,8 +48,7 @@ const hasBannerLink = !!siteConfig.banner.credit.url
                 </Icon>
             </a>}
 
-
-            <SideBar class="mb-4 row-start-2 row-end-3 col-span-2 lg:row-start-1 lg:row-end-2 lg:col-span-1 lg:max-w-[17.5rem] onload-animation"></SideBar>
+            <SideBar class="mb-4 row-start-2 row-end-3 col-span-2 lg:row-start-1 lg:row-end-2 lg:col-span-1 lg:max-w-[17.5rem] onload-animation" post={post}></SideBar>
 
             <main id="swup-container" class="transition-swup-fade col-span-2 lg:col-span-1 overflow-hidden">
                 <div id="content-wrapper" class="onload-animation">

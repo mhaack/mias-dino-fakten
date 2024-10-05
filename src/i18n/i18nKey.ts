@@ -32,6 +32,14 @@ enum I18nKey {
   author = 'author',
   publishedAt = 'publishedAt',
   license = 'license',
+
+  // custom for dino page
+  dinoFacts = 'dinoFacts',
+  dinoOfTheMonth = 'dinoOfTheMonth',
+  dinoCount = 'dinoCount',
+  dinosCount = 'dinosCount',
+  dinoTags = 'dinoTags',
+  allDinos = 'menuAllDinos',
 }
 
 export default I18nKey

@@ -1,0 +1,40 @@
+---
+import AlphabeticalPanel from '@components/AlphabeticalPanel.astro'
+import Heading from '@components/misc/Heading.astro'
+import ImageWrapper from '@components/misc/ImageWrapper.astro'
+import I18nKey from '@i18n/i18nKey'
+import { i18n } from '@i18n/translation'
+import MainGridLayout from '@layouts/MainGridLayout.astro'
+import { getSortedPosts, getTagList } from '@utils/content-utils'
+
+export async function getStaticPaths() {
+  const posts = await getSortedPosts()
+
+  const allTags = posts.reduce<Set<string>>((acc, post) => {
+    // biome-ignore lint/complexity/noForEach: <explanation>
+    post.data.tags.forEach(tag => acc.add(tag))
+    return acc
+  }, new Set())
+
+  const allTagsArray = Array.from(allTags)
+
+  return allTagsArray.map(tag => ({
+    params: {
+      tag: tag.toLowerCase(),
+    },
+  }))
+}
+
+const tag = Astro.params.tag as string
+const allTags = await getTagList()
+const displayTag = allTags.find(t => t.slug === tag)
+---
+
+<MainGridLayout title={i18n(I18nKey.archive)} description={i18n(I18nKey.archive)}>
+  <div class="card-base px-8 py-6">
+    <ImageWrapper id="dino" alt="dino icon" class="h-16 mb-2" src="assets/icons/dinosaurier.png"></ImageWrapper>
+    <Heading>Tag: {displayTag ? displayTag.name : tag}</Heading>
+   
+  </div>
+    <AlphabeticalPanel tags={[tag]}></AlphabeticalPanel>
+</MainGridLayout>

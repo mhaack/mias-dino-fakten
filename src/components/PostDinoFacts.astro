@@ -1,0 +1,32 @@
+---
+import type { BlogPostData } from '@/types/config'
+import { Icon } from 'astro-icon/components'
+
+interface Props {
+  post: BlogPostData
+  class?: string
+  style?: string
+}
+const className = Astro.props.class
+const style = Astro.props.style
+const post = Astro.props.post
+---
+
+<ul class="flex flex-wrap items-center justify-center text-[var(--primary)]">
+    {post.years && <li class="flex items-center my-2"><div class="fact-icon"><Icon name="material-symbols:calendar-month" class="text-xl"></Icon></div> Lebenszeit: {post.years}</li>}
+    {post.family && <li class="flex items-center my-2"><div class="fact-icon"><Icon name="material-symbols:diversity-1" class="text-xl"></Icon></div> Familie: {post.family}</li>}
+    {post.location && <li class="flex items-center my-2"><div class="fact-icon"><Icon name="material-symbols:globe" class="text-xl"></Icon></div> Fundort: {post.location}</li>}
+    {post.finder && <li class="flex items-center my-2"><div class="fact-icon"><Icon name="material-symbols:group-search" class="text-xl"></Icon></div> Gefunden von: {post.finder}</li>}
+    {post.food && <li class="flex items-center my-2 "><div class="fact-icon"><Icon name="material-symbols:fork-spoon" class="text-xl"></Icon></div> Ernährung: {post.food}</li>}
+    {post.weight && <li class="flex items-center my-2"><div class="fact-icon"><Icon name="material-symbols:weight" class="text-xl"></Icon></div> Gewicht: {post.weight}</li>}
+    {post.size && <li class="flex items-center my-2"><div class="fact-icon"><Icon name="material-symbols:arrow-range-rounded" class="text-xl"></Icon></div> Länge: {post.size}</li>}
+</ul>
+<style>
+    @tailwind components;
+    
+    @layer components {
+        .fact-icon {
+            @apply w-8 h-8 ml-2 transition rounded-md flex items-center justify-center bg-[var(--btn-regular-bg)] text-[var(--btn-content)] mr-2
+        }
+    }
+</style>

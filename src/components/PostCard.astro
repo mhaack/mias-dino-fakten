@@ -1,14 +1,15 @@
 ---
-import path from 'path'
+import path from 'node:path'
+import { Icon } from 'astro-icon/components'
+import I18nKey from '../i18n/i18nKey'
+import { i18n } from '../i18n/translation'
+import { getDir } from '../utils/url-utils'
 import PostMetadata from './PostMeta.astro'
 import ImageWrapper from './misc/ImageWrapper.astro'
-import { Icon } from 'astro-icon/components'
-import { i18n } from '../i18n/translation'
-import I18nKey from '../i18n/i18nKey'
-import { getDir } from '../utils/url-utils'
 
 interface Props {
   class?: string
+  // biome-ignore lint/suspicious/noExplicitAny: <explanation>
   entry: any
   title: string
   url: string
@@ -35,7 +36,7 @@ const className = Astro.props.class
 
 const hasCover = image !== undefined && image !== null && image !== ''
 
-const coverWidth = '28%'
+const coverWidth = '40%'
 
 const { remarkPluginFrontmatter } = await entry.render()
 ---
@@ -60,19 +61,11 @@ const { remarkPluginFrontmatter } = await entry.render()
         <div class:list={["transition text-75 mb-3.5 pr-4", {"line-clamp-2 md:line-clamp-1": !description}]}>
             { description || remarkPluginFrontmatter.excerpt }
         </div>
-
-        <!-- word count and read time  -->
-        <div class="text-sm text-black/30 dark:text-white/30 flex gap-4 transition">
-            <div>{remarkPluginFrontmatter.words} {" " + i18n(I18nKey.wordsCount)}</div>
-            <div>|</div>
-            <div>{remarkPluginFrontmatter.minutes} {" " + i18n(I18nKey.minutesCount)}</div>
-        </div>
-
     </div>
 
     {hasCover && <a href={url} aria-label={title}
-                    class:list={["group",
-                        "max-h-[20vh] md:max-h-none mx-4 mt-4 -mb-2 md:mb-0 md:mx-0 md:mt-0",
+                    class:list={["group max-h-[20vh] md:max-h-none mx-4 mt-4 -mb-2 md:mb-0 md:mx-0 md:mt-0",
+                        "bg-[oklch(0.95_0.025_var(--hue))] dark:bg-[var(--card-bg)]",
                         "md:w-[var(--coverWidth)] relative md:absolute md:top-3 md:bottom-3 md:right-3 rounded-xl overflow-hidden active:scale-95"
                     ]} >
         <div class="absolute pointer-events-none z-10 w-full h-full group-hover:bg-black/30 group-active:bg-black/50 transition"></div>
@@ -81,7 +74,7 @@ const { remarkPluginFrontmatter } = await entry.render()
                   class="transition opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 text-white text-5xl">
             </Icon>
         </div>
-        <ImageWrapper src={image} basePath={path.join("content/posts/", getDir(entry.id))} alt="Cover Image of the Post"
+        <ImageWrapper src={image} basePath={path.join("content/dinos/", getDir(entry.id))} alt="{title}"
                   class="w-full h-full">
         </ImageWrapper>
     </a>}

@@ -10,6 +10,7 @@ export type SiteConfig = {
     hue: number
     fixed: boolean
   }
+  logo: string
   banner: {
     enable: boolean
     src: string
@@ -32,8 +33,10 @@ export type Favicon = {
 
 export enum LinkPreset {
   Home = 0,
-  Archive = 1,
-  About = 2,
+  AllDinos = 1,
+  Tags = 2,
+  About = 3,
+  DinoOfTheMonth = 4,
 }
 
 export type NavBarLink = {
@@ -57,12 +60,6 @@ export type ProfileConfig = {
   }[]
 }
 
-export type LicenseConfig = {
-  enable: boolean
-  name: string
-  url: string
-}
-
 export type LIGHT_DARK_MODE =
   | typeof LIGHT_MODE
   | typeof DARK_MODE
@@ -71,6 +68,7 @@ export type LIGHT_DARK_MODE =
 export type BlogPostData = {
   body: string
   title: string
+  namesuffix: string
   published: Date
   description: string
   tags: string[]
@@ -81,4 +79,12 @@ export type BlogPostData = {
   prevSlug?: string
   nextTitle?: string
   nextSlug?: string
+  // custom for dino page
+  years?: string
+  family?: string
+  location?: string
+  finder?: string
+  food?: string
+  weight?: string
+  size?: string
 }

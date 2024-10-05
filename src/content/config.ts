@@ -1,8 +1,9 @@
 import { defineCollection, z } from 'astro:content'
 
-const postsCollection = defineCollection({
+const dinoCollection = defineCollection({
   schema: z.object({
     title: z.string(),
+    namesuffix: z.string().optional(),
     published: z.date(),
     draft: z.boolean().optional().default(false),
     description: z.string().optional().default(''),
@@ -16,8 +17,17 @@ const postsCollection = defineCollection({
     prevSlug: z.string().default(''),
     nextTitle: z.string().default(''),
     nextSlug: z.string().default(''),
+
+    /* custom for dino page */
+    years: z.string().optional().default(''),
+    family: z.string().optional().default(''),
+    location: z.string().optional().default(''),
+    finder: z.string().optional().default(''),
+    food: z.string().optional().default(''),
+    weight: z.string().optional().default(''),
+    size: z.string().optional().default(''),
   }),
 })
 export const collections = {
-  posts: postsCollection,
+  dinos: dinoCollection,
 }

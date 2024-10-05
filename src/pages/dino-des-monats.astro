@@ -1,0 +1,15 @@
+---
+
+import MainGridLayout from '../layouts/MainGridLayout.astro'
+
+import Heading from '@components/misc/Heading.astro'
+import ImageWrapper from '@components/misc/ImageWrapper.astro'
+import I18nKey from '../i18n/i18nKey'
+import { i18n } from '../i18n/translation'
+---
+<MainGridLayout title={i18n(I18nKey.about)} description={i18n(I18nKey.about)}>
+  <div class="card-base px-8 py-6">
+    <ImageWrapper id="dino" alt="dino icon" class="h-16 mb-2" src="assets/icons/styracosaurus.png"></ImageWrapper>
+    <Heading>{i18n(I18nKey.dinoOfTheMonth)}</Heading>
+  </div>
+</MainGridLayout>
