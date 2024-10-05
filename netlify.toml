@@ -1,0 +1,41 @@
+[[redirects]]
+  from = "http://dinofakten.de/*"
+  to = "https://dino-fakten.de/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://dinofakten.de/*"
+  to = "https://dino-fakten.de/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.dinofakten.de/*"
+  to = "https://dino-fakten.de/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.dinofakten.de/*"
+  to = "https://dino-fakten.de/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/dino-des-monats/"
+  to = "/dino-des-monats/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/js/script.js"
+  to = "https://plausible.io/js/plausible.js"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/event"
+  to = "https://plausible.io/api/event"
+  status = 200
+  force = true
