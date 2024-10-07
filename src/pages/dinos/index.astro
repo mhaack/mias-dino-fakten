@@ -30,9 +30,6 @@ const groups: { letter: string; posts: typeof posts }[] = (() => {
     letter: key,
     posts: groupedPosts[key],
   }))
-
-  // sort years by latest first
-  groupedPostsArray.sort((a, b) => a.letter.localeCompare(b.letter))
   return groupedPostsArray
 })()
 

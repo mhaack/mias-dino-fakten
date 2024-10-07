@@ -9,7 +9,7 @@ interface Props {
 }
 const className = Astro.props.class
 const style = Astro.props.style
-const post = Astro.props.post
+const { post } = Astro.props
 ---
 
 <ul class="flex flex-wrap items-center justify-center text-[var(--primary)]">
