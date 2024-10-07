@@ -7,6 +7,7 @@ import { i18n } from '@i18n/translation'
 import MainGridLayout from '@layouts/MainGridLayout.astro'
 import { getSortedPosts, getTagList } from '@utils/content-utils'
 import { getTagSlug } from '@utils/url-utils'
+import { Icon } from 'astro-icon/components'
 
 export async function getStaticPaths() {
   const posts = await getSortedPosts()
@@ -33,9 +34,8 @@ const displayTag = allTags.find(t => getTagSlug(t.slug) === tag)
 
 <MainGridLayout title={i18n(I18nKey.archive)} description={i18n(I18nKey.archive)}>
   <div class="card-base px-8 py-6">
-    <ImageWrapper id="dino" alt="dino icon" class="h-16 mb-2" src="assets/icons/dinosaurier.png"></ImageWrapper>
+    <Icon size="96" name="diplodocus" class="mx-auto mb-2" />
     <Heading>Tag: {displayTag ? displayTag.name : tag}</Heading>
-   
   </div>
-    <AlphabeticalPanel tags={[tag]}></AlphabeticalPanel>
+  <AlphabeticalPanel tags={[tag]}></AlphabeticalPanel>
 </MainGridLayout>

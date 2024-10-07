@@ -5,10 +5,10 @@ import { getPostUrlBySlug } from '@utils/url-utils'
 
 import ButtonTag from '@components/control/ButtonTag.astro'
 import Heading from '@components/misc/Heading.astro'
-import ImageWrapper from '@components/misc/ImageWrapper.astro'
 import I18nKey from '@i18n/i18nKey'
 import { i18n } from '@i18n/translation'
 import { getAlphabeticalPosts } from '@utils/content-utils'
+import { Icon } from 'astro-icon/components'
 
 const posts = await getAlphabeticalPosts()
 
@@ -39,7 +39,7 @@ const interval = 50
 ---
 <MainGridLayout title={i18n(I18nKey.allDinos)} description={i18n(I18nKey.allDinos)}>
   <div class="card-base px-8 py-6">
-    <ImageWrapper id="dino" alt="dino icon" class="h-16 mb-2" src="assets/icons/diplodocus.png"></ImageWrapper>
+    <Icon size="96" name="diplodocus" class="mx-auto mb-2" />
     <Heading>{i18n(I18nKey.allDinos)}</Heading>
     <ol class="flex flex-wrap items-center justify-center text-[var(--primary)]">
     {groups.map(group => (

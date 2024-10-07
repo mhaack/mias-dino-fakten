@@ -1,9 +1,11 @@
 ---
 import AlphabeticalPanel from '@components/AlphabeticalPanel.astro'
+import Heading from '@components/misc/Heading.astro'
 import I18nKey from '@i18n/i18nKey'
 import { i18n } from '@i18n/translation'
 import MainGridLayout from '@layouts/MainGridLayout.astro'
 import { getCategoryList } from '@utils/content-utils'
+import { Icon } from 'astro-icon/components'
 
 export async function getStaticPaths() {
   const categories = await getCategoryList()
@@ -20,5 +22,9 @@ const category = Astro.params.category as string
 ---
 
 <MainGridLayout title={i18n(I18nKey.archive)} description={i18n(I18nKey.archive)}>
-    <AlphabeticalPanel categories={[category]}></AlphabeticalPanel>
+  <div class="card-base px-8 py-6">
+    <Icon size="96" name="styracosaurus" class="mx-auto mb-2" />
+    <Heading>{i18n(I18nKey.archive)}</Heading>
+  </div>
+  <AlphabeticalPanel categories={[category]}></AlphabeticalPanel>
 </MainGridLayout>

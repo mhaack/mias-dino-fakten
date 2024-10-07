@@ -1,11 +1,17 @@
 ---
 import AlphabeticalPanel from '@components/AlphabeticalPanel.astro'
+import Heading from '@components/misc/Heading.astro'
 import { UNCATEGORIZED } from '@constants/constants'
 import I18nKey from '@i18n/i18nKey'
 import { i18n } from '@i18n/translation'
 import MainGridLayout from '@layouts/MainGridLayout.astro'
+import { Icon } from 'astro-icon/components'
 ---
 
 <MainGridLayout title={i18n(I18nKey.archive)}>
-    <AlphabeticalPanel categories={[UNCATEGORIZED]}></AlphabeticalPanel>
+  <div class="card-base px-8 py-6">
+    <Icon size="96" name="styracosaurus" class="mx-auto mb-2" />
+    <Heading>{i18n(I18nKey.archive)}</Heading>
+  </div>
+  <AlphabeticalPanel categories={[UNCATEGORIZED]}></AlphabeticalPanel>
 </MainGridLayout>
