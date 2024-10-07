@@ -57,6 +57,33 @@ export async function getAlphabeticalPosts(): Promise<
   return sorted
 }
 
+export async function getDinosOfTheMonth(): Promise<
+  { month: Date; data: BlogPostData; slug: string; id: string }[]
+> {
+  const allBlogPosts = (await getCollection('dinos', ({ data }) => {
+    return import.meta.env.PROD ? data.draft !== true : true
+  })) as unknown as { body: string; data: BlogPostData; slug: string }[]
+
+  const dinosOfTheMonth = new Array()
+  for (const post of allBlogPosts) {
+    for (const date of post.data.dotm) {
+      dinosOfTheMonth.push({
+        month: date.month,
+        data: post.data,
+        slug: post.slug,
+        id: post.id,
+      })
+    }
+  }
+
+  const sorted = dinosOfTheMonth.sort(
+    (a: { month: Date }, b: { month: Date }) => {
+      return a.month > b.month ? -1 : 1
+    },
+  )
+  return sorted
+}
+
 export type Tag = {
   name: string
   slug: string

@@ -80,11 +80,14 @@ export type BlogPostData = {
   nextTitle?: string
   nextSlug?: string
   // custom for dino page
-  years?: string
-  family?: string
-  location?: string
-  finder?: string
-  food?: string
-  weight?: string
-  size?: string
+  years: string
+  family: string
+  location: string
+  finder: string
+  food: string
+  weight: string
+  size: string
+  dotm: {
+    month: string
+  }[]
 }

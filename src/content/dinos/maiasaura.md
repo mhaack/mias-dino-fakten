@@ -15,7 +15,6 @@ image: ../images/maiasaura.jpg
 tags:
   - Herbivore 🌿
   - Kreide 🦴
-  
 food: Herbivore
 location: USA
 locations:

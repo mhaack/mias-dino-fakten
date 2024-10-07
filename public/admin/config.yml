@@ -1,0 +1,271 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: "/src/img/dinos"
+public_folder: "/img/dinos"
+locale: de
+
+collections:
+  - name: "dinos"
+    label: "Dinos"
+    folder: "src/dinos"
+    create: true
+    fields:
+      - label: "Name"
+        name: "title"
+        widget: "string"
+      - label: "Namenszusatz"
+        name: "namesuffix"
+        widget: "string"
+        required: false
+      - label: "Bedeutung des Namen"
+        name: "meaning"
+        widget: "string"
+        required: false
+      - label: "Datum"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        dateFormat: "YYYY-MM-DD"
+        timeFormat: false
+      - label: "Dino des Monats"
+        name: "dotm" # dino of then month
+        widget: "list"
+        add_to_top: true
+        fields:
+          - label: "Monat"
+            name: month
+            widget: "datetime"
+            date_format: MM.YYYY
+            format: YYYY-MM-01 # use first day of the month for easy parsing
+            time_format: false
+      - label: "Bild"
+        name: "image"
+        widget: "image"
+      - label: "Tags"
+        name: "tags"
+        widget: "relation"
+        collection: "tags"
+        value_field: "name"
+        search_fields: ["name"]
+        multiple: true
+      - label: "Ernährung"
+        name: "food"
+        widget: "select"
+        options: ["Herbivore", "Karnivore", "Piscivore", "Omnivore"]
+      - label: "Erster Fundort"
+        name: "location"
+        widget: "string"
+        required: false
+      - label: "Fundorte (Länder)"
+        name: "locations"
+        widget: "list"
+        required: false
+        multiple: true
+      - label: "Gefunden von"
+        name: "finder"
+        widget: "string"
+        required: false
+      - label: "Gewicht"
+        name: "weight"
+        widget: "string"
+        required: false
+      - label: "Länge"
+        name: "size"
+        widget: "string"
+        required: false
+      - label: "Lebenszeit"
+        name: "years"
+        widget: "string"
+        required: false
+      - label: "Familie"
+        name: "family"
+        widget: "string"
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+  - name: "pages"
+    label: "Seiten"
+    files:
+      - name: "home"
+        label: "Homepage"
+        file: "src/index.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - {
+              label: "Titel Icon",
+              name: "icon",
+              widget: "image",
+              choose_url: false,
+              media_folder: "/src/img",
+              public_folder: "/img",
+            }
+          - {
+              label: "Add author to title",
+              name: "authorInTitle",
+              widget: "boolean",
+            }
+          - {
+              label: "Meta title",
+              name: "metaTitle",
+              widget: "string",
+              hint: "used for SEO",
+            }
+          - {
+              label: "Highlighted tag",
+              name: "highlightedTag",
+              widget: "string",
+              hint: "This must correspond to one of your dinos' tag !",
+            }
+          - {
+              label: "Title of the highlighted tag section (label)",
+              name: "highlightedTitle",
+              widget: "string",
+            }
+          - {
+              label: "Link text to all dinos with the highlighted tag (label)",
+              name: "highlightedLinkText",
+              widget: "string",
+            }
+          - {
+              label: "Title of the new dinos section (label)",
+              name: "newTitle",
+              widget: "string",
+            }
+          - {
+              label: "Link text to all dinos",
+              name: "allLinkText",
+              widget: "string",
+            }
+      - name: "dinos"
+        label: "All dinos page"
+        file: "src/dinos.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - {
+              label: "Titel Icon",
+              name: "icon",
+              widget: "image",
+              choose_url: false,
+              media_folder: "/src/img/icons",
+              public_folder: "/img/icons",
+            }
+      - name: "tags"
+        label: "Tags pages"
+        file: "src/tag.md"
+        fields:
+          - {
+              label: "All dinos (label)",
+              name: "allDinosLabel",
+              widget: "string",
+            }
+          - {
+              label: "Titel Icon",
+              name: "icon",
+              widget: "image",
+              choose_url: false,
+              media_folder: "/src/img/icons",
+              public_folder: "/img/icons",
+            }
+      - name: "about"
+        label: "Über mich"
+        file: "src/about.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - {
+              label: "Titel Icon",
+              name: "icon",
+              widget: "image",
+              choose_url: false,
+              media_folder: "/src/img/icons",
+              public_folder: "/img/icons",
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "glossar"
+        label: "Glossar"
+        file: "src/glossar.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - {
+              label: "Titel Icon",
+              name: "icon",
+              widget: "image",
+              choose_url: false,
+              media_folder: "/src/img/icons",
+              public_folder: "/img/icons",
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "map"
+        label: "Fundorte"
+        file: "src/karte.md"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - {
+              label: "Titel Icon",
+              name: "icon",
+              widget: "image",
+              choose_url: false,
+              media_folder: "/src/img/icons",
+              public_folder: "/img/icons",
+            }
+          - { label: "Beschreibung", name: "description", widget: "string" }
+  - name: "tags"
+    label: "Tags"
+    folder: "src/tags"
+    create: true
+    identifier_field: "tag"
+    summary: "{{name}}"
+    fields:
+      - { label: "Tag Name mit Symbol", name: "name", widget: string }
+      - { label: "Tag Name ohne Symbol", name: "tag", widget: string }
+  - name: "settings"
+    label: "Einstellungen"
+    files:
+      - name: "site"
+        label: "Site settings"
+        delete: false
+        file: "src/_data/site.json"
+        fields:
+          - {
+              label: "Site name",
+              name: "name",
+              widget: "string",
+              hint: "used for SEO",
+            }
+          - {
+              label: "Site meta description",
+              name: "metaDescription",
+              widget: "string",
+              hint: "used for SEO",
+            }
+          - { label: "Author", name: "author", widget: "string" }
+          - {
+              label: "Primary color",
+              name: "primaryColor",
+              widget: "color",
+              hint: "make sure to choose a color that is light enough to display as a background behind dark text",
+            }
+          - {
+              label: "Secondary color",
+              name: "secondaryColor",
+              widget: "color",
+              hint: "used for links and focus styles",
+            }
+          - { label: "Search (label)", name: "searchLabel", widget: "string" }
+          - {
+              label: 'Search "contains" (label)',
+              name: "searchContainsLabel",
+              widget: "string",
+            }
+      - name: "nav"
+        label: "Navigation"
+        delete: false
+        file: "src/_data/nav.json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Text", name: "text", widget: "string" }

@@ -26,6 +26,10 @@ const dinoCollection = defineCollection({
     food: z.string().optional().default(''),
     weight: z.string().optional().default(''),
     size: z.string().optional().default(''),
+    dotm: z
+      .array(z.object({ month: z.date() }))
+      .optional()
+      .default([]),
   }),
 })
 export const collections = {

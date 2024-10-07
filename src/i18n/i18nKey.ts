@@ -36,10 +36,12 @@ enum I18nKey {
   // custom for dino page
   dinoFacts = 'dinoFacts',
   dinoOfTheMonth = 'dinoOfTheMonth',
+  dinoOfTheMonthDesc = 'dinoOfTheMonthDesc',
   dinoCount = 'dinoCount',
   dinosCount = 'dinosCount',
   dinoTags = 'dinoTags',
-  allDinos = 'menuAllDinos',
+  allDinos = 'allDinos',
+  month = 'month',
 }
 
 export default I18nKey

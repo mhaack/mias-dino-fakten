@@ -39,8 +39,10 @@ export const en: Translation = {
   // custom for dino page
   [Key.dinoFacts]: 'Facts',
   [Key.dinoOfTheMonth]: 'Dino of the Month',
+  [Key.dinoOfTheMonthDesc]: 'You favorit of ',
   [Key.dinoCount]: 'Dino',
   [Key.dinosCount]: 'Dinos',
   [Key.dinoTags]: 'Alle dino tags',
   [Key.allDinos]: 'All Dinos',
+  [Key.month]: 'Month',
 }
