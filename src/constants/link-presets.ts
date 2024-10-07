@@ -11,10 +11,6 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
     name: i18n(I18nKey.about),
     url: '/about/',
   },
-  [LinkPreset.Tags]: {
-    name: i18n(I18nKey.tags),
-    url: '/tags/',
-  },
   [LinkPreset.AllDinos]: {
     name: i18n(I18nKey.allDinos),
     url: '/dinos/',
