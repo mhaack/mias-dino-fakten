@@ -6,13 +6,14 @@ import I18nKey from '@i18n/i18nKey'
 import { i18n } from '@i18n/translation'
 import MainGridLayout from '@layouts/MainGridLayout.astro'
 import { getSortedPosts, getTagList } from '@utils/content-utils'
+import { getTagSlug } from '@utils/url-utils'
 
 export async function getStaticPaths() {
   const posts = await getSortedPosts()
 
   const allTags = posts.reduce<Set<string>>((acc, post) => {
     // biome-ignore lint/complexity/noForEach: <explanation>
-    post.data.tags.forEach(tag => acc.add(tag))
+    post.data.tags.forEach(tag => acc.add(getTagSlug(tag)))
     return acc
   }, new Set())
 
@@ -27,7 +28,7 @@ export async function getStaticPaths() {
 
 const tag = Astro.params.tag as string
 const allTags = await getTagList()
-const displayTag = allTags.find(t => t.slug === tag)
+const displayTag = allTags.find(t => getTagSlug(t.slug) === tag)
 ---
 
 <MainGridLayout title={i18n(I18nKey.archive)} description={i18n(I18nKey.archive)}>

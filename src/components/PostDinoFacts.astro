@@ -5,14 +5,12 @@ import { Icon } from 'astro-icon/components'
 interface Props {
   post: BlogPostData
   class?: string
-  style?: string
 }
 const className = Astro.props.class
-const style = Astro.props.style
 const { post } = Astro.props
 ---
 
-<ul class="flex flex-wrap items-center justify-center text-[var(--primary)]">
+<ul class={className}>
     {post.years && <li class="flex items-center my-2"><div class="fact-icon"><Icon name="material-symbols:calendar-month" class="text-xl"></Icon></div> Lebenszeit: {post.years}</li>}
     {post.family && <li class="flex items-center my-2"><div class="fact-icon"><Icon name="material-symbols:diversity-1" class="text-xl"></Icon></div> Familie: {post.family}</li>}
     {post.location && <li class="flex items-center my-2"><div class="fact-icon"><Icon name="material-symbols:globe" class="text-xl"></Icon></div> Fundort: {post.location}</li>}

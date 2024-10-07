@@ -38,7 +38,6 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Home,
     LinkPreset.AllDinos,
     LinkPreset.DinoOfTheMonth,
-    LinkPreset.Tags,
     LinkPreset.About,
   ],
 }

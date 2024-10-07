@@ -62,7 +62,12 @@ export async function getDinosOfTheMonth(): Promise<
 > {
   const allBlogPosts = (await getCollection('dinos', ({ data }) => {
     return import.meta.env.PROD ? data.draft !== true : true
-  })) as unknown as { body: string; data: BlogPostData; slug: string }[]
+  })) as unknown as {
+    body: string
+    data: BlogPostData
+    slug: string
+    id: string
+  }[]
 
   const dinosOfTheMonth = new Array()
   for (const post of allBlogPosts) {

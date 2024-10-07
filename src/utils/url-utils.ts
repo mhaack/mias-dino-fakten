@@ -22,6 +22,14 @@ export function getCategoryUrl(category: string): string {
   return url(`/category/${category.toLowerCase()}/`)
 }
 
+export function getTagUrl(slug: string): string {
+  return url(`/tags/${getTagSlug(slug)}/`)
+}
+
+export function getTagSlug(slug: string): string {
+  return slug.split(/ [\u{1F300}-\u{1F6FF}\u{1F900}-\u{1F9FF}]/u)[0]
+}
+
 export function getDir(path: string): string {
   const lastSlashIndex = path.lastIndexOf('/')
   if (lastSlashIndex < 0) {
