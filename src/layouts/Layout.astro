@@ -149,10 +149,10 @@ const siteLang = lang.replace('_', '-')
 
 @layer components {
 	.enable-banner.is-large-banner #banner-wrapper {
-		@apply lg:h-[var(--banner-height-home)] lg:translate-y-[30vh]
+		@apply lg:h-[var(--banner-height-home)]
 	}
 	.enable-banner #banner-wrapper {
-		@apply h-[var(--banner-height-home)]
+		@apply h-[var(--banner-height)] translate-y-[30vh]
 	}
 	.enable-banner.is-large-banner #main-grid {
 		@apply lg:translate-y-[30vh];
@@ -161,10 +161,10 @@ const siteLang = lang.replace('_', '-')
 		@apply lg:top-[calc(-30vh_+_1rem)]
 	}
 	.enable-banner #banner img {
-		@apply lg:object-[center_10%] object-[center_-180%]
+		@apply lg:object-[center_25%] object-[center_10%]
 	}
 	.enable-banner.is-large-banner #banner img {
-		@apply lg:object-[center_54%] object-[50%_-50%]
+		@apply lg:object-[center_54%] object-center
 	}
 	.navbar-hidden {
 		@apply opacity-0 -translate-y-16
