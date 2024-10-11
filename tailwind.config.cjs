@@ -8,10 +8,6 @@ module.exports = {
       fontFamily: {
         sans: ['Roboto', 'sans-serif', ...defaultTheme.fontFamily.sans],
       },
-      objectPosition: {
-        'hero-banner-large': '50% 52%',
-        'hero-banner': '50% 20%',
-      },
     },
   },
   plugins: [require('@tailwindcss/typography')],
