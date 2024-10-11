@@ -32,12 +32,8 @@ const groups: { letter: string; posts: typeof posts }[] = (() => {
   }))
   return groupedPostsArray
 })()
-
-let delay = -1
-delay++
-const interval = 50
 ---
-<MainGridLayout title={i18n(I18nKey.allDinos)} description={i18n(I18nKey.allDinos)}>
+<MainGridLayout title={i18n(I18nKey.allDinos)} description={i18n(I18nKey.allDinos)} largeBanner={true}>
   <div class="card-base px-8 py-6">
     <Icon size="96" name="diplodocus" class="mx-auto mb-2" />
     <Heading>{i18n(I18nKey.allDinos)}</Heading>
@@ -66,9 +62,7 @@ const interval = 50
         url={getPostUrlBySlug(entry.slug)}
         image={entry.data.image}
         description={entry.data.description}
-        draft={entry.data.draft}
-        class:list="onload-animation"
-        style={`animation-delay: calc(var(--content-delay) + ${delay++ * interval}ms);`}></PostCard>
+        draft={entry.data.draft}></PostCard>
     ))}
     </div>
   ))}

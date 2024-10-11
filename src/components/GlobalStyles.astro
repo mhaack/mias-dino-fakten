@@ -50,7 +50,6 @@ rainbow-dark = linear-gradient(to right, oklch(0.70 0.10 0), oklch(0.70 0.10 30)
   --radius-large 1rem
   --banner-height-home 65vh
   --banner-height 35vh
-  --content-delay 150ms
 
 color_set({
   --primary: oklch(0.70 0.14 var(--hue)) oklch(0.75 0.14 var(--hue))
@@ -256,13 +255,6 @@ color_set({
         @apply text-black/25 dark:text-white/25
     }
 
-    html.is-changing .transition-swup-fade {
-        @apply transition-all duration-200
-    }
-    html.is-animating .transition-swup-fade {
-        @apply opacity-0 translate-y-4
-    }
-
     /* PhotoSwipe */
     .pswp__button {
         @apply transition bg-black/40 hover:bg-black/50 active:bg-black/60 flex items-center justify-center mr-0 w-12 h-12 !important;
@@ -279,33 +271,5 @@ color_set({
     .custom-md img, #post-cover img {
         @apply cursor-zoom-in
     }
-}
-
-@keyframes fade-in-up {
-    0% {
-        transform: translateY(2rem);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-.onload-animation {
-    opacity: 0;
-    animation: 300ms fade-in-up;
-    animation-fill-mode: forwards;
-}
-#navbar {
-    animation-delay: 0ms
-}
-#sidebar {
-    animation-delay: 100ms
-}
-#content-wrapper {
-    animation-delay: var(--content-delay);
-}
-.footer {
-    animation-delay: 250ms;
 }
 </style>

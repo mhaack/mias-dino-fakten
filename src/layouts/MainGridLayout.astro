@@ -14,15 +14,24 @@ interface Props {
   lang?: string
   setOGTypeArticle?: boolean
   post?: object
+  largeBanner?: boolean
 }
 
-const { title, banner, description, lang, setOGTypeArticle, post } = Astro.props
+const {
+  title,
+  banner,
+  description,
+  lang,
+  setOGTypeArticle,
+  post,
+  largeBanner,
+} = Astro.props
 const hasBannerCredit =
   siteConfig.banner.enable && siteConfig.banner.credit.enable
 const hasBannerLink = !!siteConfig.banner.credit.url
 ---
 
-<Layout title={title} banner={banner} description={description} lang={lang} setOGTypeArticle={setOGTypeArticle}>
+<Layout title={title} banner={banner} largeBanner={largeBanner} description={description} lang={lang} setOGTypeArticle={setOGTypeArticle}>
 <slot slot="head" name="head"></slot>
 <div id="top-row" class="z-50 pointer-events-none relative transition-all duration-700 max-w-[var(--page-width)] px-0 md:px-4 mx-auto" class:list={[""]}>
     <div id="navbar-wrapper" class="pointer-events-auto sticky top-0 transition-all">
@@ -37,7 +46,7 @@ const hasBannerLink = !!siteConfig.banner.credit.url
         >
             <!-- Banner image credit -->
             {hasBannerCredit && <a href={siteConfig.banner.credit.url} id="banner-credit" target="_blank" rel="noopener" aria-label="Visit image source"
-                                   class:list={["group onload-animation transition-all absolute flex justify-center items-center rounded-full " +
+                                   class:list={["group transition-all absolute flex justify-center items-center rounded-full " +
                                    "px-3 right-4 -top-[3.25rem] bg-black/60 hover:bg-black/70 h-9", {"hover:pr-9 active:bg-black/80": hasBannerLink}]}
             >
                 <Icon class="text-white/75 text-[1.25rem] mr-1" name="material-symbols:copyright-outline-rounded" ></Icon>
@@ -48,20 +57,18 @@ const hasBannerLink = !!siteConfig.banner.credit.url
                 </Icon>
             </a>}
 
-            <SideBar class="mb-4 row-start-2 row-end-3 col-span-2 lg:row-start-1 lg:row-end-2 lg:col-span-1 lg:max-w-[17.5rem] onload-animation" post={post}></SideBar>
+            <SideBar class="mb-4 row-start-2 row-end-3 col-span-2 lg:row-start-1 lg:row-end-2 lg:col-span-1 lg:max-w-[17.5rem]" post={post}></SideBar>
 
-            <main id="swup-container" class="transition-swup-fade col-span-2 lg:col-span-1 overflow-hidden">
-                <div id="content-wrapper" class="onload-animation">
-                    <!-- the overflow-hidden here prevent long text break the layout-->
-                    <!-- make id different from windows.swup global property -->
+            <main class="col-span-2 lg:col-span-1 overflow-hidden">
+                <div id="content-wrapper">
                     <slot></slot>
-                    <div class="footer col-span-2 onload-animation hidden lg:block">
+                    <div class="footer col-span-2 hidden lg:block">
                         <Footer></Footer>
                     </div>
                 </div>
             </main>
 
-            <div class="footer col-span-2 onload-animation block lg:hidden">
+            <div class="footer col-span-2 block lg:hidden">
                 <Footer></Footer>
             </div>
         </div>

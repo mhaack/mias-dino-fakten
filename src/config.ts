@@ -1,31 +1,27 @@
-import type {
-  NavBarConfig,
-  ProfileConfig,
-  SiteConfig,
-} from './types/config'
-import { LinkPreset } from './types/config'
+import type { NavBarConfig, ProfileConfig, SiteConfig } from "./types/config";
+import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
   title: `Mia's Dino-Fakten`,
   subtitle: `Mia's Dino-Fakten`,
-  lang: 'de',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
+  lang: "de",
   themeColor: {
-    hue: 75,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
-    fixed: false,     // Hide the theme color picker for visitors
+    hue: 75,
+    fixed: false, // Hide the theme color picker for visitors
   },
   banner: {
     enable: true,
-    src: 'assets/images/hero-banner.jpg',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-    position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+    src: "assets/images/hero-banner.jpg",
+    position: "center",
     credit: {
-      enable: false,         // Display the credit text of the banner image
-      text: '',              // Credit text to be displayed
-      url: ''                // (Optional) URL link to the original artwork or artist's page
-    }
+      enable: true,
+      text: "sebastien ecosse",
+      url: "https://www.artstation.com/artwork/DLnDA",
+    },
   },
-  logo: 'assets/icons/logo.png',
-  favicon: []
-}
+  logo: "assets/images/logo.png",
+  favicon: [],
+};
 
 export const navBarConfig: NavBarConfig = {
   links: [
@@ -34,32 +30,14 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.DinoOfTheMonth,
     LinkPreset.About,
   ],
-}
+};
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/icons/logo.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  avatar: "assets/images/logo.png",
   name: `Mia's Dino-Fakten`,
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  links: [
-    // {
-    //   name: 'Twitter',
-    //   icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
-    //                                     // You will need to install the corresponding icon set if it's not already included
-    //                                     // `pnpm add @iconify-json/<icon-set-name>`
-    //   url: 'https://twitter.com',
-    // },
-    // {
-    //   name: 'Steam',
-    //   icon: 'fa6-brands:steam',
-    //   url: 'https://store.steampowered.com',
-    // },
-    // {
-    //   name: 'GitHub',
-    //   icon: 'fa6-brands:github',
-    //   url: 'https://github.com/saicaca/fuwari',
-    // },
-  ],
-}
+  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  links: [],
+};
 
 // tags
 // omnivore <iconify-icon icon="mdi:cookie"></iconify-icon>

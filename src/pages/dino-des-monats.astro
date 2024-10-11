@@ -17,7 +17,7 @@ const title = dinoOfTheMonth.data.title
 const image = dinoOfTheMonth.data.image
 const hasImage = image !== undefined && image !== null && image !== ''
 ---
-<MainGridLayout title={i18n(I18nKey.dinoOfTheMonth)} description={i18n(I18nKey.dinoOfTheMonth)}>
+<MainGridLayout title={i18n(I18nKey.dinoOfTheMonth)} description={i18n(I18nKey.dinoOfTheMonth)} largeBanner={true}>
   <div class="card-base px-8 py-6 mb-4">
     <Icon size="96" name="stegosaurus" class="mx-auto" />
     <Heading>{i18n(I18nKey.dinoOfTheMonth)}</Heading>

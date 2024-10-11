@@ -1,7 +1,6 @@
 import sitemap from '@astrojs/sitemap'
 import svelte from '@astrojs/svelte'
 import tailwind from '@astrojs/tailwind'
-import swup from '@swup/astro'
 import Compress from 'astro-compress'
 import icon from 'astro-icon'
 import { defineConfig } from 'astro/config'
@@ -36,20 +35,6 @@ export default defineConfig({
 
   integrations: [
     tailwind(),
-    swup({
-      theme: false,
-      animationClass: 'transition-swup-', // see https://swup.js.org/options/#animationselector
-      // the default value `transition-` cause transition delay
-      // when the Tailwind class `transition-all` is used
-      containers: ['main'],
-      smoothScrolling: true,
-      cache: true,
-      preload: true,
-      accessibility: true,
-      updateHead: true,
-      updateBodyClass: false,
-      globalInstance: true,
-    }),
     icon({
       include: {
         'material-symbols': ['*'],
