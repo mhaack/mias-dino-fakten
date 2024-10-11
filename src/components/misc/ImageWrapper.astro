@@ -43,7 +43,7 @@ if (isLocal) {
 }
 
 const imageClass = 'w-full h-full object-cover'
-const imageStyle = `object-position: ${position}`
+const imageStyle = position !== 'none' ? `object-position: ${position}` : ''
 ---
 <div id={id} class:list={[className, 'overflow-hidden relative']}>
     {isLocal && img && <Image src={img} alt={alt || ""} class={imageClass} style={imageStyle}/>}
