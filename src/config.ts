@@ -35,7 +35,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: "assets/images/logo.png",
   name: `Mia's Dino-Fakten`,
-  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  bio: "Mein kleines Dinosaurier-Lexikon mit allen Infos die Du schon immer über Dino's wissen wolltest.",
   links: [],
 };
 
