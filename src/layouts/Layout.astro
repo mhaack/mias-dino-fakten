@@ -58,14 +58,6 @@ if (!lang) {
   lang = `${siteConfig.lang}`
 }
 const siteLang = lang.replace('_', '-')
-
-const bannerOffsetByPosition = {
-  top: '30vh',
-  center: '15vh',
-  bottom: '0',
-}
-const bannerOffset =
-  bannerOffsetByPosition[siteConfig.banner.position || 'center']
 ---
 
 <!DOCTYPE html>
@@ -151,7 +143,7 @@ const bannerOffset =
 		--page-width: 75rem;
 	}
 </style>
-<style is:global define:vars={{ bannerOffset }}>
+<style is:global>
 @tailwind components;
 @tailwind utilities;
 
@@ -162,16 +154,6 @@ const bannerOffset =
 	.enable-banner #banner-wrapper {
 		@apply h-[var(--banner-height-home)]
 	}
-/*
-	.enable-banner.is-large-banner #banner {
-		@apply lg:h-[var(--banner-height-home)] lg:translate-y-0
-	}
-	.enable-banner #banner {
-		@apply h-[var(--banner-height-home)] translate-y-[var(--bannerOffset)]
-	}
-	.enable-banner #top-row {
-		@apply h-[calc(var(--banner-height-home)_-_4.5rem)] transition-all duration-300
-	}*/
 	.enable-banner.is-large-banner #main-grid {
 		@apply lg:translate-y-[30vh];
 	}
@@ -182,7 +164,7 @@ const bannerOffset =
 		@apply lg:object-[center_10%] object-[center_-180%]
 	}
 	.enable-banner.is-large-banner #banner img {
-		@apply lg:object-[center_54%] object-[50%_-40%]
+		@apply lg:object-[center_54%] object-[50%_-50%]
 	}
 	.navbar-hidden {
 		@apply opacity-0 -translate-y-16
