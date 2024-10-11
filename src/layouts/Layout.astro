@@ -130,22 +130,19 @@ const bannerOffset =
 		<style define:vars={{ configHue }}></style>  <!-- defines global css variables. This will be applied to <html> <body> and some other elements idk why -->
 
 	</head>
-	<body class=" min-h-screen transition " class:list={[{"lg:is-large-banner": isLargeBanner, "enable-banner": enableBanner}]}
+	<body class=" min-h-screen transition " class:list={[{"is-large-banner": isLargeBanner, "enable-banner": enableBanner}]}
 		  data-overlayscrollbars-initialize
 	>
 		<ConfigCarrier></ConfigCarrier>
 		<GlobalStyles>
 		{siteConfig.banner.enable && <div id="banner-wrapper" class="absolute -top-[30vh] w-full transition duration-700 overflow-hidden">
-			<ImageWrapper id="banner" alt="Banner image of the blog" class:list={["object-cover h-full transition duration-700 opacity-0 scale-105"]}
+			<ImageWrapper id="banner" alt="Banner image of the blog" class="h-full transition duration-700 opacity-0 scale-105"
 						  src={siteConfig.banner.src} position="none"
 			>
 			</ImageWrapper>
 		</div>}
 		<slot />
 		</GlobalStyles>
-
-		<!-- increase the page height during page transition to prevent the scrolling animation from jumping -->
-		<div id="page-height-extend" class="hidden h-[300vh]"></div>
 	</body>
 </html>
 <style is:global>
@@ -160,23 +157,23 @@ const bannerOffset =
 
 @layer components {
 	.enable-banner.is-large-banner #banner-wrapper {
-		@apply h-[var(--banner-height-home)] translate-y-[30vh]
+		@apply lg:h-[var(--banner-height-home)] lg:translate-y-[30vh]
 	}
 	.enable-banner #banner-wrapper {
 		@apply h-[var(--banner-height-home)]
 	}
-
+/*
 	.enable-banner.is-large-banner #banner {
-		@apply h-[var(--banner-height-home)] translate-y-0
+		@apply lg:h-[var(--banner-height-home)] lg:translate-y-0
 	}
 	.enable-banner #banner {
 		@apply h-[var(--banner-height-home)] translate-y-[var(--bannerOffset)]
 	}
-	.enable-banner.is-large-banner #main-grid {
-		@apply translate-y-[30vh];
-	}
 	.enable-banner #top-row {
 		@apply h-[calc(var(--banner-height-home)_-_4.5rem)] transition-all duration-300
+	}*/
+	.enable-banner.is-large-banner #main-grid {
+		@apply lg:translate-y-[30vh];
 	}
 	.enable-banner.is-large-banner #sidebar-sticky {
 		@apply top-[calc(-30vh_+_1rem)]
