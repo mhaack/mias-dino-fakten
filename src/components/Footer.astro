@@ -10,8 +10,9 @@ import { url } from '../utils/url-utils'
 <div class="transition border-dashed border-[oklch(85%_0.01_var(--hue))] dark:border-white/15 rounded-2xl mb-12 flex flex-col items-center justify-center px-6">
     <div class="transition text-50 text-sm">
         © 2024 {profileConfig.name}. All Rights Reserved. /
-        <a class="transition link text-[var(--primary)] font-medium" target="_blank" href={url('rss.xml')}>RSS</a> /
-        <a class="transition link text-[var(--primary)] font-medium" target="_blank" href={url('sitemap-index.xml')}>Sitemap</a>
+        <a class="transition link text-[var(--primary)] font-medium" href={url('/impressum/')}>Impressum</a> /
+        <a class="transition link text-[var(--primary)] font-medium" href={url('/datenschutz/')}>Datenschutz</a> /
+        <a class="transition link text-[var(--primary)] font-medium" target="_blank" href={url('rss.xml')}>RSS</a>
     </div>
     <div class="transition text-50 text-sm">
         Powered by
