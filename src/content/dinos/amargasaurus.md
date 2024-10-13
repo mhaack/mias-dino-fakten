@@ -6,6 +6,7 @@ published: 2022-01-16
 dotm:
   - month: 2022-05-01
 image: ../images/amargasaurus3.0.png
+category: Dinos
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -22,7 +23,6 @@ sources:
   - source: https://www.deviantart.com/kaek/art/Amargasaurus-53159747
   - source: http://blogevolved.blogspot.com/2009/09/sauropods-in-art.html
   - source: https://ark.fandom.com/wiki/Mod:ARK_Additions/Amargasaurus
-category: Dinos
 group: Dicraeosauridae
 ---
 Der **Amargasaurus** ist wie die anderen Sauropoden, denn er hatte eine doppelte Stachelreihe, die in den Schwanz überlief. Mansche Wissenschaftler glauben das der **Amargasaurus** ein doppeltes Segel aus Haut gespannt hatte. Man wies nicht wozu das Segel diente, aber vielleicht hat der **Amargasaurus** es zur Balz genutzt.
@@ -37,4 +37,4 @@ Quellen:
 
 * <https://www.deviantart.com/kaek/art/Amargasaurus-53159747>
 * <http://blogevolved.blogspot.com/2009/09/sauropods-in-art.html>
-* <https://ark.fandom.com/wiki/Mod:ARK_Additions/Amargasaurus>
+* [https://ark.fandom.com/wiki/Mod:ARK_Additions/Amargasaurus ](https://ark.fandom.com/wiki/Mod:ARK_Additions/Amargasaurus)
