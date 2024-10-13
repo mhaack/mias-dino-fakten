@@ -1,4 +1,0 @@
----
-name: Karnivore 🥩
-tag: Karnivore
----

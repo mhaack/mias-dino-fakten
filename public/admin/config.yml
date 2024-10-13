@@ -45,10 +45,8 @@ collections:
         widget: "image"
       - label: "Tags"
         name: "tags"
-        widget: "relation"
-        collection: "tags"
-        value_field: "name"
-        search_fields: ["name"]
+        widget: "select"
+        options: ["Herbivore 🌿", "Karnivore 🥩", "Piscivore 🐟", "Omnivore 🍪", "Kreide 🦴", "Trias 🦴", "Jura 🦴"]
         multiple: true
       - label: "Ernährung"
         name: "food"
@@ -86,12 +84,8 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-  - name: "tags"
-    label: "Tags"
-    folder: "src/tags"
-    create: true
-    identifier_field: "tag"
-    summary: "{{name}}"
-    fields:
-      - { label: "Tag Name mit Symbol", name: "name", widget: string }
-      - { label: "Tag Name ohne Symbol", name: "tag", widget: string }
+      - label: "Quellen"
+        name: "sources"
+        widget: "list"
+        required: false
+        multiple: true

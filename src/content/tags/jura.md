@@ -1,4 +1,0 @@
----
-name: Jura 🦴
-tag: Jura
----

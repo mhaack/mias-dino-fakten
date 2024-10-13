@@ -1,4 +1,0 @@
----
-name: Omnivore 🍪
-tag: Omnivore
----

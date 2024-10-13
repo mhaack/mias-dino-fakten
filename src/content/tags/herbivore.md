@@ -1,4 +1,0 @@
----
-name: Herbivore 🌿
-tag: Herbivore
----
