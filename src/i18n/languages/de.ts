@@ -44,5 +44,6 @@ export const de: Translation = {
   [Key.dinosCount]: 'Dinos',
   [Key.dinoTags]: 'Alle Dinotags',
   [Key.allDinos]: 'Alle Dinos',
+  [Key.dinosNew]: 'Neueste Dinosaurier',
   [Key.month]: 'Monat',
 }

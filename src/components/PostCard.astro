@@ -35,15 +35,13 @@ const {
 const className = Astro.props.class
 
 const hasCover = image !== undefined && image !== null && image !== ''
-
 const coverWidth = '40%'
-
 const { remarkPluginFrontmatter } = await entry.render()
 ---
-
 <div
   class:list={[
     "card-base flex flex-col-reverse md:flex-col w-full rounded-[var(--radius-large)] overflow-hidden relative",
+    "border-b-[1px] md:border-b-0 border-dashed border-black/10 dark:border-white/[0.15] last:border-b-0",
     className,
   ]}
   style={style}
@@ -57,7 +55,7 @@ const { remarkPluginFrontmatter } = await entry.render()
       },
     ]}
   >
-    <h2>
+    <h3>
       <a
         href={url}
         class="transition group w-full block font-bold mb-3 text-3xl text-90
@@ -76,76 +74,50 @@ const { remarkPluginFrontmatter } = await entry.render()
           name="material-symbols:chevron-right-rounded"
         />
       </a>
-    </h2>
-
+    </h3>
     <PostMetadata
       published={published}
       tags={tags}
       category={category}
-      hideTagsForMobile={true}
       class="mb-4"
     />
-
     <div
       class:list={[
-        "transition text-75 mb-3.5 pr-4",
-        { "line-clamp-2 md:line-clamp-1": !description },
+        "text-75 md:mb-6 pr-4",
+        { "line-clamp-3 md:line-clamp-2": !description },
       ]}
     >
       {description || remarkPluginFrontmatter.excerpt}
     </div>
   </div>
 
-  {
-    hasCover && (
-      <a
-        href={url}
-        aria-label={title}
-        class:list={[
-          "group max-h-[20vh] md:max-h-none mx-4 mt-4 -mb-2 md:mb-0 md:mx-0 md:mt-0",
-          "bg-[oklch(0.95_0.025_var(--hue))] dark:bg-[var(--card-bg)]",
-          "md:w-[var(--coverWidth)] relative md:absolute md:top-3 md:bottom-3 md:right-3 rounded-xl overflow-hidden active:scale-95",
-        ]}
-      >
-        <div class="absolute pointer-events-none z-10 w-full h-full group-hover:bg-black/30 group-active:bg-black/50 transition" />
-        <div class="absolute pointer-events-none z-20 w-full h-full flex items-center justify-center ">
-          <Icon
-            name="material-symbols:chevron-right-rounded"
-            class="transition opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 text-white text-5xl"
-          />
-        </div>
-        <ImageWrapper
-          src={image}
-          basePath={path.join("content/dinos/", getDir(entry.id))}
-          alt="{title}"
-          class="w-full h-full"
-          imageClass="object-contain"
-        />
-      </a>
-    )
-  }
+  <a
+    href={url}
+    aria-label={title}
+    class:list={[
+      "group m-4 md:w-[var(--coverWidth)] relative md:absolute md:top-3 md:bottom-3 md:right-3 overflow-hidden active:scale-95",
+    ]}
+  >
+    <div
+      class="absolute pointer-events-none z-10 w-full h-full rounded-xl group-hover:bg-black/30 group-active:bg-black/50 transition"
+    >
+    </div>
+    <div
+      class="absolute pointer-events-none z-20 w-full h-full flex items-center justify-center"
+    >
+      <Icon
+        name="material-symbols:chevron-right-rounded"
+        class="transition opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 text-white text-5xl"
+      />
+    </div>
 
-  {
-    !hasCover && (
-      <a
-        href={url}
-        aria-label={title}
-        class="hidden md:flex btn-regular w-[3.25rem]
-         absolute right-3 top-3 bottom-3 rounded-xl bg-[var(--enter-btn-bg)]
-         hover:bg-[var(--enter-btn-bg-hover)] active:bg-[var(--enter-btn-bg-active)] active:scale-95
-        "
-      >
-        <Icon
-          name="material-symbols:chevron-right-rounded"
-          class="transition text-[var(--primary)] text-4xl mx-auto"
-        />
-      </a>
-    )
-  }
-</div>
-<div
-  class="transition border-t-[1px] border-dashed mx-6 border-black/10 dark:border-white/[0.15] last:border-t-0 md:hidden"
->
+    <ImageWrapper
+      src={image}
+      basePath={path.join("content/dinos/", getDir(entry.id))}
+      alt={title}
+      class="w-full h-full rounded-xl"
+    />
+  </a>
 </div>
 
 <style lang="stylus" define:vars={{coverWidth}}>

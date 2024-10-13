@@ -1,5 +1,8 @@
 ---
+import { profileConfig } from '@/config'
 import Profile from '@components/widget/Profile.astro'
+import I18nKey from '@i18n/i18nKey'
+import { i18n } from '@i18n/translation'
 import type { GetStaticPaths } from 'astro'
 import PostPage from '../components/PostPage.astro'
 import Pagination from '../components/control/Pagination.astro'
@@ -14,10 +17,20 @@ export const getStaticPaths = (async ({ paginate }) => {
 // https://github.com/withastro/astro/issues/6507#issuecomment-1489916992
 
 const { page } = Astro.props
+const config = profileConfig
 ---
 
 <MainGridLayout>
-  <Profile class='mb-4'></Profile>
+  <div class={"card-base p-3 mb-4"}>
+    <div class="px-2 text-center">
+        <h1 class="font-bold mb-1 text-3xl md:text-[2.5rem]/[2.75rem] text-black/90 dark:text-white/90">{config.name}</h1>
+        <div class="h-1 w-10 bg-[var(--primary)] mx-auto rounded-full mb-2"></div>
+        <div class="text-neutral-400 mb-2">{config.bio}</div>
+    </div>
+  </div>
+  <div class={"card-base p-3 mb-4"}>
+    <h2 class="font-bold text-2xl text-center text-black/90 dark:text-white/90">{i18n(I18nKey.dinosNew)}</h2>
+  </div>
   <PostPage page={page}></PostPage>
   <!-- <Pagination class="mx-auto" page={page}></Pagination> -->
 </MainGridLayout>

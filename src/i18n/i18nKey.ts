@@ -39,6 +39,7 @@ enum I18nKey {
   dinoOfTheMonthDesc = 'dinoOfTheMonthDesc',
   dinoCount = 'dinoCount',
   dinosCount = 'dinosCount',
+  dinosNew = 'dinosNew',
   dinoTags = 'dinoTags',
   allDinos = 'allDinos',
   month = 'month',

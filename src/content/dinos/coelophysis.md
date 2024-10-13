@@ -3,7 +3,7 @@ title: Coelophysis
 namesuffix: bauri
 meaning: Hohlknochen
 published: 2024-10-04
-image: ../images/coelophysis_jeff_martz.jpg
+image: ../images/coelophysis_jeff_martz.png
 category: Dinos
 tags:
   - Trias 🦴
