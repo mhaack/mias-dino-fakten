@@ -92,6 +92,7 @@ collections:
         name: "sources"
         widget: "list"
         required: false
+        summary: '{{fields.source}}'
         fields:
           - label: "Quelle"
             name: source
