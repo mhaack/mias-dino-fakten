@@ -1,4 +1,5 @@
 ---
+import Profile from '@components/widget/Profile.astro'
 import type { GetStaticPaths } from 'astro'
 import PostPage from '../components/PostPage.astro'
 import Pagination from '../components/control/Pagination.astro'
@@ -16,6 +17,7 @@ const { page } = Astro.props
 ---
 
 <MainGridLayout>
+  <Profile class='mb-4'></Profile>
   <PostPage page={page}></PostPage>
   <Pagination class="mx-auto" page={page}></Pagination>
 </MainGridLayout>
