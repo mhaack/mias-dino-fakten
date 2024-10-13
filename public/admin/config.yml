@@ -92,7 +92,4 @@ collections:
         name: "sources"
         widget: "list"
         required: false
-        field:
-          - label: "Quelle"
-            name: source
-            widget: "string"
+        field: {label: Quelle, name: source, widget: string}
