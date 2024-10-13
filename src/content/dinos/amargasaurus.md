@@ -23,6 +23,7 @@ sources:
   - source: https://www.deviantart.com/kaek/art/Amargasaurus-53159747
   - source: http://blogevolved.blogspot.com/2009/09/sauropods-in-art.html
   - source: https://ark.fandom.com/wiki/Mod:ARK_Additions/Amargasaurus
+  - source: http://www.google.com
 group: Dicraeosauridae
 ---
 Der **Amargasaurus** ist wie die anderen Sauropoden, denn er hatte eine doppelte Stachelreihe, die in den Schwanz überlief. Mansche Wissenschaftler glauben das der **Amargasaurus** ein doppeltes Segel aus Haut gespannt hatte. Man wies nicht wozu das Segel diente, aber vielleicht hat der **Amargasaurus** es zur Balz genutzt.
