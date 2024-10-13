@@ -3,7 +3,7 @@ title: Ugrunaalug
 namesuffix: kuukpikensis
 meaning: alter Weidegänger
 published: 2022-06-05
-image: ../images/ugrunaaluk.png
+image: /src/assets/images/ugrunaaluk.png
 tags:
   - Herbivore 🌿
   - Kreide 🦴

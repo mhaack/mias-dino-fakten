@@ -5,7 +5,7 @@ meaning: Drachenkönig von Hogwarts
 published: 2023-08-18
 dotm:
   - month: 2024-05-01
-image: ../images/dracorex_bw.jpg
+image: /src/assets/images/dracorex_bw.jpg
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -25,11 +25,11 @@ family: Pachycephalosauridae
 
 **Dracorex** wurde zur der Gruppe Pachycephalosauride zugeordnet. Doch seit der Entdeckung des Dinosauriers gibt es Theorien, die besagen des es sich nicht um einen neuen Dinosaurier handelt, sondern um eine jugendliche Form der Parycephalosaurus. In der Theorie verändert sich der Schädel in den einzelnen Lebensabschnitten, sodass sich die Höcker und Stacheln im Laufe seiner Entwicklung zu einem ausgewachsenen Exemplar, zu einer kugelförmigen Wölbung verwachsen.
 
-![Dracorexschädel](../images/4776184268_8f7fc9be37_b.jpg)
+![Dracorexschädel](/src/assets/images/4776184268_8f7fc9be37_b.jpg)
 
 Wenn man die Schädelform von Stegoceras (1), **Dracorex** (2), Stygimoloch (3) und [Parycephalosaurus](/dinos/pachycephalosaurus/) (4) miteinander vergleicht, kann man Gemeinsamkeiten feststellen. Bei Stegoceras, Stygimoloch und [Parycephalosaurus](/dinos/pachycephalosaurus/) ist eine Gemeinsamkeit die Wölbung über den Augen. Wenn man sich die Schädel von **Dracorex**, Stygimoloch und Parycephalosaurus ansieht, erkennt man bei allen drei Dinosauriern eine unterschiedliche Form des Schädels. Alle drei haben sie kleine Stacheln, die sich über ihren ganzen Kopf verteilen. Noch konnte die Funktion der Kopfstacheln nicht geklärt werden. Wahrscheinlich waren sie zur Verteidigung gut oder zum Anlocken von Weibchen.
 
-![vier Pachycephalosauridae im Vergleich](../images/img_7640.jpg)
+![vier Pachycephalosauridae im Vergleich](/src/assets/images/img_7640.jpg)
 
 Quellen:
 

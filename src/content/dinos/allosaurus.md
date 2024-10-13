@@ -7,7 +7,7 @@ category: Dinos
 dotm:
   - month: 2024-10-01
   - month: 2023-09-01
-image: ../images/allosaurus.jpg
+image: /src/assets/images/allosaurus.jpg
 tags:
   - Karnivore 🥩
   - Jura 🦴
@@ -26,7 +26,7 @@ Einer der bekanntesten Raubdinosaurier war der **Allosaurus**. Er wurde schon 18
 
 Der Körperbau des **Allosaurus** war typisch für einen theropoden Dinosaurier. Er hatte einen schlanken und muskulösen Körperbau, der ihm half, schnell zu laufen und seine Beute zu verfolgen. Sein Kopf war groß und lang mit einem kräftigen Kiefer und scharfen, gezackten Zähnen. Die Augen des **Allosaurus** waren nach vorne gerichtet, was auf eine gute räumliche Wahrnehmung hinweist, eine wichtige Eigenschaft für einen Jäger. Um seine Augen zu schützen, besaß der **Allosaurus** eine Art Horn über beiden Augen.
 
-![Allosaurusschädel](../images/img_4281.jpeg)
+![Allosaurusschädel](/src/assets/images/img_4281.jpeg)
 
 Fotografie: Imaginario27
 
@@ -45,7 +45,7 @@ Der bedeutende Fund von "*Big Al*" im Jahr 1991 war eine besondere Entdeckung in
 Was "*Big Al*" besonders bemerkenswert machte, war der außergewöhnlich gute Erhaltungszustand seines Skeletts. Fast alle Knochen waren erhalten und einige waren sogar in ihrer ursprünglichen Position miteinander verbunden, was es den Paläontologen ermöglichte, ein detailliertes Bild davon zu zeichnen, wie dieser Dinosaurier gebaut war.
 Zusätzlich zu den Verletzungen wies das Skelett von "*Big* *Al*" auch Anzeichen einer Infektion auf, die möglicherweise von einem Biss oder einer anderen Verletzung verursacht wurde.
 
-![Allosaurusskelett](../images/allosaurus-skelett.jpg)
+![Allosaurusskelett](/src/assets/images/allosaurus-skelett.jpg)
 
 \
 Der **Allosaurus** wurde in zahlreichen Gattungen beschrieben, unter anderem **Allosaurus** *fragilis*. Schon 1877 beschrieb Othiniel Charles Marsh den ersten Fund von **Allosaurus**, als **Allosaurus** *fragilis*. Marshs Fund bestand jedoch nur aus zwei Wirbelknochen, einem Zahn und einem Zehenknochen. Die darauffolgenden Neubeschreibungen unterscheiden sich aber meist an den Schädelknochen. Es wurde über eine Zusammenlegung des Gattungen auf den Artnamen **Allosaurus** *fragilis* nachgedacht, dies steht aber noch nicht endgültig festgelegt. \
@@ -60,7 +60,7 @@ Deshalb unterscheidet man unter:
 * *Allosaurus lucasi*
 * *Allosaurus maximus*
 
-![Allosaurus fragilis und Allosaurus jimmdseni im Vergleich.](../images/img_4562.jpeg)
+![Allosaurus fragilis und Allosaurus jimmdseni im Vergleich.](/src/assets/images/img_4562.jpeg)
 
 \
 Hier sind **Allosaurus** *fragilis* und **Allosaurus** *jimmadseni* im Vergleich zu sehen. *(Hinten: Allosaurus jimmadseni Vorne: Allosaurus fragilis)*

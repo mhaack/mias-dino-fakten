@@ -3,7 +3,7 @@ title: Futalognkosaurus
 namesuffix: dukei
 meaning: Riesiger Häuptling der Echsen
 published: 2021-12-19
-image: ../images/futalognkosaurus2.jpg
+image: /src/assets/images/futalognkosaurus2.jpg
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -20,11 +20,11 @@ family: Titanosauria
 ---
 Der **Futalognkosaurus** war einer der drei größten Dinosaurier die je auf unserem Planeten gelebt haben.
 
-![Futalognkosaurusskelett](../images/futalognkosaurus.jpg)
+![Futalognkosaurusskelett](/src/assets/images/futalognkosaurus.jpg)
 
  Er lebte vor ca. 88 Millionen Jahren in Patagonien, im heutigem Südamerika in tropischen Wäldern.  
 
-![Tropenwald](../images/tropenwald.png)
+![Tropenwald](/src/assets/images/tropenwald.png)
 
 Quelle:
 

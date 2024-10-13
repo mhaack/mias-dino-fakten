@@ -3,7 +3,7 @@ title: Spinosaurus
 namesuffix: aegyptiacus
 meaning: Dornenechse
 published: 2022-03-12
-image: ../images/spinosaurus.jpg
+image: /src/assets/images/spinosaurus.jpg
 tags:
   - Piscivore 🐟
   - Kreide 🦴
@@ -24,11 +24,11 @@ Auf dem Rückenskelett hatte der **Spinosaurus** bis zu 1,6m lange Knochen. Zusa
 
 Der **Spinosaurus** war größer als der [Tyrannosaurus Rex](/dinos/tyrannosaurus-rex/) und der [Giganotosaurus,](/dinos/giganotosaurus/) dadurch der größte Räuber der je auf dem Festland gelebt hatte.
 
-![Spinosaurus Zeichnung](../images/spino.jpg)
+![Spinosaurus Zeichnung](/src/assets/images/spino.jpg)
 
 Das erste Skelett wurde 1912 in Ägypten von Richard Markgraf entdeckt. Das zweite Skelett kurz später 1915 von dem deutschen Paläontologe Ernst Sromer, es wurde jedoch im zweiten Weltkrieg bei einem Bombenangriff zerstört.
 
-![Spinosaurusskelett](../images/spinosaurus-skelett.jpg)
+![Spinosaurusskelett](/src/assets/images/spinosaurus-skelett.jpg)
 
 Quellen:
 

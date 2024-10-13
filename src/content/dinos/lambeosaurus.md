@@ -3,7 +3,7 @@ title: Lambeosaurus
 namesuffix: lambei
 meaning: Lambes Echse
 published: 2022-05-25
-image: ../images/lambeosaurus.jpg
+image: /src/assets/images/lambeosaurus.jpg
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -21,7 +21,7 @@ family: Hardrosaurier
 ---
 Von dem **Lambeosaurus** sind 20 gut erhaltene Schädel und auch ein paar Skelette bekannt. Viele Schädel hatten einen unterschiedlichen Kamm. Sie wurden trotzdem dem **Lambeosaurus** *lambei* zugeordnet und die Vermutung aufgestellt, dass es verschiedene Altersstufen dieses Dinosauriers waren.
 
-![Lambeosaurus Skelett](../images/lambeosaurus-skelett.jpg)
+![Lambeosaurus Skelett](/src/assets/images/lambeosaurus-skelett.jpg)
 
 Der **Lambeosaurus** lief, wie viele andere Hardrosaurier, auf allen Vieren. Er konnte sich aber auch nur auf seinen beiden Hinterbeinen fortbewegen. Diese Gangart nennt man *quardruped*.
 

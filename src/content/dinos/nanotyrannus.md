@@ -3,7 +3,7 @@ title: Nanotyrannus
 namesuffix: ""
 meaning: Kleiner Tyrann
 published: 2022-12-26
-image: ../images/nanotyrannus-graphic.jpeg
+image: /src/assets/images/nanotyrannus-graphic.jpeg
 tags:
   - Karnivore 🥩
   - Kreide 🦴
@@ -24,6 +24,6 @@ Der **Nanotyrannus** war vermutlich ein Raubtier und jagte andere Dinosaurier, u
 
 Das erste Exemplar eines **Nanotyrannus** wurde 1946 von Charles W. Gilmore entdeckt. Es bestand nur aus einem kleinem Schädel und wurde ursprünglich dem Gorgosaurus zugeordnet. Erst 1998 fanden Robert T. Bakker, Phillip Currie und Michael Williams bei weiteren Untersuchungen heraus, das es sich um eine neue Gattung handelt. Andere Forscher bezweifelten jedoch diese Zuordnung und nehmen häufig an, es handle sich bei **Nanotyrannus** um einen jungen Tyrannosaurus Rex. Erst durch die Entdeckung weitere Fossilien im Jahr 2001 in Rockford (Illinois, USA) wurde die Gültigkeit von **Nanotyrannus** als eigene Art bestätigt. Die gefundenen Fossilien hatten mehr Zähne im Ober- und Unterkiefer als ein erwachsener T-Rex. Der **Nanotyrannus** hatte zwischen 14 und 15 Zähne im Kiefer, während ein T. Rex nur zwischen 11 und 12 Zähne pro Kiefer hatte.
 
-![Nanotyrannus Skelett](../images/nanotyrannus.jpeg)
+![Nanotyrannus Skelett](/src/assets/images/nanotyrannus.jpeg)
 
 Es sind nur wenige Fossilien vom **Nanotyrannus** gefunden worden. Dadurch ist eine genauere Beschreibung des Aussehens, der genauen Lebensweise und seines Verhalten nur schwer möglich.

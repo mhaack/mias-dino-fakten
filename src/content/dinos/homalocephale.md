@@ -5,7 +5,7 @@ meaning: klarer Kopf
 published: 2022-05-12
 dotm:
   - month: 2022-06-01
-image: ../images/homalocephal.jpg
+image: /src/assets/images/homalocephal.jpg
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -25,7 +25,7 @@ Der **Homalocephale** gehört mit seinen 3 Metern, zu den mittleren Dinosauriern
 
 Der **Homalocephale** hat in seiner Gruppe das Skelett mit den meist entdeckten Knochen. Anders als bei anderen Pachycaphalosauriern, ist das Rumpfskelett gut erhalten geblieben. Der **Homalocephale** hatte ein stabilen Rumpf. Die Rückenwirbel waren durch Verbindungen verstärkt.
 
-![Homalcephale Skelett](../images/homalocephale-skelett.jpg)
+![Homalcephale Skelett](/src/assets/images/homalocephale-skelett.jpg)
 
 Quellen:
 

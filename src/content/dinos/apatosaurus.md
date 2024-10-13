@@ -6,7 +6,7 @@ namesuffix: ajax
 meaning: Trügerische Echse
 published: 2021-12-29
 category: Dinos
-image: ../images/apatosaurus.png
+image: /src/assets/images/apatosaurus.png
 tags:
   - Herbivore 🌿
   - Jura 🦴
@@ -24,7 +24,7 @@ Der **Apatosaurus** oder **Brontosaurus**, wie man ihn auch nennt war ein Pflanz
 
 In den USA wurden Fußspuren von einer Herde Sauropoden entdeckt, drunter auch Spuren von **Apatosaurus** und **Diplodocus**
 
-![Fußabtruck ](../images/fußspuren.jpeg)
+![Fußabtruck ](/src/assets/images/fußspuren.jpeg)
 
 Quelle:
 

@@ -3,7 +3,7 @@ title: Protoceratops
 namesuffix: andrewsi
 meaning: Erstes Horngesicht
 published: 2022-08-21
-image: ../images/protoceratops.jpg
+image: /src/assets/images/protoceratops.jpg
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -23,16 +23,16 @@ Der **Protoceratops** wurde von Roy Chapman Andrews 1923 in der Wüste Gobi gefu
 
 Es wurden **Protoceratopsier** in allen Altersstufen gefunden, vom Ei bis zum ausgewachsenen Tier. Es ist zu vermuten, das sie sich in Gruppen um ihre jungen kümmerten. Die Nester der **Protoceratopsier** die gefunden wurden, wurden als [Oviraptor](/dinos/oviraptor/)Nester identifiziert. Doch es wurden auch Nester entdeckt die zu den **Protoceratopsier** gehörten. Es wurde festgestellt, dass die Eier sehr weiche Schalen hatten. Das ist ein besonderes Merkmal der **Protoceratopsier**, da es selten ist dass Dinosaurier weiche Eierschalen hatten.
 
-![Protoceratops Schlüpfling](../images/protoceratops-schluepfling.jpg)
+![Protoceratops Schlüpfling](/src/assets/images/protoceratops-schluepfling.jpg)
 
-![Protoceratops adult](../images/protoceratops-adult.jpg)
+![Protoceratops adult](/src/assets/images/protoceratops-adult.jpg)
 
 Der **Protoceratops** hatte einen kleinen Körper mit einem verhältnismäßig großen Kopf. Im Nacken hatte der **Protoceratops** ein Schild.
 Er hatte einen Schnabel wie eine Schildkröte und einen kleinen Kamm darauf.
 
 Es gab einen beeindruckenden Fund in der Mongolei, dort fand man einen [Velociraptor](/dinos/velociraptor/), der mit einem **Protoceratops** kämpfte.
 
-![Velociraptor im Kampf mit Protoceratops](../images/velociraptor-protoceratops-kampf.jpg)
+![Velociraptor im Kampf mit Protoceratops](/src/assets/images/velociraptor-protoceratops-kampf.jpg)
 
 Beide starben in diesem Kampf, vermutlich wurden sie von einem Sandsturm überrascht.
 

@@ -5,7 +5,7 @@ meaning: Fleischfressender Stier
 published: 2022-01-07
 dotm:
   - month: 2022-12-01
-image: ../images/carnotaurus.png
+image: /src/assets/images/carnotaurus.png
 tags:
   - Karnivore 🥩
   - Kreide 🦴
@@ -22,7 +22,7 @@ family: Abelisauridae
 ---
 Der erste **Carnotaurus** wurde 1985 gefunden. Er hatte ein besonderes Merkmal: seine dreieckigen, kurzen Hörner. Sie befanden sich auf seinem Kopf und dienten als Waffe. Daher leitet sich auch sein Name ab.
 
-![Carnotaurusschädel](../images/carnotaurus-schädel.jpg)
+![Carnotaurusschädel](/src/assets/images/carnotaurus-schädel.jpg)
 
 Bei Ausgrabungen man hat neben dem Skelet auch ein Stück versteinerte Hautschuppen entdeckt. Das besondere daran ist, man findet nur selten Hautschuppen von Dinosauriern.
 

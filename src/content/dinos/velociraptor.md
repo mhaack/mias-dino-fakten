@@ -3,7 +3,7 @@ title: Velociraptor
 namesuffix: mongoliensis
 meaning: Schneller Räuber
 published: 2022-07-09
-image: ../images/velociraptor.jpg
+image: /src/assets/images/velociraptor.jpg
 tags:
   - Omnivore 🍪
   - Kreide 🦴
@@ -25,7 +25,7 @@ Der **Velociraptor** ist ein sehr bekannter Dinosaurier, doch viele Menschen wis
 
 Es gab einen beeindruckenden Fund in der Mongolei, dort fand man einen **Velociraptor**, der mit einem [Protoceratops](/dinos/protoceratops/) kämpfte.  
 
-![Velociraptor und Protoceratops im Kampf](../images/velociraptor-protoceratops-kampf.jpg)
+![Velociraptor und Protoceratops im Kampf](/src/assets/images/velociraptor-protoceratops-kampf.jpg)
 
 Beide starben in diesem Kampf, vermutlich wurden sie von einem Sandsturm überrascht.
 

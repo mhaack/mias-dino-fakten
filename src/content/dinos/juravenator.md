@@ -3,7 +3,7 @@ title: Juravenator
 namesuffix: starki
 meaning: Jäger des Juragebirges
 published: 2022-07-28
-image: ../images/juravenator.jpg
+image: /src/assets/images/juravenator.jpg
 tags:
   - Karnivore 🥩
   - Jura 🦴
@@ -20,13 +20,13 @@ family: Coelurosauria
 ---
 Der **Juravenator** ist einer der besterhaltenen Theropoden in Europa. Das fast vollständige Skelett wurde 1998 von Klaus-Dieter Weiß und Hans Weiß in einem Steinbruch in der Nähe von Schamhaupten entdeckt. Bei diesem Fund wurden auch Weichteile und Abdrücke der Haut mit Pusteln gefunden, aber keine Anzeichen von Federn. Wenn weitere Untersuchungen bestätigen das der **Juravenator** keine Federn hatte, sind demnach nicht alle Coelurosaurier gefiedert.
 
-![Juravenator Skelett](../images/juravenator-skelett.jpg)
+![Juravenator Skelett](/src/assets/images/juravenator-skelett.jpg)
 
 In der Nähe des Ortes wo der **Jravenator** gefunden wurde, wurde auch der [Compsognathus](/dinos/compsognathus/)und der "Urvogel" Archaeopteryx entdeckt.
 
 Bei dem Fund handelt es sich um ein Jungtier das 80cm lang ist. Vermutlich ertrank es einige Wochen später im Meer. Da der junge **Juravenator** so klein war, wurde der ausgewachsene Dinosaurier wahrscheinlich nur 100-120cm groß.
 
-![Juravenator Vergleich](../images/juravenator-vergleich.png)
+![Juravenator Vergleich](/src/assets/images/juravenator-vergleich.png)
 
 Ein besonderes Merkmal des **Juravenator** ist die kleine Einkerbung am Rand des Oberkiefers. Eine Einkerbung in dieser Form konnte man bislang noch bei keinem Dinosaurier Feststellen.
 

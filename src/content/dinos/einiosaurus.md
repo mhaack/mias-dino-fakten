@@ -3,7 +3,7 @@ title: Einiosaurus
 namesuffix: procurvicornis
 meaning: Büffelechse
 published: 2022-12-25
-image: ../images/einiosaurus.jpeg
+image: /src/assets/images/einiosaurus.jpeg
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -22,7 +22,7 @@ Der **Einiosaurus** war ein pflanzenfressender Ceratopsier aus der Familie der 
 
 Das Hauptmerkmal eines **Einiosaurus** ist das nach vorn gebogene Nasenhorn auf dem Schädel, zusammen mit dem mächtigen Nackenschild. An der Fundstelle wurden verschieden große Nasenhörner gefunden, so das man annimmt, dass das Nasenhorn mit gewachsen ist. Bei jungen Tieren war es gerade, die Krümmung nach vorn gab es nur bei erwachsenen Tieren. Nicht jeder **Einiosaurus** besaßen ein Nashorn.
 
-![Einiosaurus Schädel](../images/einiosaurus_lacm.jpeg)
+![Einiosaurus Schädel](/src/assets/images/einiosaurus_lacm.jpeg)
 
 Das nach vorne gebogene Nasenhorn, zusammen mit den nach hinten ragenden kleinen Hörnern am Schild, dürfe hauptsächlich als Schmuck, Drohung und zur Erkennung einzelner Arten gewesen sein. Für die Verteidigung war es nicht sehr gut geeignet. Das Schild bot kaum Schutz vor Bissen. **Einiosaurus** hatte kurze Beine und hufähnliche Füße.
 

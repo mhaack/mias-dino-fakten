@@ -3,7 +3,7 @@ title: Corythosaurus
 namesuffix: casuarius
 meaning: Helmechse
 published: 2021-12-19
-image: ../images/corythosaurus.jpg
+image: /src/assets/images/corythosaurus.jpg
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -21,7 +21,7 @@ family: Hadrosauridae
 ---
 Der **Corythosaurus** hatte wie der [Parasaurolophus](/dinos/parasuarolophus/)einen Kamm auf dem Kopf, doch bei dem **Corythosaurus** sah der Kamm mehr wie ein Helm aus. Wegen seines Kammes bekam er auch seinen Name, der übersetzt "*Helmechse*" bedeutet. Vermutlich hat er sich über seinen Kamm mit seinen Artgenossen versendigt. Man findet ein ähnliches Verhalten auch bei den **Parasaurolophen**.
 
-![Corytosaurushaut](../images/corythosaurus-haut.jpg)
+![Corytosaurushaut](/src/assets/images/corythosaurus-haut.jpg)
 
 Bei wenigen Fossilien findet man Abdrücke der Haut. Beim **Corytosaurus** wurde ein Hautabdruck vom Bauch gefunden.  
 

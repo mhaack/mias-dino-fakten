@@ -3,7 +3,7 @@ title: Parasaurolophus
 namesuffix: walkeri
 meaning: Fast eine Kammechse
 published: 2021-12-18
-image: ../images/parasaurolophus.jpg
+image: /src/assets/images/parasaurolophus.jpg
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -24,7 +24,7 @@ family: Hardrosauridae
 
 Sein auffälligstes Merkmal ist der nach hinten gerichtete Kamm. Wegen seines Erscheinungsbild ist der **Parasaurolophus** bei vielen Menschen bekannt. Der **Parasaurolophus** zogen vermutlich in Herden durch die Waldländer und konnte die mit seinem auffälligen Kamm auf dem Kopf warnen wen Gefahr drohte oder die Herde weiter ziehen wollte.
 
-![Parasaurolophuskopf](../images/parasuarolophus-kopf.jpg)
+![Parasaurolophuskopf](/src/assets/images/parasuarolophus-kopf.jpg)
 
 Quellen:
 

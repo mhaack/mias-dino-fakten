@@ -5,7 +5,7 @@ meaning: Geschmücktes Horngesicht
 published: 2021-12-19
 dotm:
   - month: 2024-06-01
-image: ../images/kosmoceratops.jpg
+image: /src/assets/images/kosmoceratops.jpg
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -23,7 +23,7 @@ family: Ceratopsia
 ---
 Der **Kosmoceratops** ist mit dem [Triceratops](/dinos/triceratops/)verwand. Seinen Namen "*geschmücktes Horngesicht*" bekam er durch die vielen Hörner auf dem Kopf.
 
-![Kosmoceratopskopf](../images/kosmoceratops-kopf.png)
+![Kosmoceratopskopf](/src/assets/images/kosmoceratops-kopf.png)
 
 Die Hörner sind sozusagen der Schmuck, sie dienten vermutlich nicht nur zur Verteidigung sondern auch in der Paarungszeit zur Anlockung von Weibchen.  
 

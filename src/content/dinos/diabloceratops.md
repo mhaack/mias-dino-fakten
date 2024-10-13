@@ -5,7 +5,7 @@ meaning: Gesicht mit Teufelshörnern
 published: 2022-01-15
 dotm:
   - month: 2023-07-01
-image: ../images/diaboloceratops.png
+image: /src/assets/images/diaboloceratops.png
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -23,7 +23,7 @@ family: Ceratopsia
 ---
 Der **Diabloceratops** hat zwei sehr große Hörner auf seinem Nackenschild, daher bekam er auch den Namen "*Gesicht mit Teufelshörner*" Wie bei dem Triceratops hat der **Diabloceratops** drei etwas kleinere Hörner im Gesicht.
 
-![Diabloceratosschädel](../images/diabloceratops-schädel.jpg)
+![Diabloceratosschädel](/src/assets/images/diabloceratops-schädel.jpg)
 
 Der **Diabloceratops** wurde am 16. Juli 1998 von Geologe Joshua A. Smith entdeckt.
 

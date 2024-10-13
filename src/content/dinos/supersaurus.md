@@ -3,7 +3,7 @@ title: Supersaurus
 namesuffix: vivianae
 meaning: Überechse
 published: 2021-12-26
-image: ../images/supersaurus.png
+image: /src/assets/images/supersaurus.png
 tags:
   - Herbivore 🌿
   - Jura 🦴
@@ -20,11 +20,11 @@ family: Sauropoda
 ---
 Der **Supersaurus** wurde 1985 von James Alvin Jensen gefunden und erstmals beschrieben. Er hatte sehr viele Verwandte, zum Beispiel: der [Brachiosaurus](/dinos/bachiosuarus). Der **Supersaurus** stand auf vier mächtigen, säulenartigen Beinen.
 
-![Säulen](../images/säulen.jpg)
+![Säulen](/src/assets/images/säulen.jpg)
 
 Er hatte einen langen Schwanz, der fast schon wie eine Peitsche war und der **Supersaurus** hatte einen sehr langen Hals.
 
-![Peitsche](../images/peitsche.png)
+![Peitsche](/src/assets/images/peitsche.png)
 
 Quellen:
 

@@ -3,7 +3,7 @@ title: Ozraptor
 namesuffix: subotaii
 meaning: Australischer Dieb
 published: 2022-05-19
-image: ../images/ozraptor.jpg
+image: /src/assets/images/ozraptor.jpg
 tags:
   - Karnivore 🥩
   - Jura 🦴
