@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main
 publish_mode: editorial_workflow
-media_folder: "/src/content/images"
-public_folder: "/content/images"
+media_folder: "src/assets/images"
+public_folder: "src/assets/images"
 locale: de
 
 collections:
