@@ -4,6 +4,7 @@ interface Props {
   id?: string
   src: string
   class?: string
+  imageClass?: string
   alt?: string
   position?: string
   basePath?: string
@@ -13,6 +14,7 @@ import { url } from '../../utils/url-utils'
 
 const { id, src, alt, position = 'center', basePath = '/' } = Astro.props
 const className = Astro.props.class
+const imageClassName = Astro.props.imageClass || 'object-cover'
 
 const isLocal = !(
   src.startsWith('/') ||
@@ -42,7 +44,7 @@ if (isLocal) {
   img = await file()
 }
 
-const imageClass = 'w-full h-full object-cover'
+const imageClass = `w-full h-full ${imageClassName}`
 const imageStyle = position !== 'none' ? `object-position: ${position}` : ''
 ---
 <div id={id} class:list={[className, 'overflow-hidden relative']}>
