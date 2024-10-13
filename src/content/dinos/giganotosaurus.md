@@ -15,6 +15,7 @@ finder: Rodolfo Coria
 weight: 8.000kg
 size: 12,5m
 years: 122-90
+category: Dinos
 family: Carcharodontosauridae
 ---
 Der **Giganotosaurus** war ein starker Räuber der vermutlich in Waldländern Sauropoden gejagt hat. Er ist so schwer wie 125 Menschen.

@@ -3,6 +3,7 @@ title: Albertosaurus
 namesuffix: sarcophagus
 meaning: Alberta-Echse
 published: 2021-12-18
+category: Dinos
 image: ../images/albertosaurus.jpg
 tags:
   - Karnivore 🥩

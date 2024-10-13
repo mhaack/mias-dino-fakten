@@ -16,6 +16,7 @@ weight: 300kg
 size: 5-6m
 years: vor 72 bis 66 Millionen Jahren
 family: Tyrannosauridae
+category: Dinos
 ---
 Der **Nanotyrannus** war ein kleiner Tyrannosaurier, oft wird er als der kleine Bruder vom [Tyrannosaurus Rex](/dinos/tyrannosaurus-rex/) bezeichnet. Er lebte vor etwa 80 Millionen Jahren während der Kreidezeit im heutigen Nordamerika.
 

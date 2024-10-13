@@ -17,6 +17,7 @@ finder: Lewrence Morris Lambe
 weight: 2.500kg
 size: 7m
 years: 76-74
+category: Dinos
 family: Ankylosauria
 ---
 Der **Euoplocephalus** hatte ein Keule am Ende seines Schwanzes, mit der er sich gegen Angreifer gewehrt hat. Er war in den Waldländern unterwegs. Der **Euoplocephalus** hatte einen Schädel, der mit einem Mosaik aus kleinen Platten bedeckt war.

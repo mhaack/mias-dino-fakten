@@ -86,7 +86,8 @@ export type BlogPostData = {
   food: string
   weight: string
   size: string
-  dotm: {
+  dotm?: {
     month: string
   }[]
+  sources?: string[]
 }

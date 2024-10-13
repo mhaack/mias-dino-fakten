@@ -14,6 +14,7 @@ locations:
 finder: Jorge Calvo
 weight: 43.000-51.000kg
 size: 32-34m
+category: Dinos
 years: 91-98
 family: Titanosauria
 ---

@@ -13,6 +13,7 @@ locations:
   - AUS
 finder: Ehepaar Thomas H. Rich und Patricia Vickers-Rich
 weight: 3-10kg
+category: Dinos
 size: 60-200cm
 years: 113-105
 family: Hypsilophodontidae

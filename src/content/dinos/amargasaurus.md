@@ -3,6 +3,7 @@ title: Amargasaurus
 namesuffix: cazaui
 meaning: Reptil der Bitterkeit
 published: 2022-01-16
+category: Dinos
 dotm:
   - month: 2022-05-01
 image: ../images/amargasaurus3.0.png

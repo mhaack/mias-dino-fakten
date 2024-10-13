@@ -10,7 +10,7 @@ image: ../images/brachiosuarus.png
 tags:
   - Herbivore 🌿
   - Jura 🦴
-  
+category: Dinos
 location: Nordamerika
 finder: Elmer S. Riggs
 size: 28m

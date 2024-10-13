@@ -30,6 +30,7 @@ const dinoCollection = defineCollection({
       .array(z.object({ month: z.date() }))
       .optional()
       .default([]),
+    sources: z.array(z.string()).optional().default([]),
   }),
 })
 export const collections = {

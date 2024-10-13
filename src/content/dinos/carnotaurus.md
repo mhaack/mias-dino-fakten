@@ -9,7 +9,7 @@ image: ../images/carnotaurus.png
 tags:
   - Karnivore 🥩
   - Kreide 🦴
-  
+category: Dinos
 food: Karnivore
 location: Chubut, Argentinien
 locations:

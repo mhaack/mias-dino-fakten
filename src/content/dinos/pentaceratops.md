@@ -17,6 +17,7 @@ finder: Henry Fairfield Osborn
 weight: 5.000kg
 size: 7-8m
 years: 76-69
+category: Dinos
 family: Ceratosidae
 ---
 Der **Pentaceratops** hatte den größten Kopf aller Landbewohner, das Schild mit eingerechnet. Der circa zwei Meter lange Schädel hatte an den breiten Enden des Schildes viel kleine Dornen. Am äußern Rand, in der Mitte des Schildes, gab es eine kleine Einbuchtung in der zwei kleine Hörner saßen. In dem gigantischen Schild waren zwei Öffnungen, sogenannte *Fenestrae,* allerdings konnte man die Öffnungen nicht sehne, da sie mit Haut überspannt waren. Die Öffnungen machten den ganzen Schädel leichter. Über den Augen saßen wie bei dem [Triceratops](/dinos/triceratops/)zwei weitere, etwas größere Hörner und ein weiteres, saß über den Nasenlöchern.

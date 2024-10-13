@@ -9,9 +9,9 @@ dotm:
   - month: 2023-01-01
 image: ../images/troodon2.0.jpg
 tags:
-  - Omnivore 🍴
+  - Omnivore 🍪
   - Kreide 🦴
-  
+category: Dinos
 food: Omnivore
 location: USA, Canada, Asien
 locations:

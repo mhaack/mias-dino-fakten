@@ -17,6 +17,7 @@ locations:
 finder: Maryanska & Osmolska
 weight: 30-60kg
 size: 1,8-3m
+category: Dinos
 years: "70"
 family: Pachycephalosauria
 ---

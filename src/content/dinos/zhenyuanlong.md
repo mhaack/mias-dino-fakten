@@ -7,7 +7,6 @@ image: ../images/zhenyuanlong-suni.jpg
 tags:
   - Karnivore 🥩
   - Kreide 🦴
-  
 food: Karnivore
 location: China
 locations:
@@ -16,6 +15,7 @@ finder: Stephenq Brusatte und Junchang Lü
 weight: 10kg
 size: 1,26-1,65m
 years: "126"
+category: Dinos
 family: Dromaeosauridae
 ---
 Der **Zhenyuanlong** wurde 2015 von einem Bauern in China entdeckt, der beim Einfahren seiner Ernte darüber gestolpert war. Kurz darauf wurden Junchang Lü und Stephen Brusatte in das Museum der nahe gelegenen Fundstelle in Xixian Formation gerufen, um das Skelett zu untersuchen.

@@ -11,7 +11,7 @@ const { post } = Astro.props
 ---
 
 <ul class={className}>
-    {post.years && <li class="flex items-center my-2"><div class="fact-icon"><Icon name="material-symbols:calendar-month" class="text-xl"></Icon></div> Lebenszeit: {post.years}</li>}
+    {post.years && <li class="flex items-center my-2"><div class="fact-icon"><Icon name="material-symbols:calendar-month" class="text-xl"></Icon></div> Lebenszeit: vor {post.years} Millionen Jahren</li>}
     {post.family && <li class="flex items-center my-2"><div class="fact-icon"><Icon name="material-symbols:diversity-1" class="text-xl"></Icon></div> Familie: {post.family}</li>}
     {post.location && <li class="flex items-center my-2"><div class="fact-icon"><Icon name="material-symbols:globe" class="text-xl"></Icon></div> Fundort: {post.location}</li>}
     {post.finder && <li class="flex items-center my-2"><div class="fact-icon"><Icon name="material-symbols:group-search" class="text-xl"></Icon></div> Gefunden von: {post.finder}</li>}

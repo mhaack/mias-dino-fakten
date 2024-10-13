@@ -19,6 +19,7 @@ locations:
 finder: Friedrich August Quenstedt
 weight: 2.000kg
 size: 8m
+category: Dinos
 years: 220-210
 family: Plateosauridae
 ---

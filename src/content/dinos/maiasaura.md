@@ -17,9 +17,10 @@ tags:
   - Kreide 🦴
 food: Herbivore
 location: USA
+category: Dinos
 locations:
   - USA
-finder: "Laurie Trexie "
+finder: "Laurie Trexie"
 weight: 2.000-2.500kg
 size: 7m
 years: 80-75

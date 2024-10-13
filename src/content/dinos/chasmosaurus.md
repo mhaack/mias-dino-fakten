@@ -15,7 +15,13 @@ finder: Lawrence Lambe
 weight: 2.500kg
 size: 5m
 years: 74-66
+category: Dinos
 family: Ceratopsidae
+sources:
+  - http://mesozoicmondays.blogspot.com/2012/11/c-is-for-chasmosaurus.html>
+  - http://zburian.blogspot.com/2012/06/chasmosaurus.html
+  - https://www.deviantart.com/microcosmicecology/art/Chasmosaurus-in-the-Mountains-439837799
+
 ---
 D﻿er **Chasmosaurus** war ein relativ langsames Herdentier, aber durch sein gigantisches Nackenschild größer und bedeutsamer wirkte. Der Name Chasmosaurus bedeutet "*Lochechse*" und bezieht sich auf die zwei großen Löcher in seinem Nackenschild. Trotzdem wird er meistens ohne dargestellt. Das Schild diente vermutlich dazu, den Hals und die Schultern vor Angriffen zu schützen oder aber auch um Feinde abzuschrecken und Weibchen anzulocken.
 
@@ -26,9 +32,3 @@ D﻿er **Chasmosaurus** war ein relativ langsames Herdentier, aber durch sein gi
 Der Forscher C. M. Sternberg untersuchte im Nationalmuseum Kanadas zwei **Chasmosaurus**-Skelette, dabei stellte er fest, dass eines größer und kräftiger gebaut ist. Er vermutete das es sich hierbei um ein weibliches und ein männliches Exemplar handeln könnte.
 
 ![Chasmosaurusskelett](../images/r.jpeg)
-
-Quellen:
-
-* <http://mesozoicmondays.blogspot.com/2012/11/c-is-for-chasmosaurus.html>
-* <http://zburian.blogspot.com/2012/06/chasmosaurus.html>
-* [https://www.deviantart.com/](https://www.deviantart.com/microcosmicecology/art/Chasmosaurus-in-the-Mountains-439837799)

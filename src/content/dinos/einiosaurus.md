@@ -16,6 +16,7 @@ weight: 1500 kg
 size: 5 m
 years: vor 74-72 Millionen Jahren
 family: Ceratopsidae
+category: Dinos
 ---
 Der **Einiosaurus** war ein pflanzenfressender Ceratopsier aus der Familie der Ceratopsidae. Das erste Exemplar wurde 1985 von Jack Horner in Montana gefunden. Die Ausgrabung dauerte mehrere Jahre und es wurde eine komplette, kleine Herde von mindestens 15 Individuen entdeckt. Erst 1994 wurde der Name **Einiosaurus procurvicornis** erstmalig vom kanadischen Paläontologen Scott Donald Sampson auf der jährlichen Society of Vertebrate Paleontology Konferenz verwendet.
 

@@ -17,6 +17,7 @@ locations:
 finder: Brian Buckmeier und den Brüdern Steve und Pat Saulsbury
 weight: 45-225 kg
 size: 3-4m
+category: Dinos
 years: 67-66
 family: Pachycephalosauridae
 ---

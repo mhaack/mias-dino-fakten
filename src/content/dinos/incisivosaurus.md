@@ -15,6 +15,7 @@ finder: Jehol-Gruppe
 weight: 6kg
 size: 1m
 years: "128"
+category: Dinos
 family: Oviraptorosauria
 ---
 Der **Incisivosaurus** erinnerte an einen Hasen. Er hatte einen 10cm langen Kopf und zwei große Schneidezähne vorne am Oberkiefer, wegen der Zähne bekam er auch seinen Namen "*Schneidezahn-Echse*". Bekannt ist der **Incisivosaurus** durch seinen fast vollständigen Schädel und seiner zum Teil erhaltenen Halswirbel.

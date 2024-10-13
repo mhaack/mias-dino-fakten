@@ -5,6 +5,7 @@ title: "Apatosaurus "
 namesuffix: ajax
 meaning: Trügerische Echse
 published: 2021-12-29
+category: Dinos
 image: ../images/apatosaurus.png
 tags:
   - Herbivore 🌿

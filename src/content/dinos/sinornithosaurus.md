@@ -16,9 +16,10 @@ finder: Xu, Wang und Wu
 weight: 5kg
 size: 1,3m
 years: 129-123
+category: Dinos
 family: Dromaeosauridae
 ---
-Der **Sinornithosaurus** war ein recht kleiner Dromaeosaurier und hatte wahrscheinlich Federn, ähnlich wie bei dem [Microraptor](/dinos/microraptor/)oder dem Archaeopterix. Er war jedoch vermutlich flugunfähig. Der **Sinornithosaurus** ist einer der bekanntesten Dinosaurier, die eng mit unseren heutigen Vögeln verwand waren.
+Der **Sinornithosaurus** war ein recht kleiner Dromaeosaurier und hatte wahrscheinlich Federn, ähnlich wie bei dem [Microraptor](/dinos/microraptor/) oder dem Archaeopterix. Er war jedoch vermutlich flugunfähig. Der **Sinornithosaurus** ist einer der bekanntesten Dinosaurier, die eng mit unseren heutigen Vögeln verwand waren.
 
 Er wurde bis zu 5 kg schwer und etwa 1,3 m lang. Der **Sinornithosaurus** war ein kleiner Karnivore, der von Xu, Wang und Wu in China in der Yixian-Formation gefunden wurde.
 

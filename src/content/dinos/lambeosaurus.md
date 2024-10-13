@@ -16,6 +16,7 @@ finder: William Parks und Lawrence Lambe
 weight: 5.000kg
 size: 7-10m
 years: 83-72
+category: Dinos
 family: Hardrosaurier
 ---
 Von dem **Lambeosaurus** sind 20 gut erhaltene Schädel und auch ein paar Skelette bekannt. Viele Schädel hatten einen unterschiedlichen Kamm. Sie wurden trotzdem dem **Lambeosaurus** *lambei* zugeordnet und die Vermutung aufgestellt, dass es verschiedene Altersstufen dieses Dinosauriers waren.

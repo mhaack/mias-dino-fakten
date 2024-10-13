@@ -43,6 +43,7 @@ enum I18nKey {
   dinoTags = 'dinoTags',
   allDinos = 'allDinos',
   month = 'month',
+  sources = 'sources',
 }
 
 export default I18nKey

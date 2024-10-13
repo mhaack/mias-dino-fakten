@@ -17,6 +17,7 @@ finder: University of Toronto
 weight: 2.500kg
 size: 10m
 years: 76-72
+category: Dinos
 family: Hardrosauridae
 ---
  Der **Parasaurolophus** konnte sich wahrscheinlich wie viele andere Hardrosaurier auf zwei und auf vier Beinen fortbewegen. Ein typisches Merkmal der Hardrosaurier hatte auch der **Parasaurolophus**, denn er besaß einen "Entenschnabel" mit Mahlzähnen im Kiefer.

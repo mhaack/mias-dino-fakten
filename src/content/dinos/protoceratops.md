@@ -16,6 +16,7 @@ finder: Roy Chapman Andrews
 weight: 150 kg - 180 kg
 size: 1,8 m - 2m
 years: 85-76
+category: Dinos
 family: Protoceratopsidae
 ---
 Der **Protoceratops** wurde von Roy Chapman Andrews 1923 in der Wüste Gobi gefunden. Der Name wird von griechischen Wörtern abgeleitet. **Protoceratops** bedeutet so viel wie „*Erstes Horngesich*t“. Das heißt, das der **Protoceratops** der erste Ceratopsia war.

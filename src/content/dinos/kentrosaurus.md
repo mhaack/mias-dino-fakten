@@ -17,6 +17,7 @@ finder: der Grabungsexpedition gefunden und beschrieben von Edwin Hennig
 weight: 1.000-3.000kg
 size: 4,5m
 years: 154-152
+category: Dinos
 family: Stegosauria
 ---
 Der **Kentrosaurus** hatte vom Kopf bis Mitte Rücken Knochenplatten und nach den Knochenplatten kamen Stacheln die sich bis zum Ende seines Schwanzes  zogen. Einen weiteren Stachel hatte er auch, oberhalb seiner Vorderbeine auf jeder Seite.

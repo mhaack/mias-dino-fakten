@@ -15,6 +15,7 @@ finder: Klaus-Dieter Weiß und dessen Bruder Hans
 weight: 0,5-100kg
 size: 70-120cm
 years: 157-152
+category: Dinos
 family: Coelurosauria
 ---
 Der **Juravenator** ist einer der besterhaltenen Theropoden in Europa. Das fast vollständige Skelett wurde 1998 von Klaus-Dieter Weiß und Hans Weiß in einem Steinbruch in der Nähe von Schamhaupten entdeckt. Bei diesem Fund wurden auch Weichteile und Abdrücke der Haut mit Pusteln gefunden, aber keine Anzeichen von Federn. Wenn weitere Untersuchungen bestätigen das der **Juravenator** keine Federn hatte, sind demnach nicht alle Coelurosaurier gefiedert.

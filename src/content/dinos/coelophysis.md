@@ -19,6 +19,11 @@ weight: 20- 30kg
 size: 2-3m
 years: 225-204
 family: Coelophysidea
+sources:
+  - https://archosaurmusings.wordpress.com/2010/10/01/interview-with-jeff-martz/
+  - https://en.m.wikipedia.org/wiki/File:Coelophysis_cast.jpg
+  - https://www.flickr.com/photos/22711505@N05/10105344244
+
 ---
 Der **Coelophysis** ist einer der bekanntesten Dinosaurier aus dem Trias. Um genau zu sein lebte er vor 225-204 Millionen Jahren und war somit Teil zweier Perioden, der Obertrias und der Unterjura. Der **Coelophysis** war ein relativ kleiner Dinosaurier. Mit seinen bis zu 3m und seinen 20-30kg war er in etwa so groß wie ein kleines Auto und wog nur so viel wie ein 8-jähriges Kind. Der **Coelophysis** hatte einen sehr biegsamen,
 s-förmigen Hals, mit dem er schnell nach, am Boden liegenden Reptilien oder vor ihm in der Luft fliegenden Insekten schnappen konnte. Wenn er auf der Jagt nach kleinen Insekten und Reptilien oder auf der Flucht vor größeren Räubern war, konnte er bis zu 48km/h erreichen. Sein langer, dünner Schwanz half ihm dabei das Gleichgewicht zu wahren.
@@ -34,10 +39,4 @@ So viele Skelette einer Art an einem Ort, lässt vermuten, dass **Coelophysis** 
 
 ![Sandsteine der Ghost Ranch](../images/10105344244_996711bd3d_b.jpg)
 
-1998 wurde ein Schädel des **Coelophysis,** aus dem Carnegie Museum of Natural History in Pittsburgh, mit dem Raumschiff Endeavour ins Weltall genommen. Zusammen mit dem [Maiasaura](/dinos/maiasaura/)ist er der einzige Dinosaurier, der im All war.
-
-Quellen:
-
-* <https://archosaurmusings.wordpress.com/2010/10/01/interview-with-jeff-martz/>
-* <https://en.m.wikipedia.org/wiki/File:Coelophysis_cast.jpg>
-* <https://www.flickr.com/photos/22711505@N05/10105344244>
+1998 wurde ein Schädel des **Coelophysis,** aus dem Carnegie Museum of Natural History in Pittsburgh, mit dem Raumschiff Endeavour ins Weltall genommen. Zusammen mit dem [Maiasaura](/dinos/maiasaura/) ist er der einzige Dinosaurier, der im All war.

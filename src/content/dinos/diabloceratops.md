@@ -16,6 +16,7 @@ locations:
   - USA
 finder: Geologe Joshua A. Smith
 weight: 300kg
+category: Dinos
 size: 3,5m
 years: 83-76
 family: Ceratopsia

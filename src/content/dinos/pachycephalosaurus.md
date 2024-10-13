@@ -15,6 +15,7 @@ locations:
 finder: Charles W. Gilmore
 weight: 450kg
 size: 4,5-5m
+category: Dinos
 years: 69-66
 family: Pachycephalosauria
 ---

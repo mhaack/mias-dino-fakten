@@ -19,6 +19,7 @@ locations:
 finder: Barnum Brown und William Diller Matthew
 weight: 15kg
 size: 2m
+category: Dinos
 years: 168-66
 family: Dromaeosauridae
 ---

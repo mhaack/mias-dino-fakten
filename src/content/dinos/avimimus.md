@@ -5,9 +5,9 @@ meaning: "Ungewöhnlicher Vogelnachahmer "
 published: 2022-10-28
 image: ../images/avimimus.gif
 tags:
-  - Omnivore 🍴
+  - Omnivore 🍪
   - Kreide 🦴
-  
+category: Dinos
 food: Omnivore
 location: Mongolei, China
 locations:

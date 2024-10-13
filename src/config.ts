@@ -38,8 +38,3 @@ export const profileConfig: ProfileConfig = {
   bio: "Mein kleines Dinosaurier-Lexikon mit allen Infos die Du schon immer über Dino's wissen wolltest.",
   links: [],
 };
-
-// tags
-// omnivore <iconify-icon icon="mdi:cookie"></iconify-icon>
-// herbivore <iconify-icon icon="mdi:plant-outline"></iconify-icon>
-// carnivore <iconify-icon icon="mdi:meat"></iconify-icon>

@@ -12,6 +12,7 @@ tags:
 food: Herbivore
 location: Belgien, Deutschland, Frankreich, Spanien, England, Rumänien,
   Mongolei, USA, Kanada
+category: Dinos
 locations:
   - BEL
   - DEU

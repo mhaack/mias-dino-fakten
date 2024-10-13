@@ -3,6 +3,8 @@ import path from 'node:path'
 import { getCollection } from 'astro:content'
 import PostDinoFacts from '@components/PostDinoFacts.astro'
 import Markdown from '@components/misc/Markdown.astro'
+import I18nKey from '@i18n/i18nKey'
+import { i18n } from '@i18n/translation'
 import MainGridLayout from '@layouts/MainGridLayout.astro'
 import { getDir, getPostUrlBySlug } from '@utils/url-utils'
 import { Icon } from 'astro-icon/components'
@@ -96,6 +98,14 @@ const jsonLd = {
     </div>
 
 
+    {entry.data.sources?.length > 0 &&
+    <div class="card-base mb-4 px-6 md:px-9 pt-6 pb-4 relative w-full">
+      <p class="mb-2">{i18n(I18nKey.sources)}</p>
+      <ul class="list-disc text-[var(--primary)] ml-8">
+        {entry.data.sources.map((source) => <li class="mb-1"><a href={source} target="_blank" class="link font-medium">{source}</a></li>)}
+      </ul>
+    </div>}
+
     <div class="flex flex-col md:flex-row justify-between mb-4 gap-4 overflow-hidden w-full">
         <a href={entry.data.nextSlug ? getPostUrlBySlug(entry.data.nextSlug) : "#"}
            class:list={["w-full font-bold overflow-hidden active:scale-95", {"pointer-events-none": !entry.data.nextSlug}]}>
@@ -117,5 +127,4 @@ const jsonLd = {
             </div>}
         </a>
     </div>
-
 </MainGridLayout>

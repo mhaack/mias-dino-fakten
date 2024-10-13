@@ -18,6 +18,7 @@ locations:
   - GBR
   - DEU
   - BEL
+category: Meeressaurier
 finder: Mary Anning
 weight: 91kg
 size: 1,8-3m

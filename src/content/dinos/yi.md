@@ -15,6 +15,7 @@ finder: Wang Jianrong
 weight: 380-400g
 size: 30cm
 years: 165-153
+category: Dinos
 family: Scansoriopterygidae
 ---
 Der **Yi** wurde von dem chinesischen Landwirt Wang Jianrong auf einem Feld in der Nähe des Dorfes Mutoudeng entdeckt. Es ist das bislang einzige Skelett. Im Jahre 2007 wurde es an das Shandong Tianyu Museum of Nature verkauft, dort wurde es untersucht und der Paläontologe Xu Xing und seine Kollegen veröffentlichten die Ergebnisse ihrer Untersuchungen im April 2015.

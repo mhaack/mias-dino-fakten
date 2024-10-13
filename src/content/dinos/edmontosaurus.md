@@ -17,6 +17,7 @@ finder: George und Levi Sternberg
 weight: 4.000kg
 size: 12-13m
 years: 73-66
+category: Dinos
 family: Hardrosauridae
 ---
 Der **Edmontosaurus** ist einer der größten seiner Art. Er wurde bis zu 12-13m lang und 3,5m hoch. Der **Edmontosaus** lief auf allen Vieren. Zum Fressen konnte er sich zu tiefen Pflanzen hinunter beugen. Er stellt sich nur auf die Hinterbeine wenn es notwendig war zum Beispiel: um an höhere Büche oder Bäume zu gelangen. Auch wenn er auf der Flucht war und schnell verschwinden musste, rannte er nur mit den Hinterbeinen.
