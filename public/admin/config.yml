@@ -43,6 +43,10 @@ collections:
       - label: "Bild"
         name: "image"
         widget: "image"
+      - label: "Kategorie"
+        name: "category"
+        widget: "select"
+        options: ["Dinos", "Meeressaurier", "Pterosaurier"]
       - label: "Tags"
         name: "tags"
         widget: "select"
