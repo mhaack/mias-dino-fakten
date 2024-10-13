@@ -6,8 +6,7 @@ export const siteConfig: SiteConfig = {
   subtitle: `Mia's Dino-Fakten`,
   lang: "de",
   themeColor: {
-    hue: 75,
-    fixed: false, // Hide the theme color picker for visitors
+    hue: 75
   },
   banner: {
     enable: true,

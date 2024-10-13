@@ -149,22 +149,22 @@ const siteLang = lang.replace('_', '-')
 
 @layer components {
 	.enable-banner.is-large-banner #banner-wrapper {
-		@apply lg:h-[var(--banner-height-home)]
+		@apply lg:h-[var(--banner-height-home)] lg:translate-y-[40vh]
 	}
 	.enable-banner #banner-wrapper {
 		@apply h-[var(--banner-height)] translate-y-[30vh]
 	}
 	.enable-banner.is-large-banner #main-grid {
-		@apply lg:translate-y-[30vh];
+		@apply lg:translate-y-[40vh];
 	}
 	.enable-banner.is-large-banner #sidebar-sticky {
-		@apply lg:top-[calc(-30vh_+_1rem)]
+		@apply lg:top-[calc(-40vh_+_1rem)]
 	}
 	.enable-banner #banner img {
 		@apply lg:object-[center_25%] object-[center_10%]
 	}
 	.enable-banner.is-large-banner #banner img {
-		@apply lg:object-[center_54%] object-center
+		@apply lg:object-[center_55%] object-center
 	}
 	.navbar-hidden {
 		@apply opacity-0 -translate-y-16
@@ -192,7 +192,6 @@ function setClickOutsideToClose(panel: string, ignores: string[]) {
 		panelDom!.classList.add("float-panel-closed");
 	});
 }
-setClickOutsideToClose("display-setting", ["display-setting", "display-settings-switch"])
 setClickOutsideToClose("nav-menu-panel", ["nav-menu-panel", "nav-menu-switch"])
 setClickOutsideToClose("search-panel", ["search-panel", "search-bar", "search-switch"])
 
