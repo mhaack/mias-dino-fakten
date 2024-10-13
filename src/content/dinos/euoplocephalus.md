@@ -3,7 +3,7 @@ title: Euoplocephalus
 namesuffix: tutus
 meaning: Gut gepanzerter Kopf
 published: 2021-12-19
-image: /src/assets/images/euoplocephalus.png
+image: ../../assets/images/euoplocephalus.png
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -22,11 +22,11 @@ family: Ankylosauria
 ---
 Der **Euoplocephalus** hatte ein Keule am Ende seines Schwanzes, mit der er sich gegen Angreifer gewehrt hat. Er war in den Waldländern unterwegs. Der **Euoplocephalus** hatte einen Schädel, der mit einem Mosaik aus kleinen Platten bedeckt war.
 
-![Euoplocephalusschädel](/src/assets/images/euoplocephalus-schädel.jpg)
+![Euoplocephalusschädel](../../assets/images/euoplocephalus-schädel.jpg)
 
 Auch in den Augenlidern befanden sich Knochenplatten, die die Augen schützten. Der **Euoplocephalus** war sozusagen das "*Batmobil*" unter den Dinosauriern.
 
-![Batmobil](/src/assets/images/batmobil.png)
+![Batmobil](../../assets/images/batmobil.png)
 
  Auch der **Euoplocephalus** war kräftig, niedrig und mit schweren Platten bedeckt. Der Euoplocephalus war insgesamt sehr gut geschützt, doch sein weicher Bauch war nicht gepanzert.
 

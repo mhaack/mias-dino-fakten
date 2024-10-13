@@ -6,7 +6,7 @@ published: 2021-12-27
 dotm:
   - month: 2024-03-01
   - month: 2023-12-01
-image: /src/assets/images/stegosaurus_armatus_by_camusaltamirano_d538tdw-fullview.jpg
+image: ../../assets/images/stegosaurus_armatus_by_camusaltamirano_d538tdw-fullview.jpg
 tags:
   - Herbivore 🌿
   - Jura 🦴
@@ -24,11 +24,11 @@ family: Stegosauria
 ---
 Der **Stegosaurus** war ein ein Pflanzenfresser und hatte keine Zähne in seinem Schnabel, doch ganz hinten in seinem Maul hatte er reihenweise Zähne, mit denen er Blätter zermahlen konnte.
 
-![Stegosaurus ](/src/assets/images/stegosaurus2.png)
+![Stegosaurus ](../../assets/images/stegosaurus2.png)
 
  Das Erkennungsmerkmal des **Stegosaurus** waren seine Platten auf dem Rücken. Die vermutlich nicht zur Verteidigung gedient haben, sondern zur Anlockung von weiblichen **Stegosauriern**.
 
-![Stegosaurusskelett](/src/assets/images/stegosaurus-skelett.jpg)
+![Stegosaurusskelett](../../assets/images/stegosaurus-skelett.jpg)
 
 Quellen:
 

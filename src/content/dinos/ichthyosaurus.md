@@ -7,7 +7,7 @@ dotm:
   - month: 2023-02-01
   - month: 2022-09-01
   - month: 2022-04-01
-image: /src/assets/images/ichthyosaurus.png
+image: ../../assets/images/ichthyosaurus.png
 tags:
   - Piscivore 🐟
   - Jura 🦴
@@ -29,7 +29,7 @@ Der **Ichthyosaurus** lebte im Wasser und war kein Dinosaurier sondern ein Meere
 
 Am 11. Januar 2022 wurde in der Tageszeitung [zeit.de](https://www.zeit.de/wissen/umwelt/2022-01/ichthyosaurier-fossil-grossbritannien-fund-palaeontologie) ein Beitrag über einen weiteren **Ichthyosaurus**, der in Großbritannien entdeckt wurde, veröffentlicht.
 
-![Ichthyosaurusskelett](/src/assets/images/ichthyosaurus-skelett.png)
+![Ichthyosaurusskelett](../../assets/images/ichthyosaurus-skelett.png)
 
 Quellen:
 

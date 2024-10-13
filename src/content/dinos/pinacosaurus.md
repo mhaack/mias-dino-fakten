@@ -3,7 +3,7 @@ title: Pinacosaurus
 namesuffix: grangeri
 meaning: Plankenechse
 published: 2022-08-21
-image: /src/assets/images/pinacossauro.jpg
+image: ../../assets/images/pinacossauro.jpg
 tags:
   - Herbivore 🌿
   - Kreide 🦴

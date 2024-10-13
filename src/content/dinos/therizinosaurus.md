@@ -5,7 +5,7 @@ meaning: Sensenechse
 published: 2022-09-15
 dotm:
   - month: 2023-11-01
-image: /src/assets/images/therizinosaurus.png
+image: ../../assets/images/therizinosaurus.png
 tags:
   - Herbivore 🌿
   - Kreide 🦴

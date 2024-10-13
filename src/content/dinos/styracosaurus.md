@@ -3,7 +3,7 @@ title: Styracosaurus
 namesuffix: albertensis
 meaning: Stachelechse
 published: 2022-01-13
-image: /src/assets/images/styracosaurus.jpg
+image: ../../assets/images/styracosaurus.jpg
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -20,13 +20,13 @@ family: Ceratopsia
 ---
 Der **Styracosaurus** hat ein großes Nackenschild mit 6 bis zu 60 cm langen Stacheln. Sie dienten wahrscheinlich zum Importieren von Weibchen.
 
-![Styracosaurusschädel](/src/assets/images/styracosaurus-schädel.jpg)
+![Styracosaurusschädel](../../assets/images/styracosaurus-schädel.jpg)
 
 Der **Styracosaurus** lebte vermutlich in offenen Waldländern. Er ist mit dem [Kosmoceratops](https://dino-fakten.de/dinos/kosmoceratops/)und dem [Triceratops](https://dino-fakten.de/dinos/triceratops/) verwand, denn er gehört ebenfalls zu der Gruppe der Ceratopsia.
 
 Der **Styracosaurus** wurde von *Lawrence Lambe* 1913 entdeckt.
 
-![Lawrence Lambe](/src/assets/images/lawrence-lambe.png)
+![Lawrence Lambe](../../assets/images/lawrence-lambe.png)
 
 [](https://dino-fakten.de/dinos/triceratops/)
 

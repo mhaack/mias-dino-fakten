@@ -3,7 +3,7 @@ title: Leaellynasaura
 namesuffix: amicagraphica
 meaning: Leaellyns Echse
 published: 2023-04-20
-image: /src/assets/images/leaellynasaura_1.jpg
+image: ../../assets/images/leaellynasaura_1.jpg
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -22,7 +22,7 @@ Der Leaellynasaura war ein kleiner Dinosaurier der in Australien von dem Ehepaar
 
 Zur Zeit des Leaellynasaura war die Region in der er lebte ein Teil des polaren Gondwanalands. Er war also an kalte Temperaturen angepasst. Es war zwar nicht so kalt wie es heute in dieser Region ist, doch er musste mehre Monate im Dunklen leben. Das könnte seine großen Augen erklären. Der Leaellynasaura hatte große Augen die mit großen Gehirnregionen verbunden war. Ein Innenabdruck der Hirnschale zeigte, dass der Teil des Gehirns, der fürs Sehen zuständig war, ein größeres Maß hatte als der bei Menschen. So konnte der Leaellynasaura sich in den dunklen Monaten besser zurecht finden.
 
-![Der Leaellynasaurua unter Nordlichtern](/src/assets/images/leaellynasaura_2.jpg)
+![Der Leaellynasaurua unter Nordlichtern](../../assets/images/leaellynasaura_2.jpg)
 
 Der kleine Dinosaurier hatte einen sehr langen Schwanz. Der fast das dreifache seiner Körperlänge ausmachte. Er bestand aus mehr als 70 Wirbeln. Forscher vermuten, dass sein Schwanz, sowie der Körper des wendigen Dinosauriers mit Haar ähnlichen Filamenten besetzt war. Diese sollten ihn vor der Kälte wärmen. Es gab eine Theorie, dass der Leaellynasaura seinen Schwanz um seinen Körper geschlungen hatte um sich vor Kälteeinbrüchen zu schützen.
 

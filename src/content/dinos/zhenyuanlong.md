@@ -3,7 +3,7 @@ title: Zhenyuanlong
 namesuffix: suni
 meaning: Zhenyuans Drache
 published: 2022-06-21
-image: /src/assets/images/zhenyuanlong-suni.jpg
+image: ../../assets/images/zhenyuanlong-suni.jpg
 tags:
   - Karnivore 🥩
   - Kreide 🦴
@@ -22,7 +22,7 @@ Der **Zhenyuanlong** wurde 2015 von einem Bauern in China entdeckt, der beim Ein
 
 Es ist ein nahezu vollständiges Skelett vorhanden. Bei dem **Zhenyuanlong** lassen sich Ähnlichkeiten zu anderen verwandten Dinosauriern feststellen, wie den Velociraptor, zum Beispiel: spitze Zähne, ein langer Schwanz und scharfe Klauen. Der **Zhenyuanlong** hatte dünne lange Beine, ähnlich wie bei einem Storch.
 
-![Zhenyuanlong Skelett](/src/assets/images/zhenyuanlong-suni.jpg)
+![Zhenyuanlong Skelett](../../assets/images/zhenyuanlong-suni.jpg)
 
 Der **Zhenyuanlong** war am ganzen Körper mit Federn bedeckt, in dem gefundenen Gestein konnte man gute Abdrücke der Federn erkennen. Er hatte auch welche an seien Armen, mit denen er aber vermutlich nicht fliegen konnte.
 

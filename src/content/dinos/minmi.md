@@ -3,7 +3,7 @@ title: Minmi
 namesuffix: paravertebra
 meaning: Von der Minmi-Kreuzung
 published: 2022-01-17
-image: /src/assets/images/minmi.jpg
+image: ../../assets/images/minmi.jpg
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -22,11 +22,11 @@ Der **Minmi** war der kleinste der Ankylosaurier und der erste dieser Art, der a
 
 Der **Minmi** hat blattförmige Zähne und ist ein Pflanzenfresser. Bei einer Ausgrabung hat man Nahrungsreste gefunden, daher weis man das er kleine Früchte, Blätter und Samen fraß.
 
-![Beeren ](/src/assets/images/bereen.jpg)
+![Beeren ](../../assets/images/bereen.jpg)
 
 Eine Besonderheit des **Minmi** ist sein gepanzerter Bauch. Andere Dinosaurier der  Ankylosauridae Gruppe hatten nur einen gepanzerten Rücken.
 
-![Minmiskelett](/src/assets/images/minmi-skelett.png)
+![Minmiskelett](../../assets/images/minmi-skelett.png)
 
 Quellen:
 

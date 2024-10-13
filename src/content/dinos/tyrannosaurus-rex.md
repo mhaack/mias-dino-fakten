@@ -2,7 +2,7 @@
 title: Tyrannosaurus Rex
 meaning: König der Tyrannenechsen
 published: 2021-12-27
-image: /src/assets/images/t-rex.png
+image: ../../assets/images/t-rex.png
 tags:
   - Karnivore 🥩
   - Kreide 🦴

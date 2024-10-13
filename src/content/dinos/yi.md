@@ -3,7 +3,7 @@ title: "Yi "
 namesuffix: qi
 meaning: "Seltsamer Flügel "
 published: 2022-04-20
-image: /src/assets/images/yi-qi.jpg
+image: ../../assets/images/yi-qi.jpg
 tags:
   - Karnivore 🥩
   - Jura 🦴
@@ -20,7 +20,7 @@ family: Scansoriopterygidae
 ---
 Der **Yi** wurde von dem chinesischen Landwirt Wang Jianrong auf einem Feld in der Nähe des Dorfes Mutoudeng entdeckt. Es ist das bislang einzige Skelett. Im Jahre 2007 wurde es an das Shandong Tianyu Museum of Nature verkauft, dort wurde es untersucht und der Paläontologe Xu Xing und seine Kollegen veröffentlichten die Ergebnisse ihrer Untersuchungen im April 2015.
 
-![Yi Skelett](/src/assets/images/yi-skelett.jpg)
+![Yi Skelett](../../assets/images/yi-skelett.jpg)
 
 Ähnlich wie bei einer Fledermaus haben Forscher an den Armen des **Yi** deutliche Anzeichen von Flughäute entdeckt. Es wurden nicht nur Flughäute, sondern auch Reste von Federn gefunden.
 

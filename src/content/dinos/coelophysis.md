@@ -3,7 +3,7 @@ title: Coelophysis
 namesuffix: bauri
 meaning: Hohlknochen
 published: 2024-10-04
-image: /src/assets/images/coelophysis_jeff_martz.png
+image: ../../assets/images/coelophysis_jeff_martz.png
 category: Dinos
 tags:
   - Trias 🦴
@@ -32,11 +32,11 @@ Die hohlen Knochen, schlanken, langen Gliedmaßen und der längliche, schmale Sc
 In seinem ganzen Körperbau war **Coelophysis** für seine Zeit schon sehr fortgeschritten.
 Paläontologen fanden aber auch unterschiedliche Skelette, schlankere und robustere. Dies deutet darauf hin, dass es Abweichungen im Körperbau bei weiblichen und männlichen Exemplaren gab.
 
-![Coelophysis Skelett](/src/assets/images/coelophysis_cast.jpg)
+![Coelophysis Skelett](../../assets/images/coelophysis_cast.jpg)
 
 Das erste **Coelophysis-**Skelett wurde 1881 von David Baldwin in New Mexico, USA entdeckt. Acht Jahre später, 1889, fand Edward Drinker Cope nochmals Skelette auf der Ghost Ranch, New Mexico. Später wurden noch weitere **Coelophysis** Skelette am gleichen Fundort entdeckt, bis es schließlich über 1000 Skelette waren. Das macht den **Coelophysis** zum offiziellen Dinosaurier des Bundesstaats New Mexicos.
 So viele Skelette einer Art an einem Ort, lässt vermuten, dass **Coelophysis** in Herden lebten. Diese Theorie ist nicht vollständig bewiesen, aber naheliegend. Vermutlich entstand das Massengrab durch eine ausgetrocknete Wasserstelle, was viele Dinosaurier, darunter auch **Coelophyis**, verdursten ließ. Später wurden sie wahrscheinlich durch eine Sturzflut in das Gebiet der Ghost Ranch geschwemmt.
 
-![Sandsteine der Ghost Ranch](/src/assets/images/10105344244_996711bd3d_b.jpg)
+![Sandsteine der Ghost Ranch](../../assets/images/10105344244_996711bd3d_b.jpg)
 
 1998 wurde ein Schädel des **Coelophysis,** aus dem Carnegie Museum of Natural History in Pittsburgh, mit dem Raumschiff Endeavour ins Weltall genommen. Zusammen mit dem [Maiasaura](/dinos/maiasaura/) ist er der einzige Dinosaurier, der im All war.

@@ -3,7 +3,7 @@ title: Pentaceratops
 namesuffix: sternbergii
 meaning: Fünfhorngesicht
 published: 2022-08-21
-image: /src/assets/images/pentaceratops.png
+image: ../../assets/images/pentaceratops.png
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -24,7 +24,7 @@ Der **Pentaceratops** hatte den größten Kopf aller Landbewohner, das Schild mi
 
 Der Name **Pentaceratops** leitet sich von den griechischen Wörtern für „*fünf*“ und „*Horn*“ ab.   Die fünf Hörner sind die zwei großen über den Augen, das kleiner Horn oberhalb der Nasenlöcher und die zwei nach unten gebogenen Hörner in der Einkerbung am Rand des Schildes.
 
-![Pentaceratops Schädel](/src/assets/images/img_1655.jpeg)
+![Pentaceratops Schädel](../../assets/images/img_1655.jpeg)
 
 Von den **Pentaceratopsier** sind keine bone beds (“*Knochenlager*”) bekannt. Daraus wird geschlossen, das die **Pentaceratopsier** Einzeltiere waren und sich nur zur Paarung getroffen haben. Bei vielen *Ceratopsias* vermutet man, dass das Schild zur Verteidigung gedient hat, aber bei den **Pentaceratopsier** war das Nacken Schild zu dünn um zur Verteidigung gedient zu haben. Auch die Wangenhörne und die Schildrandhörner waren unpraktisch für Kämpfe.
 

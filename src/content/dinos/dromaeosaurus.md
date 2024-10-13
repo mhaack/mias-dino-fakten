@@ -6,7 +6,7 @@ published: 2022-01-08
 dotm:
   - month: 2022-11-01
   - month: 2022-02-01
-image: /src/assets/images/dromaeosaurus.png
+image: ../../assets/images/dromaeosaurus.png
 tags:
   - Karnivore 🥩
   - Kreide 🦴
@@ -25,7 +25,7 @@ family: Dromaeosauridae
 ---
 Der **Dromaeosaurus** hat wahrscheinlich in Waldländern und Ebenen seine Beute gejagt, vermutlich hat er sich wie eine Katze angeschlichen. Er war ungefähr so groß wie der **Velociraptor**, konnte aber vermutlich stärker zubeißen.  
 
-![Dromaeosaurusskelett](/src/assets/images/dromaeosaurus-skelett.jpg)
+![Dromaeosaurusskelett](../../assets/images/dromaeosaurus-skelett.jpg)
 
 Es wurde nur ein Teil des Schädels einige Knochen gefunden. Das Skelett wurde nach dem Vorbild verwandter **Dromaeosaurier** rekonstruiert.  
 

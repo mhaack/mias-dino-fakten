@@ -5,7 +5,7 @@ meaning: " breite Echse"
 published: 2022-01-17
 dotm:
   - month: 2023-05-01
-image: /src/assets/images/plateosaurus.jpg
+image: ../../assets/images/plateosaurus.jpg
 tags:
   - Herbivore 🌿
   - Trias 🦴
@@ -25,7 +25,7 @@ family: Plateosauridae
 ---
 Der **Plateosaurus** gehört zu der Gruppe der Plateosauridae. Er ist einer der Größten seiner Art. Die Besonderheit des **Plateosaurus** war, dass er auf seinen Hinterbeinen lief und nicht wie die meisten Dinosaurier auf allen Vieren. Er konnte wie ein Känguru auf seinen Hinterbeinen stehen, um an Bäume zu kommen, falls es keine Blätter an niedrigeren Pflanzen gab.
 
-![Plateosaurusskelett](/src/assets/images/pl.png)
+![Plateosaurusskelett](../../assets/images/pl.png)
 
 Quellen:
 

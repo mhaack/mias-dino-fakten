@@ -11,7 +11,7 @@ dotm:
   - month: 2023-04-01
   - month: 2023-03-01
   - month: 2022-07-01
-image: /src/assets/images/maiasaura.jpg
+image: ../../assets/images/maiasaura.jpg
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -28,7 +28,7 @@ family: Hadrosauridae
 ---
 Der **Maiasaura** war ein Herdentier wie viele andere Hadrosaurier. Er zog nicht nur mit einer Herde, sondern brütete auch mit seinen Artgenossen zusammen. Die **Maiasaura** Mütter legten 30-40 Eier in ihre Lehmnester, die wie kleine Vulkane mit großem Krater aussahen.
 
-![Maiasaura mit Nest](/src/assets/images/maiasaura-nest.jpg)
+![Maiasaura mit Nest](../../assets/images/maiasaura-nest.jpg)
 
 In Montana wurden ungefähr 200 Skelette vom Ei bis zum erwachsenen **Maiasaura** entdeckt. Es war eine riesige Nistfläche.
 
@@ -36,7 +36,7 @@ Der **Maiasaura** hatte einen Entenschnabel, der mit bis zu 2000 Zähnen versehe
 
 Der **Maiasaura** war der erste Dinosaurier im Weltall. Seine Knochen wurden 1985 von Loren Acton bei der Spacelab2-Mission mit ins All genommen.
 
-![Loren Acton](/src/assets/images/lorenacton.jpg)
+![Loren Acton](../../assets/images/lorenacton.jpg)
 
 Quellen:
 

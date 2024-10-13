@@ -5,7 +5,7 @@ meaning: Eierdieb
 published: 2022-08-21
 dotm:
   - month: 2024-04-01
-image: /src/assets/images/oviraptor.png
+image: ../../assets/images/oviraptor.png
 tags:
   - Karnivore 🥩
   - Kreide 🦴
@@ -25,7 +25,7 @@ Der **Oviraptor** war wie viel andere *Oviraptoren* ein vogelähnlicher Theropod
 
 Der **Oviraptor** wurde 1923 von Georg Olsen in der berühmten Fossillagerstätte Bajandsag gefunden. Vom **Oviraptor** sind bis jetzt nur ein teilweise erhaltenes Skelett und ein unvollständiger, deformierter Schädel bekannt.
 
-![Oviraptor Skelett](/src/assets/images/oviraptor-skelett.jpg)
+![Oviraptor Skelett](../../assets/images/oviraptor-skelett.jpg)
 
  Der **Oviraptor** wurde neben einem Nest mit 15 Eiern entdeckt. Deshalb vermuteten die Paläontologen das der **Oviraptor** die Eier fressen wollte. Deshalb bekam er den Namen „*Oviraptor*“, das so viel wie „*Eierdieb*“ bedeutet. Diese These war jedoch falsch. Später fand man heraus das es sich um ein Elterntier handelte, das sich um seine Eier kümmerte als es starb. Man vermutet das **Oviraptoren**, wie Seevögel in Kolonien gebrütet haben, da man noch weitere Nester nah bei einander gefunden hat.
 

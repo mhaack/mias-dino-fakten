@@ -5,7 +5,7 @@ meaning: Leguanzahn
 published: 2022-01-26
 dotm:
   - month: 2022-08-01
-image: /src/assets/images/iguanodon.png
+image: ../../assets/images/iguanodon.png
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -31,23 +31,23 @@ family: Ornithopoda
 ---
 Der **Iguanodon** war ein Pflanzenfresser und vertilgte ca. 100kg Pflanzen am Tag.
 
-![Iguanodon](/src/assets/images/image1.jpeg)
+![Iguanodon](../../assets/images/image1.jpeg)
 
 Man vermutet das er in großen Herden, durch die Wälder zog. Ein Beweis dafür wurde  1878 in Belgien in einer Kohlegrube, die über 300 Meter tief war, geliefert. Es wurden dort 38 individuelle Skelette entdeckt. Louis Dollo hat einige Skelette beschrieben und  konstruiert.
 
-![Louis Dollo](/src/assets/images/louis-dollo.png)
+![Louis Dollo](../../assets/images/louis-dollo.png)
 
 Bei dem ersten Iguanodon-Fund wurde eine Zeichnung angefertigt, wie der **Iguanodon** in der Erde lag.
 
-![Iguanodon-Fund Skizze](/src/assets/images/iguandon-fund.jpeg)
+![Iguanodon-Fund Skizze](../../assets/images/iguandon-fund.jpeg)
 
 Als das Skelett fast fertig konstruiert war dachte man das der Daumenknochen auf die Nase gehört, wie bei einem Nashorn. Später dachte man das es ein Zahn sei und somit in sein Maul gehört.
 
-![Iguanodon Skizze](/src/assets/images/iguanodon-skizze.jpeg)
+![Iguanodon Skizze](../../assets/images/iguanodon-skizze.jpeg)
 
 Als man Herausfand dass das Horn auf der Nase und der spätere Zahn an die Hand gehörte, fand man noch heraus das er nicht immer auf allen Vieren lief. Um an Bäume heran zu kommen und um schnell zu rennen, zum Beispiel auf der Flucht eines Raubsauriers, stellte sich der **Iguanodon** auf seine Hinterbeine.
 
-![Iguanodonskelett](/src/assets/images/iguanodon-skelett.jpeg)
+![Iguanodonskelett](../../assets/images/iguanodon-skelett.jpeg)
 
 Quellen:
 
