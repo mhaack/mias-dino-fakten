@@ -7,20 +7,23 @@ dotm:
   - month: 2022-10-01
   - month: 2022-01-01
 image: /src/assets/images/brachiosuarus.png
+category: Dinos
 tags:
   - Herbivore 🌿
   - Jura 🦴
-category: Dinos
-location: Nordamerika
-finder: Elmer S. Riggs
-size: 28m
-family: Sauropoda
 food: Herbivore
+location: Nordamerika
 locations:
   - CAN
   - USA
+finder: Elmer S. Riggs
 weight: 35.000kg
+size: 28m
 years: "155-140 "
+family: Sauropoda
+sources:
+  - https://www.deviantart.com/
+  - https://flickr.com/photos/currybet/35591652
 group: Brachiosauridae
 ---
 Der Name **Brachiosaurus** bedeutet "Armechse" und setzt sich aus den lateinischen Wörtern "bracchium" für Arm und "saurus" für "Echse" zusammen.
