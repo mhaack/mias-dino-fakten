@@ -3,7 +3,7 @@ backend:
   branch: main
 publish_mode: editorial_workflow
 media_folder: "src/assets/images"
-public_folder: "src/assets/images"
+public_folder: "../../assets/images"
 locale: de
 
 collections:
