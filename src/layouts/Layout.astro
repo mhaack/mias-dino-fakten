@@ -131,7 +131,7 @@ const siteLang = lang.replace('_', '-')
 		<GlobalStyles>
 		{siteConfig.banner.enable && <div id="banner-wrapper" class="absolute -top-[30vh] w-full transition duration-700 overflow-hidden">
 			<ImageWrapper id="banner" alt="Banner image of the blog" class="h-full transition duration-700 opacity-0 scale-105"
-						  src={siteConfig.banner.src} position="none">
+						  src={siteConfig.banner.src} position="none" loading='eager'>
 			</ImageWrapper>
 		</div>}
 		<slot />
