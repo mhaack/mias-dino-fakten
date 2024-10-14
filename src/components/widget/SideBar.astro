@@ -8,7 +8,7 @@ const className = Astro.props.class
 
 const isHomePage = pathsEqual(Astro.url.pathname, url('/'))
 ---
-<div id="sidebar" class:list={[className, "w-full"]}>
+<div id="sidebar" class:list={[className, "w-full"]} data-pagefind-ignore>
   {!isHomePage &&<div class="flex flex-col w-full gap-4 mb-4">
     <Profile></Profile>
   </div>}

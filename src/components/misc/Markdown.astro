@@ -1,13 +1,16 @@
 ---
-import '@fontsource-variable/jetbrains-mono'
-import '@fontsource-variable/jetbrains-mono/wght-italic.css'
-
 interface Props {
   class: string
+  index?: boolean
 }
 const className = Astro.props.class
+const { index = true } = Astro.props
+const dynamicIndexAttributes = {
+  'data-pagefind-body': index,
+  'data-pagefind-ignore': !index,
+}
 ---
-<div data-pagefind-body class=`prose dark:prose-invert prose-base max-w-none custom-md ${className}`>
+<div {...dynamicIndexAttributes} class=`prose dark:prose-invert prose-base max-w-none custom-md ${className}`>
   <slot/>
 </div>
 
