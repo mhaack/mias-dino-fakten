@@ -100,8 +100,12 @@ const jsonLd = {
 
     {entry.data.sources?.length > 0 &&
     <div class="card-base mb-4 px-6 md:px-9 pt-6 pb-4 relative w-full">
-      <p class="mb-2">{i18n(I18nKey.sources)}</p>
-      <ul class="list-disc text-[var(--primary)] ml-8">
+
+<p class="font-bold text-lg text-neutral-900 dark:text-neutral-100 relative mb-2
+        before:w-1 before:h-4 before:rounded-md before:bg-[var(--primary)]
+        before:absolute before:left-[-16px] before:top-[5.5px]">
+      {i18n(I18nKey.sources)}</p>
+      <ul class="list-disc text-[var(--primary)] ml-4">
         {entry.data.sources.map((source) => <li class="mb-1"><a href={source} target="_blank" class="link font-medium">{source}</a></li>)}
       </ul>
     </div>}
@@ -111,7 +115,7 @@ const jsonLd = {
            class:list={["w-full font-bold overflow-hidden active:scale-95", {"pointer-events-none": !entry.data.nextSlug}]}>
             {entry.data.nextSlug && <div class="btn-card rounded-2xl w-full h-[3.75rem] max-w-full px-4 flex items-center justify-start gap-4" >
                 <Icon name="material-symbols:chevron-left-rounded" class="text-[2rem] text-[var(--primary)]" />
-                <div class="overflow-hidden transition overflow-ellipsis whitespace-nowrap max-w-[calc(100%_-_3rem)] text-black/75 dark:text-white/75">
+                <div class="overflow-hidden overflow-ellipsis whitespace-nowrap max-w-[calc(100%_-_3rem)] text-black/75 dark:text-white/75">
                     {entry.data.nextTitle}
                 </div>
             </div>}
@@ -120,7 +124,7 @@ const jsonLd = {
         <a href={entry.data.prevSlug ? getPostUrlBySlug(entry.data.prevSlug) : "#"}
            class:list={["w-full font-bold overflow-hidden active:scale-95", {"pointer-events-none": !entry.data.prevSlug}]}>
             {entry.data.prevSlug && <div class="btn-card rounded-2xl w-full h-[3.75rem] max-w-full px-4 flex items-center justify-end gap-4">
-                <div class="overflow-hidden transition overflow-ellipsis whitespace-nowrap max-w-[calc(100%_-_3rem)] text-black/75 dark:text-white/75">
+                <div class="overflow-hidden overflow-ellipsis whitespace-nowrap max-w-[calc(100%_-_3rem)] text-black/75 dark:text-white/75">
                     {entry.data.prevTitle}
                 </div>
                 <Icon name="material-symbols:chevron-right-rounded" class="text-[2rem] text-[var(--primary)]" />

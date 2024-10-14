@@ -46,5 +46,5 @@ export const en: Translation = {
   [Key.allDinos]: 'All Dinos',
   [Key.dinosNew]: 'New Dinos',
   [Key.month]: 'Month',
-  [Key.sources]: 'Sources:',
+  [Key.sources]: 'Sources',
 }
