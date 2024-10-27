@@ -44,6 +44,8 @@ enum I18nKey {
   allDinos = 'allDinos',
   month = 'month',
   sources = 'sources',
+  notFoundHeading = 'notFoundHeading',
+  notFoundDescription = 'notFoundDescription',
 }
 
 export default I18nKey

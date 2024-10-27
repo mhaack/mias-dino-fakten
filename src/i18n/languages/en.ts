@@ -47,4 +47,7 @@ export const en: Translation = {
   [Key.dinosNew]: 'New Dinos',
   [Key.month]: 'Month',
   [Key.sources]: 'Sources',
+  [Key.notFoundHeading]: 'Dino no found',
+  [Key.notFoundDescription]:
+    'The dinosaur you are looking for was not found, sorry.',
 }

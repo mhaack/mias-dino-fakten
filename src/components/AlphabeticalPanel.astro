@@ -74,7 +74,6 @@ function formatTag(tag: string[]) {
                     aria-label={post.data.title}
                     class="group btn-plain block h-10 w-full rounded-lg hover:text-[initial]">
                     <div class="flex flex-row justify-start items-center h-full">
-                        <!-- dot and line -->
                         <div class="w-1/6 md:w-1/12 relative dash-line h-full flex items-center">
                             <div class="transition-all mx-auto w-1 h-1 rounded group-hover:h-5
                             bg-[oklch(0.5_0.05_var(--hue))] group-hover:bg-[var(--primary)]
@@ -83,13 +82,11 @@ function formatTag(tag: string[]) {
                             group-hover:outline-[var(--btn-plain-bg-hover)]
                             group-active:outline-[var(--btn-plain-bg-active)]"></div>
                         </div>
-                        <!-- post title -->
                         <div class="w-4/6 md:max-w-7/12 md:w-7/12 text-left font-bold
                             group-hover:translate-x-1 transition-all group-hover:text-[var(--primary)]
                             text-75 pr-8 whitespace-nowrap overflow-ellipsis overflow-hidden">
                             {post.data.title}
                         </div>
-                        <!-- tag list -->
                         <div class="hidden md:block md:w-4/12 text-left text-sm transition
                         whitespace-nowrap overflow-ellipsis overflow-hidden
                         text-30"

@@ -57,7 +57,6 @@ function hidePanel() {
 }
 </script>
 
-<!-- z-50 make the panel higher than other float panels -->
 <div class="relative z-50" role="menu" tabindex="-1" on:mouseleave={hidePanel}>
     <button aria-label="Light/Dark Mode" role="menuitem" class="relative btn-plain scale-animation rounded-lg h-11 w-11 active:scale-90" id="scheme-switch" on:click={toggleScheme} on:mouseenter={showPanel}>
         <div class="absolute" class:opacity-0={mode !== LIGHT_MODE}>

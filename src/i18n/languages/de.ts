@@ -47,4 +47,7 @@ export const de: Translation = {
   [Key.dinosNew]: 'Neueste Dinosaurier',
   [Key.month]: 'Monat',
   [Key.sources]: 'Quellen',
+  [Key.notFoundHeading]: 'Dino nicht gefunden',
+  [Key.notFoundDescription]:
+    'Den Dinosaurier den Du suchst gibt es hier leider nicht, sorry.',
 }
