@@ -3,7 +3,7 @@ import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
   title: `Mia's Dino-Fakten`,
-  subtitle: `Mia's Dino-Fakten`,
+  subtitle: `Mein kleines Dinosaurier-Lexikon mit allen Infos die Du schon immer über Dino's wissen wolltest.`,
   lang: "de",
   themeColor: {
     hue: 75
