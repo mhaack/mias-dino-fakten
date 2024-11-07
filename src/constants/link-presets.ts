@@ -19,4 +19,8 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
     name: i18n(I18nKey.dinoOfTheMonth),
     url: '/dino-des-monats/',
   },
+  [LinkPreset.DinoMap]: {
+    name: i18n(I18nKey.dinoMap),
+    url: '/karte/',
+  },
 }

@@ -34,18 +34,20 @@ enum I18nKey {
   license = 'license',
 
   // custom for dino page
+  allDinos = 'allDinos',
+  dinoCount = 'dinoCount',
   dinoFacts = 'dinoFacts',
+  dinoMap = 'dinoMap',
+  dinoMapHeading = 'dinoMapHeading',
   dinoOfTheMonth = 'dinoOfTheMonth',
   dinoOfTheMonthDesc = 'dinoOfTheMonthDesc',
-  dinoCount = 'dinoCount',
   dinosCount = 'dinosCount',
   dinosNew = 'dinosNew',
   dinoTags = 'dinoTags',
-  allDinos = 'allDinos',
   month = 'month',
-  sources = 'sources',
-  notFoundHeading = 'notFoundHeading',
   notFoundDescription = 'notFoundDescription',
+  notFoundHeading = 'notFoundHeading',
+  sources = 'sources',
 }
 
 export default I18nKey

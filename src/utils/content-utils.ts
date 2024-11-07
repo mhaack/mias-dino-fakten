@@ -60,7 +60,7 @@ export async function getAlphabeticalPosts(): Promise<
 export async function getDinosOfTheMonth(): Promise<
   { month: Date; data: BlogPostData; slug: string; id: string }[]
 > {
-  const allBlogPosts = (await getCollection('dinos', ({ data }) => {
+  const allDinos = (await getCollection('dinos', ({ data }) => {
     return import.meta.env.PROD ? data.draft !== true : true
   })) as unknown as {
     body: string
@@ -70,7 +70,7 @@ export async function getDinosOfTheMonth(): Promise<
   }[]
 
   const dinosOfTheMonth = new Array()
-  for (const post of allBlogPosts) {
+  for (const post of allDinos) {
     for (const date of post.data.dotm) {
       dinosOfTheMonth.push({
         month: date.month,
@@ -151,4 +151,34 @@ export async function getCategoryList(): Promise<Category[]> {
     ret.push({ name: c, slug: c.toLowerCase(), count: count[c] })
   }
   return ret
+}
+
+export type DinoCountry = {
+  iso: string
+  dinos: {
+    name: string
+    slug: string
+  }[]
+}
+
+export async function getDinoCountryList(): Promise<Map<string, DinoCountry>> {
+  const allDinos = await getCollection<'dinos'>('dinos', ({ data }) => {
+    return import.meta.env.PROD ? data.draft !== true : true
+  })
+
+  const countryMap = new Map()
+
+  for (const dino of allDinos) {
+    const countries = dino.data.locations
+
+    for (const iso of countries) {
+      let country = countryMap.get(iso)
+      if (!country) {
+        country = { dinos: [] }
+      }
+      country.dinos.push({ name: dino.data.title, slug: dino.slug })
+      countryMap.set(iso, country)
+    }
+  }
+  return countryMap
 }
