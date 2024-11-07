@@ -21,6 +21,6 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
   },
   [LinkPreset.DinoMap]: {
     name: i18n(I18nKey.dinoMap),
-    url: '/karte/',
+    url: '/map/',
   },
 }
