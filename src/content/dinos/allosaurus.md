@@ -16,6 +16,8 @@ location: USA, Portugal, Tansania, Australien
 locations:
   - USA
   - PRT
+  - TZA
+  - AUS
 finder: Othniel Charles Marsh
 weight: 1.400-2.000kg
 size: 9-12m

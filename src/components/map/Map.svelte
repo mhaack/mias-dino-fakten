@@ -7,9 +7,11 @@ import {
   MapLibre,
   MarkerLayer,
   hoverStateFilter,
+  DefaultMarker,
+  Popup
 } from 'svelte-maplibre'
 
-const fillColor = '#006600'
+const fillColor = '#e1a035'
 const fillColor2 = '#330033'
 
 let mapData = {}
@@ -97,15 +99,21 @@ onMount(async () => {
       manageHoverState
     />
 
-
-   
-
-    <!-- <MarkerLayer  let:feature {filter}>
-        <div class="rounded-full bg-gray-200 p-2 shadow">
-          <div class="text-sm font-bold">{feature.properties.dinoFindCount}</div>
-        </div>
-    
-      </MarkerLayer> -->
+    <MarkerLayer
+      applyToClusters={false}
+      asButton
+      let:feature>
+      <img src="/icons/dinosaurier.svg" alt="Dino" width="32" height="32"> 
+      <Popup  closeOnClickInside>
+        {@const props = feature.properties}
+        <p>
+          <strong>{props.name}</strong>
+        </p>
+        <p>
+          Funde {props.dinoFindCount}
+        </p>
+      </Popup>
+    </MarkerLayer>
   </GeoJSON>
 </MapLibre>
 
