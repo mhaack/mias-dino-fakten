@@ -1,6 +1,4 @@
 <script lang="ts">
-  import I18nKey from '@i18n/i18nKey';
-  import { i18n } from '@i18n/translation';
   
 import { onMount } from 'svelte'
 import {
@@ -9,11 +7,14 @@ import {
   MapLibre,
   MarkerLayer,
   hoverStateFilter,
+  NavigationControl,
   Popup
 } from 'svelte-maplibre'
 
-const fillColor = '#e1a035'
-const fillColor2 = '#330033'
+import type { Feature } from 'svelte-maplibre'
+
+const fillColor = '#f2d6a8'
+const fillColor2 = '#e1a035'
 const center = { lon: 10.393661554752802, lat: 51.1065921857343 }
 
 const icons = [
@@ -37,6 +38,10 @@ function getRandomIcon() {
     const randomIndex = Math.floor(Math.random() * icons.length);
     return icons[randomIndex];
 }
+
+function getMarkerPos(feature: Feature) {
+  return JSON.parse(feature.properties.geo_point_2d)
+}
 </script>
 
 <p class="font-bold transition text-lg text-center text-neutral-900 dark:text-neutral-100 relative mb-2">
@@ -50,15 +55,16 @@ function getRandomIcon() {
       {/each}
     </ol>
   {:else}
-    Wähle ein Land aus.
+    <p>&nbsp;</p>
   {/if}
 </p>
 <MapLibre
   center={center}
   zoom={2}
+  minZoom={1}
   class="map"
-  standardControls
   style="https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json">
+  <NavigationControl position="top-left" showCompass={false}/>
   <GeoJSON
     id="countries"
     data={mapData}
@@ -74,8 +80,10 @@ function getRandomIcon() {
     />
     <MarkerLayer
       asButton
+      markerLngLat={getMarkerPos}
       on:click={(e) => (clickedCountry = e.detail.feature?.properties)}
-      let:feature>
+      let:feature
+      >
       <img src={getRandomIcon()} alt="Dino" width="32" height="32"> 
       <Popup openOn="hover" offset={[0, -10]}>
         {@const props = feature.properties}
