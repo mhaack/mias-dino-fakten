@@ -22,6 +22,7 @@ const dinoCollection = defineCollection({
     years: z.string().optional().default(''),
     family: z.string().optional().default(''),
     location: z.string().optional().default(''),
+    locations: z.array(z.string()).optional().default([]),
     finder: z.string().optional().default(''),
     food: z.string().optional().default(''),
     weight: z.string().optional().default(''),

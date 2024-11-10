@@ -40,6 +40,8 @@ export const en: Translation = {
   [Key.dinoFacts]: 'Facts',
   [Key.dinoOfTheMonth]: 'Dino of the Month',
   [Key.dinoOfTheMonthDesc]: 'You favorit of ',
+  [Key.dinoMap]: 'Map',
+  [Key.dinoMapHeading]: 'Dino finding location',
   [Key.dinoCount]: 'Dino',
   [Key.dinosCount]: 'Dinos',
   [Key.dinoTags]: 'Alle dino tags',

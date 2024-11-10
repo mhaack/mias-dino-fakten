@@ -35,6 +35,7 @@ export enum LinkPreset {
   AllDinos = 1,
   About = 2,
   DinoOfTheMonth = 3,
+  DinoMap = 4,
 }
 
 export type NavBarLink = {
@@ -81,6 +82,7 @@ export type BlogPostData = {
   years: string
   family: string
   location: string
+  locations: string[]
   finder: string
   food: string
   weight: string
