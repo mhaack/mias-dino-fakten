@@ -59,7 +59,7 @@ const imageClass = `w-full h-full ${imageClassName}`
 const imageStyle = position !== 'none' ? `object-position: ${position}` : ''
 ---
 <div id={id} class:list={[className, 'overflow-hidden relative']}>
-    {isLocal && img && <Image src={img} alt={alt || ""} class={imageClass} style={imageStyle} loading={loading}/>}
+    {isLocal && img && <Image src={img} alt={alt || ""} widths={[240, 540, 720, img.width]} sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${img.width}px`} class={imageClass} style={imageStyle} loading={loading}/>}
     {!isLocal && <img src={isPublic ? url(src) : src} alt={alt || ""} class={imageClass} style={imageStyle}/>}
 </div>
 
