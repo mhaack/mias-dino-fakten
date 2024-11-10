@@ -15,7 +15,7 @@ for (const country of countries.features) {
   const finds = dinoCountryList.get(isoCode)
   if (finds) {
     country.properties.dinoFind = true
-    country.properties.dinoFinds = finds
+    country.properties.dinoFinds = finds.dinos
     country.properties.dinoFindCount = finds.dinos.length
     mapData.features.push(country)
   }
