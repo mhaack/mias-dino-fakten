@@ -44,13 +44,15 @@ function getMarkerPos(feature: Feature) {
 }
 </script>
 
-<p class="font-bold transition text-lg text-center text-neutral-900 dark:text-neutral-100 relative mb-2">
+<p class="transition text-lg text-center text-neutral-900 dark:text-neutral-100 relative mb-2">
   {#if clickedCountry?.name}
-    In {clickedCountry?.name} gefunden:
-    <ol class="flex flex-wrap items-center justify-center text-[var(--primary)]">
+    In <span class="font-bold">{clickedCountry?.name}</span> gefunden:
+    <ol class="flex flex-wrap items-center justify-center text-[var(--primary)] mt-2">
       {#each JSON.parse(clickedCountry.dinoFinds) as dinoFind}
       <li class="mx-1 my-1">
-        <a href={`/dinos/${dinoFind.slug}`}>{dinoFind.name}</a>
+        <a href={`/dinos/${dinoFind.slug}`} class="btn-regular h-8 text-sm px-3 rounded-lg">
+          {dinoFind.name}
+        </a>
       </li>
       {/each}
     </ol>
@@ -85,7 +87,7 @@ function getMarkerPos(feature: Feature) {
       let:feature
       >
       <img src={getRandomIcon()} alt="Dino" width="32" height="32"> 
-      <Popup openOn="hover" offset={[0, -10]}>
+      <!-- <Popup openOn="hover" offset={[0, -10]}>
         {@const props = feature.properties}
         <p>
           <strong>{props?.name}</strong>
@@ -93,7 +95,7 @@ function getMarkerPos(feature: Feature) {
         <p>
           Funde {props?.dinoFindCount}
         </p>
-      </Popup>
+      </Popup> -->
     </MarkerLayer>
   </GeoJSON>
 </MapLibre>
