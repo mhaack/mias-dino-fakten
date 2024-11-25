@@ -7,8 +7,7 @@ import {
   MapLibre,
   MarkerLayer,
   hoverStateFilter,
-  NavigationControl,
-  Popup
+  NavigationControl
 } from 'svelte-maplibre'
 
 import type { Feature } from 'svelte-maplibre'
@@ -62,7 +61,7 @@ function getMarkerPos(feature: Feature) {
 </p>
 <MapLibre
   center={center}
-  zoom={2}
+  zoom={1}
   minZoom={1}
   class="map"
   style="https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json">
@@ -86,16 +85,7 @@ function getMarkerPos(feature: Feature) {
       on:click={(e) => (clickedCountry = e.detail.feature?.properties)}
       let:feature
       >
-      <img src={getRandomIcon()} alt="Dino" width="32" height="32"> 
-      <!-- <Popup openOn="hover" offset={[0, -10]}>
-        {@const props = feature.properties}
-        <p>
-          <strong>{props?.name}</strong>
-        </p>
-        <p>
-          Funde {props?.dinoFindCount}
-        </p>
-      </Popup> -->
+      <img src={getRandomIcon()} alt="Dino" width="32" height="32">
     </MarkerLayer>
   </GeoJSON>
 </MapLibre>
