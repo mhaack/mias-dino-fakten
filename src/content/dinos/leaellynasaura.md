@@ -3,7 +3,10 @@ title: Leaellynasaura
 namesuffix: amicagraphica
 meaning: Leaellyns Echse
 published: 2023-04-20
+dotm:
+  - month: 2024-12-01
 image: ../../assets/images/leaellynasaura_1.jpg
+category: Dinos
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -13,7 +16,6 @@ locations:
   - AUS
 finder: Ehepaar Thomas H. Rich und Patricia Vickers-Rich
 weight: 3-10kg
-category: Dinos
 size: 60-200cm
 years: 113-105
 family: Hypsilophodontidae
