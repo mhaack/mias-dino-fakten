@@ -1,0 +1,60 @@
+---
+import path from 'node:path'
+import { Icon } from 'astro-icon/components'
+import I18nKey from '../../i18n/i18nKey'
+import { i18n } from '../../i18n/translation'
+import { getDinosOfTheMonth } from '../../utils/content-utils'
+import { formatDateToMMMYYYY } from '../../utils/date-utils'
+import { getDir, getPostUrlBySlug } from '../../utils/url-utils'
+import ImageWrapper from '../misc/ImageWrapper.astro'
+import WidgetLayout from './WidgetLayout.astro'
+
+interface Props {
+  class?: string
+  style?: string
+}
+
+const className = Astro.props.class
+const style = Astro.props.style
+
+const posts = await getDinosOfTheMonth()
+const dinoOfTheMonth = posts.slice(0, 1)[0]
+const hasImage =
+  dinoOfTheMonth.data.image !== undefined &&
+  dinoOfTheMonth.data.image !== null &&
+  dinoOfTheMonth.data.image !== ''
+---
+
+<WidgetLayout
+  name={i18n(I18nKey.dinoOfTheMonth)}
+  id="dotm"
+  class={className}
+  style={style}
+>
+  <div class="flex flex-col items-center gap-2">
+    <a href={getPostUrlBySlug(dinoOfTheMonth.slug)}>
+      {
+        hasImage ? (
+          <div class="group w-full aspect-video relative overflow-hidden rounded-lg">
+            <div class="absolute pointer-events-none z-10 w-full h-full rounded-lg group-hover:bg-black/30 group-active:bg-black/50 transition" />
+            <ImageWrapper
+              src={dinoOfTheMonth.data.image}
+              basePath={path.join("content/dinos/", getDir(dinoOfTheMonth.id))}
+              alt={dinoOfTheMonth.data.title}
+              class="w-full h-full object-cover"
+            />
+          </div>
+        ) : (
+          <Icon name="stegosaurus" class="w-12 h-12" />
+        )
+      }
+      <p class="text-center font-medium hover:text-[var(--primary)] transition group">
+        {dinoOfTheMonth.data.title}
+        {dinoOfTheMonth.data.namesuffix}
+      </p>
+    </a>
+    <span class="text-sm text-neutral-600 dark:text-neutral-400">
+      {formatDateToMMMYYYY(dinoOfTheMonth.month)}
+    </span>
+  </div>
+</WidgetLayout>
