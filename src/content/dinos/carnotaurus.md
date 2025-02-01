@@ -4,12 +4,13 @@ namesuffix: sastrei
 meaning: Fleischfressender Stier
 published: 2022-01-07
 dotm:
+  - month: 2025-02-01
   - month: 2022-12-01
 image: ../../assets/images/carnotaurus.png
+category: Dinos
 tags:
   - Karnivore 🥩
   - Kreide 🦴
-category: Dinos
 food: Karnivore
 location: Chubut, Argentinien
 locations:
