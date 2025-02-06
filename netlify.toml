@@ -38,8 +38,32 @@
   status = 200
   force = true
 
+# [[redirects]]
+#   from = "/api/event"
+#   to = "https://plausible.io/api/event"
+#   status = 200
+#   force = true
+
+[[redirects]]
+  from = "/js/pa.js"
+  to = "https://api.pirsch.io/pa.js"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/hit"
+  to = "https://api.pirsch.io/api/v1/hit"
+  status = 200
+  force = true
+
 [[redirects]]
   from = "/api/event"
-  to = "https://plausible.io/api/event"
+  to = "https://api.pirsch.io/api/v1/event"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/session"
+  to = "https://api.pirsch.io/api/v1/session"
   status = 200
   force = true
