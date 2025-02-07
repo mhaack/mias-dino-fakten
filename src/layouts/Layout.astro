@@ -119,7 +119,8 @@ const siteLang = lang.replace('_', '-')
 		<link rel="alternate" type="application/rss+xml" title={profileConfig.name} href={`${Astro.site}rss.xml`}/>
 
 		{import.meta.env.PROD &&
-		<script defer src="/js/pa.js" id="pianjs" data-code="q8yif9vk794nb0zbhekNEz6hPkWyx6dA"></script>
+		<script defer data-domain="dino-fakten.de" src="/js/script.js"></script>
+		<script defer src="https://api.pirsch.io/pa.js" id="pianjs" data-code="q8yif9vk794nb0zbhekNEz6hPkWyx6dA"></script>
 		}
 
 		<style define:vars={{ configHue }}></style>  {/* defines global css variables. This will be applied to <html> <body> and some other elements idk why */}
