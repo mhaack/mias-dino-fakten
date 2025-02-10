@@ -62,114 +62,117 @@ const siteLang = lang.replace('_', '-')
 
 <!DOCTYPE html>
 <html lang={siteLang} class="bg-[var(--page-bg)] transition text-[14px] md:text-[16px]"
-	  data-overlayscrollbars-initialize
+      data-overlayscrollbars-initialize
 >
-	<head>
+    <head>
 
-		<title>{pageTitle}</title>
+        <title>{pageTitle}</title>
 
-		<meta charset="UTF-8" />
-		<meta name="description" content={description || pageTitle}>
-		<meta name="author" content={profileConfig.name}>
+        <meta charset="UTF-8" />
+        <meta name="description" content={description || pageTitle}>
+        <meta name="author" content={profileConfig.name}>
 
-		<meta property="og:site_name" content={siteConfig.title}>
-		<meta property="og:url" content={Astro.url}>
-		<meta property="og:title" content={pageTitle}>
-		<meta property="og:description" content={description || pageTitle}>
-		{setOGTypeArticle ? (
+        <meta property="og:site_name" content={siteConfig.title}>
+        <meta property="og:url" content={Astro.url}>
+        <meta property="og:title" content={pageTitle}>
+        <meta property="og:description" content={description || pageTitle}>
+        {setOGTypeArticle ? (
         <meta property="og:type" content="article" />
         ) : (
         <meta property="og:type" content="website" />
         )}
 
-		<meta name="twitter:card" content="summary_large_image">
-		<meta property="twitter:url" content={Astro.url}>
-		<meta name="twitter:title" content={pageTitle}>
-		<meta name="twitter:description" content={description || pageTitle}>
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content={Astro.url}>
+        <meta name="twitter:title" content={pageTitle}>
+        <meta name="twitter:description" content={description || pageTitle}>
 
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		{favicons.map(favicon => (
-			<link rel="icon"
-				  href={favicon.src.startsWith('/') ? url(favicon.src) : favicon.src}
-				  sizes={favicon.sizes}
-				  media={favicon.theme && `(prefers-color-scheme: ${favicon.theme})`}
-			/>
-		))}
-		<script is:inline define:vars={{DEFAULT_THEME: DEFAULT_THEME, LIGHT_MODE: LIGHT_MODE, DARK_MODE: DARK_MODE, AUTO_MODE: AUTO_MODE}}>
-			const theme = localStorage.getItem('theme') || DEFAULT_THEME;
-			switch (theme) {
-				case LIGHT_MODE:
-					document.documentElement.classList.remove('dark');
-					break
-				case DARK_MODE:
-					document.documentElement.classList.add('dark');
-					break
-				case AUTO_MODE:
-					if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-						document.documentElement.classList.add('dark');
-					} else {
-						document.documentElement.classList.remove('dark');
-					}
-			}
-		</script>
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        {favicons.map(favicon => (
+            <link rel="icon"
+                  href={favicon.src.startsWith('/') ? url(favicon.src) : favicon.src}
+                  sizes={favicon.sizes}
+                  media={favicon.theme && `(prefers-color-scheme: ${favicon.theme})`}
+            />
+        ))}
+        <script is:inline define:vars={{DEFAULT_THEME: DEFAULT_THEME, LIGHT_MODE: LIGHT_MODE, DARK_MODE: DARK_MODE, AUTO_MODE: AUTO_MODE}}>
+            const theme = localStorage.getItem('theme') || DEFAULT_THEME;
+            switch (theme) {
+                case LIGHT_MODE:
+                    document.documentElement.classList.remove('dark');
+                    break
+                case DARK_MODE:
+                    document.documentElement.classList.add('dark');
+                    break
+                case AUTO_MODE:
+                    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                        document.documentElement.classList.add('dark');
+                    } else {
+                        document.documentElement.classList.remove('dark');
+                    }
+            }
+        </script>
 
-		<slot name="head"></slot>
+        <slot name="head"></slot>
 
-		<link rel="alternate" type="application/rss+xml" title={profileConfig.name} href={`${Astro.site}rss.xml`}/>
+        <link rel="alternate" type="application/rss+xml" title={profileConfig.name} href={`${Astro.site}rss.xml`}/>
 
-		{import.meta.env.PROD &&
-		<script defer data-domain="dino-fakten.de" src="/js/script.js"></script>
-		<script defer src="https://api.pirsch.io/pa.js" id="pianjs" data-code="q8yif9vk794nb0zbhekNEz6hPkWyx6dA"></script>
-		}
+        {import.meta.env.PROD &&
+        <script defer data-domain="dino-fakten.de" src="/js/script.js"></script>
+        <script defer src="https://api.dino-fakten.de/pa.js" id="pianjs" data-code="q8yif9vk794nb0zbhekNEz6hPkWyx6dA"
+            data-hit-endpoint="https://api.dino-fakten.de/hit"
+            data-event-endpoint="https://api.dino-fakten.de/event"
+            data-session-endpoint="https://api.dino-fakten.de/session"></script>
+        }
 
-		<style define:vars={{ configHue }}></style>  {/* defines global css variables. This will be applied to <html> <body> and some other elements idk why */}
-	</head>
-	<body class=" min-h-screen transition " class:list={[{"is-large-banner": isLargeBanner, "enable-banner": enableBanner}]}
-		  data-overlayscrollbars-initialize>
-		<ConfigCarrier></ConfigCarrier>
-		<GlobalStyles>
-		{siteConfig.banner.enable && <div id="banner-wrapper" class="absolute -top-[30vh] w-full transition duration-700 overflow-hidden">
-			<ImageWrapper id="banner" alt="Banner image of the blog" class="h-full transition duration-700 opacity-0 scale-105"
-						  src={siteConfig.banner.src} position="none" loading='eager'>
-			</ImageWrapper>
-		</div>}
-		<slot />
-		</GlobalStyles>
-	</body>
+        <style define:vars={{ configHue }}></style>  {/* defines global css variables. This will be applied to <html> <body> and some other elements idk why */}
+    </head>
+    <body class=" min-h-screen transition " class:list={[{"is-large-banner": isLargeBanner, "enable-banner": enableBanner}]}
+          data-overlayscrollbars-initialize>
+        <ConfigCarrier></ConfigCarrier>
+        <GlobalStyles>
+        {siteConfig.banner.enable && <div id="banner-wrapper" class="absolute -top-[30vh] w-full transition duration-700 overflow-hidden">
+            <ImageWrapper id="banner" alt="Banner image of the blog" class="h-full transition duration-700 opacity-0 scale-105"
+                          src={siteConfig.banner.src} position="none" loading='eager'>
+            </ImageWrapper>
+        </div>}
+        <slot />
+        </GlobalStyles>
+    </body>
 </html>
 <style is:global>
-	:root {
-		--hue: var(--configHue);
-		--page-width: 75rem;
-	}
+    :root {
+        --hue: var(--configHue);
+        --page-width: 75rem;
+    }
 </style>
 <style is:global>
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
-	.enable-banner.is-large-banner #banner-wrapper {
-		@apply lg:h-[var(--banner-height-home)] lg:translate-y-[40vh]
-	}
-	.enable-banner #banner-wrapper {
-		@apply h-[var(--banner-height)] translate-y-[30vh]
-	}
-	.enable-banner.is-large-banner #main-grid {
-		@apply lg:translate-y-[40vh];
-	}
-	.enable-banner.is-large-banner #sidebar-sticky {
-		@apply lg:top-[calc(-40vh_+_1rem)]
-	}
-	.enable-banner #banner img {
-		@apply lg:object-[center_25%] object-[center_10%]
-	}
-	.enable-banner.is-large-banner #banner img {
-		@apply lg:object-[center_55%] object-center
-	}
-	.navbar-hidden {
-		@apply opacity-0 -translate-y-16
-	}
+    .enable-banner.is-large-banner #banner-wrapper {
+        @apply lg:h-[var(--banner-height-home)] lg:translate-y-[40vh]
+    }
+    .enable-banner #banner-wrapper {
+        @apply h-[var(--banner-height)] translate-y-[30vh]
+    }
+    .enable-banner.is-large-banner #main-grid {
+        @apply lg:translate-y-[40vh];
+    }
+    .enable-banner.is-large-banner #sidebar-sticky {
+        @apply lg:top-[calc(-40vh_+_1rem)]
+    }
+    .enable-banner #banner img {
+        @apply lg:object-[center_25%] object-[center_10%]
+    }
+    .enable-banner.is-large-banner #banner img {
+        @apply lg:object-[center_55%] object-center
+    }
+    .navbar-hidden {
+        @apply opacity-0 -translate-y-16
+    }
 }
 </style>
 <script>
@@ -180,77 +183,77 @@ import {getHue, getStoredTheme, setHue, setTheme} from "../utils/setting-utils";
 const bannerEnabled = !!document.getElementById('banner-wrapper')
 
 function setClickOutsideToClose(panel: string, ignores: string[]) {
-	document.addEventListener("click", event => {
-		let panelDom = document.getElementById(panel);
-		let tDom = event.target;
-		if (!(tDom instanceof Node)) return;		// Ensure the event target is an HTML Node
-		for (let ig of ignores) {
-			let ie = document.getElementById(ig)
-			if (ie == tDom || (ie?.contains(tDom))) {
-				return;
-			}
-		}
-		panelDom!.classList.add("float-panel-closed");
-	});
+    document.addEventListener("click", event => {
+        let panelDom = document.getElementById(panel);
+        let tDom = event.target;
+        if (!(tDom instanceof Node)) return;        // Ensure the event target is an HTML Node
+        for (let ig of ignores) {
+            let ie = document.getElementById(ig)
+            if (ie == tDom || (ie?.contains(tDom))) {
+                return;
+            }
+        }
+        panelDom!.classList.add("float-panel-closed");
+    });
 }
 setClickOutsideToClose("nav-menu-panel", ["nav-menu-panel", "nav-menu-switch"])
 setClickOutsideToClose("search-panel", ["search-panel", "search-bar", "search-switch"])
 
 
 function loadTheme() {
-	const theme = getStoredTheme()
-	setTheme(theme)
+    const theme = getStoredTheme()
+    setTheme(theme)
 }
 
 function loadHue() {
-	setHue(getHue())
+    setHue(getHue())
 }
 
 function initCustomScrollbar() {
-	const bodyElement = document.querySelector('body');
-	if (!bodyElement) return;
-	OverlayScrollbars(
-		// docs say that a initialization to the body element would affect native functionality like window.scrollTo
-		// but just leave it here for now
-		{
-			target: bodyElement,
-			cancel: {
-				nativeScrollbarsOverlaid: true,    // don't initialize the overlay scrollbar if there is a native one
-			}
-		}, {
-		scrollbars: {
-			theme: 'scrollbar-base scrollbar-auto py-1',
-			autoHide: 'move',
-			autoHideDelay: 500,
-			autoHideSuspend: false,
-		},
-	});
-	document.querySelectorAll('pre').forEach((ele) => {
-		OverlayScrollbars(ele, {
-			scrollbars: {
-				theme: 'scrollbar-base scrollbar-dark px-2',
-				autoHide: 'leave',
-				autoHideDelay: 500,
-				autoHideSuspend: false
-			}
-		});
-	});
+    const bodyElement = document.querySelector('body');
+    if (!bodyElement) return;
+    OverlayScrollbars(
+        // docs say that a initialization to the body element would affect native functionality like window.scrollTo
+        // but just leave it here for now
+        {
+            target: bodyElement,
+            cancel: {
+                nativeScrollbarsOverlaid: true,    // don't initialize the overlay scrollbar if there is a native one
+            }
+        }, {
+        scrollbars: {
+            theme: 'scrollbar-base scrollbar-auto py-1',
+            autoHide: 'move',
+            autoHideDelay: 500,
+            autoHideSuspend: false,
+        },
+    });
+    document.querySelectorAll('pre').forEach((ele) => {
+        OverlayScrollbars(ele, {
+            scrollbars: {
+                theme: 'scrollbar-base scrollbar-dark px-2',
+                autoHide: 'leave',
+                autoHideDelay: 500,
+                autoHideSuspend: false
+            }
+        });
+    });
 }
 
 function showBanner() {
-	const banner = document.getElementById('banner')
-	if (!banner) {
-		console.error('Failed to find the banner element')
-		return
-	}
-	banner.classList.remove('opacity-0', 'scale-105')
+    const banner = document.getElementById('banner')
+    if (!banner) {
+        console.error('Failed to find the banner element')
+        return
+    }
+    banner.classList.remove('opacity-0', 'scale-105')
 }
 
 function init() {
-	loadTheme();
-	loadHue();
-	initCustomScrollbar();
-	showBanner();
+    loadTheme();
+    loadHue();
+    initCustomScrollbar();
+    showBanner();
 }
 
 /* Load settings when entering the site */
@@ -262,13 +265,13 @@ document.addEventListener('astro:after-swap', init);
 
 let backToTopBtn = document.getElementById('back-to-top-btn');
 function scrollFunction() {
-	if (backToTopBtn) {
-		if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
-			backToTopBtn.classList.remove('hidden')
-		} else {
-			backToTopBtn.classList.add('hidden')
-		}
-	}
+    if (backToTopBtn) {
+        if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+            backToTopBtn.classList.remove('hidden')
+        } else {
+            backToTopBtn.classList.add('hidden')
+        }
+    }
 }
 window.onscroll = scrollFunction
 </script>
@@ -281,37 +284,37 @@ let lightbox: PhotoSwipeLightbox
 let pswp = import("photoswipe")
 
 function createPhotoSwipe() {
-	lightbox = new PhotoSwipeLightbox({
-		gallery: ".custom-md img, #post-cover img",
-		pswpModule: () => pswp,
-		closeSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z"/></svg>',
-		zoomSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M340-540h-40q-17 0-28.5-11.5T260-580q0-17 11.5-28.5T300-620h40v-40q0-17 11.5-28.5T380-700q17 0 28.5 11.5T420-660v40h40q17 0 28.5 11.5T500-580q0 17-11.5 28.5T460-540h-40v40q0 17-11.5 28.5T380-460q-17 0-28.5-11.5T340-500v-40Zm40 220q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l224 224q11 11 11 28t-11 28q-11 11-28 11t-28-11L532-372q-30 24-69 38t-83 14Zm0-80q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>',
-		padding: { top: 20, bottom: 20, left: 20, right: 20 },
-		wheelToZoom: true,
-		arrowPrev: false,
-		arrowNext: false,
-		imageClickAction: 'close',
-		tapAction: 'close',
-		doubleTapAction: 'zoom',
-	})
+    lightbox = new PhotoSwipeLightbox({
+        gallery: ".custom-md img, #post-cover img",
+        pswpModule: () => pswp,
+        closeSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z"/></svg>',
+        zoomSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M340-540h-40q-17 0-28.5-11.5T260-580q0-17 11.5-28.5T300-620h40v-40q0-17 11.5-28.5T380-700q17 0 28.5 11.5T420-660v40h40q17 0 28.5 11.5T500-580q0 17-11.5 28.5T460-540h-40v40q0 17-11.5 28.5T380-460q-17 0-28.5-11.5T340-500v-40Zm40 220q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l224 224q11 11 11 28t-11 28q-11 11-28 11t-28-11L532-372q-30 24-69 38t-83 14Zm0-80q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>',
+        padding: { top: 20, bottom: 20, left: 20, right: 20 },
+        wheelToZoom: true,
+        arrowPrev: false,
+        arrowNext: false,
+        imageClickAction: 'close',
+        tapAction: 'close',
+        doubleTapAction: 'zoom',
+    })
 
-	lightbox.addFilter("domItemData", (itemData, element) => {
-		if (element instanceof HTMLImageElement) {
-			itemData.src = element.src
-			itemData.w = Number(element.naturalWidth || window.innerWidth)
-			itemData.h = Number(element.naturalHeight || window.innerHeight)
-			itemData.msrc = element.src
-		}
-		return itemData
-	})
+    lightbox.addFilter("domItemData", (itemData, element) => {
+        if (element instanceof HTMLImageElement) {
+            itemData.src = element.src
+            itemData.w = Number(element.naturalWidth || window.innerWidth)
+            itemData.h = Number(element.naturalHeight || window.innerHeight)
+            itemData.msrc = element.src
+        }
+        return itemData
+    })
 
-	lightbox.init()
+    lightbox.init()
 }
 
 const setup = () => {
-	if (!lightbox) {
-		createPhotoSwipe()
-	}
+    if (!lightbox) {
+        createPhotoSwipe()
+    }
 }
 setup();
 </script>
