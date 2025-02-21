@@ -21,12 +21,12 @@ interface Props {
   title?: string
   banner?: string
   description?: string
-  lang?: string
   setOGTypeArticle?: boolean
   largeBanner?: boolean
+  post?: object
 }
 
-let { title, banner, description, lang, setOGTypeArticle, largeBanner } =
+let { title, banner, description, post, setOGTypeArticle, largeBanner } =
   Astro.props
 
 const isLargeBanner = largeBanner || pathsEqual(Astro.url.pathname, url('/'))
@@ -50,10 +50,17 @@ if (title) {
   pageTitle = `${siteConfig.title} - ${siteConfig.subtitle}`
 }
 
+let pageDescription: string
+pageDescription = title
+if (post?.namesuffix) {
+  pageDescription = `${title} ${post.namesuffix}`
+}
+
 const favicons: Favicon[] =
   siteConfig.favicon.length > 0 ? siteConfig.favicon : defaultFavicons
 
 // const siteLang = siteConfig.lang.replace('_', '-')
+let lang = post?.lang
 if (!lang) {
   lang = `${siteConfig.lang}`
 }
@@ -69,13 +76,13 @@ const siteLang = lang.replace('_', '-')
         <title>{pageTitle}</title>
 
         <meta charset="UTF-8" />
-        <meta name="description" content={description || pageTitle}>
+        <meta name="description" content={pageDescription || pageTitle}>
         <meta name="author" content={profileConfig.name}>
 
         <meta property="og:site_name" content={siteConfig.title}>
         <meta property="og:url" content={Astro.url}>
         <meta property="og:title" content={pageTitle}>
-        <meta property="og:description" content={description || pageTitle}>
+        <meta property="og:description" content={pageDescription || pageTitle}>
         {setOGTypeArticle ? (
         <meta property="og:type" content="article" />
         ) : (
@@ -85,7 +92,7 @@ const siteLang = lang.replace('_', '-')
         <meta name="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content={Astro.url}>
         <meta name="twitter:title" content={pageTitle}>
-        <meta name="twitter:description" content={description || pageTitle}>
+        <meta name="twitter:description" content={pageDescription || pageTitle}>
 
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
