@@ -19,7 +19,7 @@ years: 130-100
 category: Dinos
 family: Ceratopsia
 ---
-Der **Psittacosaurus** ist mit dem [Triceratops](/dinos/triceratops/)und dem [Kosmoceratops](/dinos/kosmoceratops)verwand, denn sie gehören alle zu der Ceratopsia Gruppe. Der **Psittacosaurus** hatte einen Schnabel wie ein Papagei.
+Der **Psittacosaurus** ist mit dem [Triceratops](/dinos/triceratops/) und dem [Kosmoceratops](/dinos/kosmoceratops/) verwand, denn sie gehören alle zu der Ceratopsia Gruppe. Der **Psittacosaurus** hatte einen Schnabel wie ein Papagei.
 
 ![Papagei ](../../assets/images/papagei.jpg)
 

@@ -18,7 +18,7 @@ years: 152-174
 category: Dinos
 family: Sauropoda
 ---
-Der **Supersaurus** wurde 1985 von James Alvin Jensen gefunden und erstmals beschrieben. Er hatte sehr viele Verwandte, zum Beispiel: der [Brachiosaurus](/dinos/bachiosuarus). Der **Supersaurus** stand auf vier mächtigen, säulenartigen Beinen.
+Der **Supersaurus** wurde 1985 von James Alvin Jensen gefunden und erstmals beschrieben. Er hatte sehr viele Verwandte, zum Beispiel: der [Brachiosaurus](/dinos/bachiosuarus/). Der **Supersaurus** stand auf vier mächtigen, säulenartigen Beinen.
 
 ![Säulen](../../assets/images/säulen.jpg)
 
