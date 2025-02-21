@@ -1,7 +1,7 @@
 ---
 title: Brachiosaurus
 namesuffix: altithorax
-meaning: "Armechse "
+meaning: Armechse
 published: 2021-12-18
 dotm:
   - month: 2022-10-01

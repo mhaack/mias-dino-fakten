@@ -1,7 +1,7 @@
 ---
 size: 21-26m
 family: Sauropoda
-title: "Apatosaurus "
+title: Apatosaurus
 namesuffix: ajax
 meaning: Trügerische Echse
 published: 2021-12-29

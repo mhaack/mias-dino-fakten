@@ -1,7 +1,7 @@
 ---
 title: Avimimus
 namesuffix: portentosus
-meaning: "Ungewöhnlicher Vogelnachahmer "
+meaning: "Ungewöhnlicher Vogelnachahmer"
 published: 2022-10-28
 image: ../../assets/images/avimimus.gif
 tags:
