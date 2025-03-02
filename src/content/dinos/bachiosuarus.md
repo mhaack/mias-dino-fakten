@@ -6,13 +6,13 @@ published: 2021-12-18
 dotm:
   - month: 2022-10-01
   - month: 2022-01-01
-image: ../../assets/images/brachiosuarus.png
+image: ../../assets/images/brachiosaurus__camarasaurus__by_abelov2014-d8iji62.jpg
 category: Dinos
 tags:
   - Herbivore 🌿
   - Jura 🦴
 food: Herbivore
-location: USA, Tansania
+location: USA
 locations:
   - USA
 finder: Elmer S. Riggs
