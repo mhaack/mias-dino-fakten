@@ -20,6 +20,9 @@ weight: 25.000-80.000kg
 size: 23-28m
 years: 155-145
 family: Brachiosauridae
+sources:
+  - https://www.deviantart.com/abelov2014/art/Brachiosaurus-Camarasaurus-514872506
+  - https://www.flickr.com/photos/ironammonite/8533228145
 group: Brachiosauridae
 ---
 Der **Brachiosaurus** ist neben dem T-Rex einer der bekanntesten Dinosaurier der Welt und auch einer der Größten überhaupt. 
@@ -32,23 +35,20 @@ Der **Brachiosaurus** hat einen stabileren Körperbau als der Giraffatitan. Der 
 \
 Ein Skelett des Giraffatitans ist heute das größte ausgestellte Dinosaurierskelett. 2007 gewann das Museum für Naturkunde Berlin den Guinness World Records für das 13,27m hohe Skelett. 
 
-![]()
+![Guinness World Records](../../assets/images/img_7502.jpeg)
 
 Der mächtiger, mit Schuppen besetzte **Brachiosaurus** hatte eine Schulterhöhe von 12-15m. Allein der Oberarmknochen konnte schon 2m hoch sein. Der Hals des **Brachiosaurus** war etwa 9m hoch, insgesamt konnten Brachiosaurier bis zu 28m groß werden. Der **Brachiosaurus** hat, wie einige andere Dinosaurier auch, Hohlräume in den Knochen, ganz ähnlich wie bei Vögeln. Diese Hohlräume reduzierten sein Gewicht, trotzdem wog der **Brachiosaurus** etwa so viel wie 12 Elefanten. Aufgrund seiner Größe besaß der **Brachiosaurus** wahrscheinlich sehr starkes Herz.
 
-Brachiosaurier wurden wahrscheinlich wegen ihrer Größe seltener angegriffen als andere Dinosaurier. Jedoch wird vermutet, das es Raubsaurier wie Allosaurus und Ceratosaurus auf die Jungtiere abgesehen hatten. Deshalb liefen die Jungtiere, wie auch Fußspuren beweisen, in der Mitte der Herde, umgeben von den großen Erwachsenen.
+Brachiosaurier wurden wahrscheinlich wegen ihrer Größe seltener angegriffen als andere Dinosaurier. Jedoch wird vermutet, das es Raubsaurier wie [Allosaurus](/dinos/allosaurus/) und Ceratosaurus auf die Jungtiere abgesehen hatten. Deshalb liefen die Jungtiere, wie auch Fußspuren beweisen, in der Mitte der Herde, umgeben von den großen Erwachsenen.
 
 Kräftige Dinosaurier wie Brachiosaurier mussten auch sehr viel Fressen. Ein einzelner, ausgewachsener **Brachiosaurus** musste am Tag 200-400kg Nahrung zu sich nehmen. Dabei half ihm eine breite Schnauze, die viele Blätter gleichzeitig aufnehmen konnte. Der **Brachiosaurus** hatte insgesamt 52 Zähne, 26 pro Kiefer. Da der Brachiosaurier sich nicht nur von dünnen Blättern ernährte, sondern auch Nadeln von Nadelbäumen und anderes harrtes, faseriges Pflanzenmaterial fraß, mussten seine zapfenartigen Zähne einen rauen Zahnschmelz gehabt haben. Die zapfenartigen Zähne deuten ebenfalls darauf hin, das der **Brachiosaurus** die Blätter nicht abgebissen und zerkaut hat, sondern sie von den Bäumen gerupft und hintergeschluckt hat. Durch Magensteine wurde die Nahrung im Anschluss zerkleinert. 
 
-![]()
+![Brachiosaurus Zähne](../../assets/images/oip.jpeg)
 
-![]()
+![](../../assets/images/img_7879.jpeg)
 
 Früher wurde irrtümlich vermutet, dass Brachiosaurier im Wasser lebten. Der lange Hals soll dabei aus dem Wasser herausgeragt haben.
 
 ![Brachiosaurier im Wasser](../../assets/images/8533228145_50a5f03465_b.jpg)
 
-Da die Brachiosaurier so riesig waren, gibt es viele Fragen wegen ihrem Sexualverhalten. Möglicherweise pflanzten sie sich im Wasser fort, da sie dort ihr Gleichgewicht besser halten konnten. Es gibt jedoch keine Bestätigung. Ebenfalls ist nicht bekannt, wie sie sich vor und nach dem Paarungsvorgang verhielten. \
-`Es wird vermutet, das der Brachiosaurus bis zu 100 Jahre alt werden konnte.`
-
-`starben wahrscheinlich, wenn in schlammigen teichgebieten stecken blirben🕰️`
+Da die Brachiosaurier so riesig waren, gibt es viele Fragen wegen ihrem Sexualverhalten. Möglicherweise pflanzten sie sich im Wasser fort, da sie dort ihr Gleichgewicht besser halten konnten. Es gibt jedoch keine Bestätigung. Ebenfalls ist nicht bekannt, wie sie sich vor und nach dem Paarungsvorgang verhielten.
