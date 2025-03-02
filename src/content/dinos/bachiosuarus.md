@@ -1,6 +1,6 @@
 ---
 title: Brachiosaurus
-namesuffix: brancai
+namesuffix: altithorax
 meaning: Armechse
 published: 2021-12-18
 dotm:
@@ -27,7 +27,7 @@ Der Brachiosaurus ist neben dem T-Rex einer der bekanntesten Dinosaurier der Wel
 Der erste Brachiosaurus wurde 1900 von Elmer S. Riggs in Colorado, USA, entdeckt. 9 Jahre später starte eine Expedition im Tendagurugebiet, im heutigen Tansania. Der deutsche Paläontologe Werner Janensch fand wahrend dieser Expedition ein weiteres Exemplar. Erst 2009, etwa 100 Jahre später, konnte ein britischer Paläontologe beweisen, dass der von Werner Janensch gefundene Brachiosaurus eigentlich der Art Giraffatitan brancai zugeordnet wird. Dem entsprechend sind die in den USA gefundenen Exemplare Brachiosaurier und die in Tansania gefunden wurden sind Giraffatitane. Der Name Brachiosaurus hat sich jedoch durchgesetzt, weshalb außerhalb des wissenschaftlichen Bereiches oft von einem Brachiosaurus die Rede ist, obwohl es vielleicht doch um einen Giraffatitan handelt.\
 Der Brachiosaurus hat einen stabileren Körperbau als der Giraffatitan. Der Oberkörper und der Schwanz sind ebenfalls länger als bei Giraffatitan. Giraffatitan dagegen war deutlich schlanker und weist somit eindeutige Gemeinsamkeiten mit Giraffen auf. 
 
-![]()
+![Brachiosaurus altithorax und Giraffatitan brancai im Vergleich](../../assets/images/brachiosaur_comparison_by_shartman.jpg)
 
 \
 Ein Skelett des Giraffatitans ist heute das größte ausgestellte Dinosaurierskelett. 2007 gewann das Museum für Naturkunde Berlin den Guinness World Records für das 13,27m hohe Skelett. 
@@ -44,19 +44,13 @@ Kräftige Dinosaurier wie Brachiosaurier mussten auch sehr viel Fressen. Ein ein
 
 ![]()
 
- 
-
 ![]()
 
 Früher wurde irrtümlich vermutet, dass Brachiosaurier im Wasser lebten. Der lange Hals soll dabei aus dem Wasser herausgeragt haben.
 
 ![]()
 
- \
-Es wird vermutet, das der Brachiosaurus bis zu 100 Jahre alt werden konnte.
+Da die Brachiosaurier so riesig waren, gibt es viele Fragen wegen ihrem Sexualverhalten. Möglicherweise pflanzten sie sich im Wasser fort, da sie dort ihr Gleichgewicht besser halten konnten. Es gibt jedoch keine Bestätigung. Ebenfalls ist nicht bekannt, wie sie sich vor und nach dem Paarungsvorgang verhielten. \
+`Es wird vermutet, das der Brachiosaurus bis zu 100 Jahre alt werden konnte.`
 
-* `da sehr groß viele fragen wegen sexualverhalten`
-* `keine anhnung wie verhalten vor, nach, währen paarung`
-* `möglicheweise vorpflanzung im wasser, besseres gleichgewich`t
-* starben wahrscheinlich, wenn in schlammigen teichgebieten stecken blirben🕰️
-
+`starben wahrscheinlich, wenn in schlammigen teichgebieten stecken blirben🕰️`
