@@ -48,7 +48,7 @@ Kräftige Dinosaurier wie Brachiosaurier mussten auch sehr viel Fressen. Ein ein
 
 Früher wurde irrtümlich vermutet, dass Brachiosaurier im Wasser lebten. Der lange Hals soll dabei aus dem Wasser herausgeragt haben.
 
-![]()
+![Brachiosaurier im Wasser](../../assets/images/8533228145_50a5f03465_b.jpg)
 
 Da die Brachiosaurier so riesig waren, gibt es viele Fragen wegen ihrem Sexualverhalten. Möglicherweise pflanzten sie sich im Wasser fort, da sie dort ihr Gleichgewicht besser halten konnten. Es gibt jedoch keine Bestätigung. Ebenfalls ist nicht bekannt, wie sie sich vor und nach dem Paarungsvorgang verhielten. \
 `Es wird vermutet, das der Brachiosaurus bis zu 100 Jahre alt werden konnte.`
