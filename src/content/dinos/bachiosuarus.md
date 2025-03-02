@@ -23,6 +23,10 @@ family: Brachiosauridae
 sources:
   - https://www.deviantart.com/abelov2014/art/Brachiosaurus-Camarasaurus-514872506
   - https://www.flickr.com/photos/ironammonite/8533228145
+  - https://artsandculture.google.com/asset/teeth-from-the-lower-jaw-of-brachiosaurus-giraffatitan-carola-radke-mfn/owEqUyQSazfgZw?hl=de
+  - "Mark Hallett und Mathew J. Wedel: The sauropod dinosaurs. Life in the age
+    of giants. Maryland: Jon Hopkins University Press 2016, S.131"
+  - https://www.museumfuernaturkunde.berlin/de/besuch-planen/ausstellungen/saurierwelt
 group: Brachiosauridae
 ---
 Der **Brachiosaurus** ist neben dem T-Rex einer der bekanntesten Dinosaurier der Welt und auch einer der Größten überhaupt. 
@@ -32,7 +36,8 @@ Der **Brachiosaurus** hat einen stabileren Körperbau als der Giraffatitan. Der 
 
 ![Brachiosaurus altithorax und Giraffatitan brancai im Vergleich](../../assets/images/brachiosaur_comparison_by_shartman.jpg)
 
-\
+von Scott Hartman
+
 Ein Skelett des Giraffatitans ist heute das größte ausgestellte Dinosaurierskelett. 2007 gewann das Museum für Naturkunde Berlin den Guinness World Records für das 13,27m hohe Skelett. 
 
 ![Guinness World Records](../../assets/images/img_7502.jpeg)
