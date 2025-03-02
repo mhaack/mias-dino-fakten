@@ -6,40 +6,54 @@ published: 2021-12-18
 dotm:
   - month: 2022-10-01
   - month: 2022-01-01
-image: ../../assets/images/brachiosuarus.png
+image: ../../assets/images/brachiosaurus__camarasaurus__by_abelov2014-d8iji62.jpg
+category: Dinos
 tags:
   - Herbivore 🌿
   - Jura 🦴
-category: Dinos
-location: Nordamerika
-finder: Elmer S. Riggs
-size: 28m
-family: Sauropoda
 food: Herbivore
+location: USA
 locations:
-  - CAN
   - USA
-weight: 35.000kg
-years: "155-140 "
+finder: Elmer S. Riggs
+weight: 25.000-80.000kg
+size: 23-28m
+years: 155-145
+family: Brachiosauridae
+sources:
+  - https://www.deviantart.com/abelov2014/art/Brachiosaurus-Camarasaurus-514872506
+  - https://www.flickr.com/photos/ironammonite/8533228145
+  - https://artsandculture.google.com/asset/teeth-from-the-lower-jaw-of-brachiosaurus-giraffatitan-carola-radke-mfn/owEqUyQSazfgZw?hl=de
+  - "Mark Hallett und Mathew J. Wedel: The sauropod dinosaurs. Life in the age
+    of giants. Maryland: Jon Hopkins University Press 2016, S.131"
+  - https://www.museumfuernaturkunde.berlin/de/besuch-planen/ausstellungen/saurierwelt
 group: Brachiosauridae
 ---
-Der Name **Brachiosaurus** bedeutet "Armechse" und setzt sich aus den lateinischen Wörtern "bracchium" für Arm und "saurus" für "Echse" zusammen.
+Der **Brachiosaurus** ist neben dem T-Rex einer der bekanntesten Dinosaurier der Welt und auch einer der Größten überhaupt. 
 
-Der **Brachiosaurus** hatte einen sehr langen Hals, aber doch war er etwas zu klein, um an die Spitze der großen Nadelbäume heran zukommen. Deshalb stellte er sich beim Fressen auf seine Hinterbeinen.
+Der erste **Brachiosaurus** wurde 1900 von Elmer S. Riggs in Colorado, USA, entdeckt. 9 Jahre später starte eine Expedition im Tendagurugebiet, im heutigen Tansania. Der deutsche Paläontologe Werner Janensch fand während dieser Expedition ein weiteres Exemplar. Erst 2009, etwa 100 Jahre später, konnte ein britischer Paläontologe beweisen, dass der von Werner Janensch gefundene **Brachiosaurus** eigentlich der Art *Giraffatitan brancai* zugeordnet wird. Dem entsprechend sind die in den USA gefundenen Exemplare Brachiosaurier und die in Tansania gefunden wurden sind Giraffatitane. Der Name **Brachiosaurus** hat sich jedoch durchgesetzt, weshalb außerhalb des wissenschaftlichen Bereiches oft von einem **Brachiosaurus** die Rede ist, obwohl es vielleicht doch um einen Giraffatitan handelt.\
+Der **Brachiosaurus** hat einen stabileren Körperbau als der Giraffatitan. Der Oberkörper und der Schwanz sind ebenfalls länger als bei Giraffatitan. Giraffatitan dagegen war deutlich schlanker und weist somit eindeutige Gemeinsamkeiten mit Giraffen auf. 
 
-Es ist davon auszugehen das der **Brachiosaurus** sehr starke Hinterbeine hatte. Er hatte zwar starke Hinterbeine, aber trotzdem waren sie ein bisschen kleiner als die Vorderbeine.
+![Brachiosaurus altithorax und Giraffatitan brancai im Vergleich](../../assets/images/brachiosaur_comparison_by_shartman.jpg)
 
-Am Tag verschlag ein **Brachiosaurus** ca. 200kg Blätter und Zweige. Er hatte Zähne die in Form eines Löffels waren, damit er die Pflanzen besser zermahlen konnte.
+von Scott Hartman
 
-Der **Brachiosaurus** hatte Krallen an den Hinterbeinen mit denen er wahrscheinlich Löscher für Nester grub. Darin legte er seine Eier ab.
+Ein Skelett des Giraffatitans ist heute das größte ausgestellte Dinosaurierskelett. 2007 gewann das Museum für Naturkunde Berlin den Guinness World Records für das 13,27m hohe Skelett. 
 
-![Brachiosaurusnest](../../assets/images/brachio-nest.jpg)
+![Guinness World Records](../../assets/images/img_7502.jpeg)
 
-Man hat Fußspuren gefunden, bei denen man erkennen konnte das die Abdrücke der Vorderbeine ähnlich wie bei Pferden waren und die Abdrücke der Hinterbeine waren mehr wie ein Kreis.
+Der mächtiger, mit Schuppen besetzte **Brachiosaurus** hatte eine Schulterhöhe von 12-15m. Allein der Oberarmknochen konnte schon 2m hoch sein. Der Hals des **Brachiosaurus** war etwa 9m hoch, insgesamt konnten Brachiosaurier bis zu 28m groß werden. Der **Brachiosaurus** hat, wie einige andere Dinosaurier auch, Hohlräume in den Knochen, ganz ähnlich wie bei Vögeln. Diese Hohlräume reduzierten sein Gewicht, trotzdem wog der **Brachiosaurus** etwa so viel wie 12 Elefanten. Aufgrund seiner Größe besaß der **Brachiosaurus** wahrscheinlich sehr starkes Herz.
 
-![Fußabtrücke](../../assets/images/image0.jpeg)
+Brachiosaurier wurden wahrscheinlich wegen ihrer Größe seltener angegriffen als andere Dinosaurier. Jedoch wird vermutet, das es Raubsaurier wie [Allosaurus](/dinos/allosaurus/) und Ceratosaurus auf die Jungtiere abgesehen hatten. Deshalb liefen die Jungtiere, wie auch Fußspuren beweisen, in der Mitte der Herde, umgeben von den großen Erwachsenen.
 
-Quellen:
+Kräftige Dinosaurier wie Brachiosaurier mussten auch sehr viel Fressen. Ein einzelner, ausgewachsener **Brachiosaurus** musste am Tag 200-400kg Nahrung zu sich nehmen. Dabei half ihm eine breite Schnauze, die viele Blätter gleichzeitig aufnehmen konnte. Der **Brachiosaurus** hatte insgesamt 52 Zähne, 26 pro Kiefer. Da der Brachiosaurier sich nicht nur von dünnen Blättern ernährte, sondern auch Nadeln von Nadelbäumen und anderes harrtes, faseriges Pflanzenmaterial fraß, mussten seine zapfenartigen Zähne einen rauen Zahnschmelz gehabt haben. Die zapfenartigen Zähne deuten ebenfalls darauf hin, das der **Brachiosaurus** die Blätter nicht abgebissen und zerkaut hat, sondern sie von den Bäumen gerupft und hintergeschluckt hat. Durch Magensteine wurde die Nahrung im Anschluss zerkleinert. 
 
-* <https://www.deviantart.com>
-* <https://flickr.com/photos/currybet/35591652>
+![Brachiosaurus Zähne](../../assets/images/oip.jpeg)
+
+![](../../assets/images/img_7879.jpeg)
+
+Früher wurde irrtümlich vermutet, dass Brachiosaurier im Wasser lebten. Der lange Hals soll dabei aus dem Wasser herausgeragt haben.
+
+![Brachiosaurier im Wasser](../../assets/images/8533228145_50a5f03465_b.jpg)
+
+Da die Brachiosaurier so riesig waren, gibt es viele Fragen wegen ihrem Sexualverhalten. Möglicherweise pflanzten sie sich im Wasser fort, da sie dort ihr Gleichgewicht besser halten konnten. Es gibt jedoch keine Bestätigung. Ebenfalls ist nicht bekannt, wie sie sich vor und nach dem Paarungsvorgang verhielten.
