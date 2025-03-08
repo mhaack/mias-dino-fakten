@@ -101,7 +101,13 @@ const jsonLd = {
         before:w-1 before:h-4 before:rounded-md before:bg-[var(--primary)]
         before:absolute before:left-[-16px] before:top-[5.5px]">{i18n(I18nKey.sources)}</p>
       <ul class="list-disc text-[var(--primary)] ml-6">
-        {entry.data.sources.map((source) => <li class="mb-1"><a href={source} target="_blank" class="link font-medium">{source}</a></li>)}
+        {entry.data.sources.map((source) => <li class="mb-1">
+          {source.indexOf('http') > -1  ? (
+          <a href={source} target="_blank" class="link font-medium">{source}</a>
+        ) : (
+          <span>{source}</span>
+        )}
+        </li>)}
       </ul>
     </div>}
 
