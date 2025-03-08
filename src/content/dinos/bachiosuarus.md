@@ -50,7 +50,7 @@ Kräftige Dinosaurier wie Brachiosaurier mussten auch sehr viel fressen. Ein ein
 
 ![Brachiosaurus Zähne](../../assets/images/oip.jpeg)
 
-![](../../assets/images/img_7879.jpeg)
+![Vergleich](../../assets/images/img_7879.jpeg)
 
 Früher wurde irrtümlich vermutet, dass Brachiosaurier im Wasser lebten. Der lange Hals soll dabei aus dem Wasser herausgeragt haben.
 
