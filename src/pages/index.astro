@@ -1,0 +1,46 @@
+---
+import { profileConfig } from '@/config'
+import type { BlogPostData } from '@/types/config'
+import PostCard from '@components/PostCard.astro'
+import I18nKey from '@i18n/i18nKey'
+import { i18n } from '@i18n/translation'
+import { getPostUrlBySlug } from '@utils/url-utils'
+import MainGridLayout from '../layouts/MainGridLayout.astro'
+import { getSortedPosts } from '../utils/content-utils'
+
+const config = profileConfig
+const allBlogPosts = await getSortedPosts()
+const latestPosts = allBlogPosts.slice(0, 8) // Get only the latest 8 posts
+---
+
+<MainGridLayout>
+  <div class={"card-base p-3 mb-4"}>
+    <div class="px-2 text-center">
+        <h1 class="font-bold mb-1 text-3xl md:text-[2.5rem]/[2.75rem] text-black/90 dark:text-white/90">{config.name}</h1>
+        <div class="h-1 w-10 bg-[var(--primary)] mx-auto rounded-full mb-2"></div>
+        <div class="text-neutral-500 mb-2">{config.bio}</div>
+    </div>
+  </div>
+  <div class={"card-base p-3 mb-4"}>
+    <h2 class="font-bold text-2xl text-center text-black/90 dark:text-white/90">{i18n(I18nKey.dinosNew)}</h2>
+  </div>
+
+  <div class="transition flex flex-col rounded-[var(--radius-large)] bg-[var(--card-bg)] py-1 md:py-0 md:bg-transparent md:gap-4 mb-4">
+    {latestPosts.map((entry: { body: string; data: BlogPostData; slug: string }) => {
+        return (
+            <PostCard
+                    entry={entry}
+                    title={entry.data.title}
+                    tags={entry.data.tags}
+                    category={entry.data.category || ""}
+                    published={entry.data.published}
+                    url={getPostUrlBySlug(entry.slug)}
+                    image={entry.data.image || ""}
+                    description={entry.data.description}
+                    draft={entry.data.draft || false}
+                    style=""
+            ></PostCard>
+        );
+    })}
+</div>
+</MainGridLayout>
