@@ -6,7 +6,7 @@ published: 2021-12-18
 dotm:
   - month: 2022-10-01
   - month: 2022-01-01
-image: ../../assets/images/brachiosaurus__camarasaurus__by_abelov2014-d8iji62.jpg
+image: ../../assets/images/commission__brachiosaurus_by_finwalsmd_dev4luj-pre.jpg
 category: Dinos
 tags:
   - Herbivore 🌿
