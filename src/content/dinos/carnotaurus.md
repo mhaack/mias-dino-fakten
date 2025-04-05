@@ -6,28 +6,55 @@ published: 2022-01-07
 dotm:
   - month: 2025-02-01
   - month: 2022-12-01
-image: ../../assets/images/carnotaurus.png
+image: ../../assets/images/carnotaurus_2017.png
 category: Dinos
 tags:
   - Karnivore 🥩
   - Kreide 🦴
 food: Karnivore
-location: Chubut, Argentinien
+location: Argentinien
 locations:
   - ARG
-finder: Expedition Leitung von Losé Bonaparte
-weight: 1.200kg
-size: 9m
-years: 71-66
+finder: Ángel Sastre
+weight: 1.200- 1.500kg
+size: 8-9m
+years: 71-69
 family: Abelisauridae
+sources:
+  - https://commons.wikimedia.org/wiki/File:Carnotaurus_2017.png
+  - https://commons.wikimedia.org/wiki/File:Carnotaurus_sastrei_Andrey_Atuchin.jpg
+  - https://www.flickr.com/photos/strangetikigod/7013422739
+  - https://commons.wikimedia.org/wiki/File:Carnotaurus_Skull.jpg
 ---
-Der erste **Carnotaurus** wurde 1985 gefunden. Er hatte ein besonderes Merkmal: seine dreieckigen, kurzen Hörner. Sie befanden sich auf seinem Kopf und dienten als Waffe. Daher leitet sich auch sein Name ab.
+* 1985 entdeckt ( gut erhaltenes Teilskelett)
+* kurze, vermutlich nutzlose Arme mit 4 Fingern 
+* gut erhaltene Hautabdrücke -> Körperflanken mit kugelförmigen Stacheln 
+*  stumpfe Hörner über den Augen -> deshalb Stier
+* Hörner zur Balz oder Rivalen vetreiben
+* kurzer Schädel
+* Füße unbekannt 
+* flacher schmaler Unterkiefer
+* freie Schultergelenke, konnte vermutlich besser bewegen als andere Theropoden
+* arme möglicherweise auch für Balz
+* bekannt für stumpfe Hörner über augen
+* Tod in Schlammgrube -> gute konservierung der Knochen
+* typische Death pose 
+* einer der best erforschten theropoden der südlichen Hemisphäre
+* 1 exemplar
+* keine krallen
+* finger verschmolzen -> konnten nicht einzeln bewegt werden
+* napfförmige schuppen
+* vier Finger
+* äugen nach vorn gerichtet räumliches Sehvermögen 
+* Arme haben sich möglicherweise mit der Zeit zurück gebildet
+* La-Colonia-Formation in Chubut
+* Schädel fast vollständig erhaltemn
+* schuppen zur wärmeregulierung
 
-![Carnotaurusschädel](../../assets/images/carnotaurus-schädel.jpg)
+![](../../assets/images/7013422739_6508fbe47f_b.jpg)
 
-Bei Ausgrabungen man hat neben dem Skelet auch ein Stück versteinerte Hautschuppen entdeckt. Das besondere daran ist, man findet nur selten Hautschuppen von Dinosauriern.
 
-Quellen:
 
-* <https://www.pngall.com/jurassic-park-png>
-* <https://fr.wikipedia.org/wiki/Carnotaurus>
+![](../../assets/images/carnotaurus_sastrei_andrey_atuchin.jpg)
+
+![](../../assets/images/carnotaurus_skull.jpg)
