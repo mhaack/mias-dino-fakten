@@ -74,8 +74,6 @@ eier 15 cm
 
 * hohe serblichkeitsrate in den ersten Jahren🪺
 
-
-
 Maiasaura, ein Dinosaurier, der für seine mütterliche Fürsorge bekannt ist. Der Maiasaura ist ein 7-9 m langer Dinosaurier, der bis zu 3.000 kg schwer werden konnte. Er wurde 1979 von Laurie Trexie in der Two-Medicine-Formation, Montana entdeckt. Der erste Fund umfasste 15 Jungtiere und ein Nest.\
 Der Maiasaura wurde nach der griechischen Göttin Maia "gute Mutter" benannt, zudem wurde die weibliche Form des lateinischen Wortes "saurier" gewählt. Daraus setzt sich der Name Maiasaura zusammen, der "gute Mutter-Echse" bedeutet.\
 Außer dem muskulösem Schwanz hatte Maiasaura nichts, womit sie sich hätten verteidigen können. Deshalb Lebten diese Wesen wahrscheinlich in Herden. Diese konnten sogar bis zu 10.000 Tiere beherbergen. 
@@ -88,11 +86,9 @@ Maiasaura war die erste Dinosauriergattung mit Beleg für die Brutpflege.
 
 In den Nestern befanden sich etwa 30-40 nahezu runde Eier, die so groß sind wie ein Straußenei. Nach dem Schlüpfen waren die Jungtiere etwa 40 cm groß und wogen in etwa 1 kg. Sie wuchsen im ersten Jahr aber um das dreifache, wobei sie den heutigen Vögeln sehr ähneln, deshalb wird vermutet, das Maiasaura Warmblütler gewesen sind.
 
-
-
-
-
 ![Maiasaura mit Nest](../../assets/images/maiasaura-nest.jpg)
+
+
 
 Quellen:
 
