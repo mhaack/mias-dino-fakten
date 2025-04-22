@@ -33,10 +33,14 @@ family: Ichthyosauridae
 
 Stromlinienförmig -> gutes fortbewegen im Wasser
 
-* Nahrung: Fische🐟
-* in Koprolithen (Exkrementen) Fische, Tintenfische gefunden -> Bestätigung Ernährungstheorie🐟
+Nahrung: Fische
+
+in Koprolithen (Exkrementen) Fische, Tintenfische gefunden -> Bestätigung Ernährungstheorie
+
 * Sehsinn = Hauptsinn🧿
-* solide3 Knochstruktur des Trommelfells -> Beute dank Vibration des Wassers aus Entfernung "spüren" konnte🐟
+
+solide3 Knochstruktur des Trommelfells -> Beute dank Vibration des Wassers aus Entfernung "spüren" konnte
+
 * legten keine eier, zeigten einige Exemplare🍼
 * lebende Jungtiere (Delfine)🍼
 * Jungtiere zuerst mit Schwanz aus dem Körper der Mutter -> damit niochrt ertranken🍼
@@ -79,4 +83,4 @@ KEIN DINOSAURIER
 
 
 Ichtyosaurus communis, ein prähistorisches Tier, welches dem heutigen Delfin sehr ähnelt. Er ist KEIN Dinosaurier, lebte ebenfalls im Jura vor 201-190 Millionen Jahren. Somit lebten Dinosaurier und der Ichtyosaurus zur selben Zeit.\
-Der Ichtyosaurus hatte wie auch andere Ichtyosaururia eine stromlinienförmige Körperform, was das Schwimmen in den Meeren vereinfachte. Um schnell voran kommen zu können schlug der Ichtyosaurus seine Schwanzflosse immer wieder hin und her. Seine paddelförmigen Vorderflossen nutze er zum lenken. Ichtyosauria war die erste Reptiliengruppe die vollständig im Wasser lebte. Sie besaßen jedoch keine Kiemen, weshalb sie immer wieder an die Wasseroberfläche auftauchen mussten. Ichthyosauria hatten eine lange Schnauze, die mit vielen Zähnen ausgestattet war. In den Koprolithen (Exkrementen) einiger Exemplare, fand man Überreste von Fischen und Tintenfischen.
+Der Ichtyosaurus hatte wie auch andere Ichtyosaururia eine stromlinienförmige Körperform, was das Schwimmen in den Meeren vereinfachte. Um schnell voran kommen zu können schlug der Ichtyosaurus seine Schwanzflosse immer wieder hin und her. Seine paddelförmigen Vorderflossen nutze er zum lenken. Ichtyosauria war die erste Reptiliengruppe die vollständig im Wasser lebte. Sie besaßen jedoch keine Kiemen, weshalb sie immer wieder an die Wasseroberfläche auftauchen mussten. Ichthyosauria hatten eine lange Schnauze, die mit vielen Zähnen ausgestattet war. In den Koprolithen (Exkrementen) einiger Exemplare, fand man Überreste von Fischen und Tintenfischen. Mit einer soliden Knochenstruktur des Trommelfells konnten die Ichtyosauria womöglich die Vibrationen spüren, die ihre Beute im Wasser erzeugen. Diese Fähigkeit machte sie wahrscheinlich zu exzellenten Jägern.
