@@ -27,31 +27,17 @@ size: 1,8-3,3
 years: 201-190
 family: Ichthyosauridae
 ---
-Augen mit Knochenringen geschützt 
 
-Ähnlichkeit mit Fischen, Delfinen
 
-Stromlinienförmig -> gutes fortbewegen im Wasser
+Schädel zwischen Felsen der Klippen von Lyme Regis, England
 
-Nahrung: Fische
+dachte zuerst sei Krokodil 
 
-in Koprolithen (Exkrementen) Fische, Tintenfische gefunden -> Bestätigung Ernährungstheorie
+Mary grub rest des Skelettes aus
 
-solide3 Knochstruktur des Trommelfells -> Beute dank Vibration des Wassers aus Entfernung "spüren" konnte
+Neuklassifizierung von  Naturforscher Charles Konig  gab Namen Ichtyosaurus
 
-* legten keine eier, zeigten einige Exemplare🍼
-* lebende Jungtiere (Delfine)🍼
-* Jungtiere zuerst mit Schwanz aus dem Körper der Mutter -> damit niochrt ertranken🍼
-
-spitz zulaufende Schnauze
-
-* erster Ichtyosaurus von Mary Anning🔨
-* entdeckt von Marys Bruder Schädel 1811 Bruder=15 Joe🔨
-* Schädel zwischen Felsen der Klippen von Lyme Regis, England🔨
-* dachte zuerst sei Krokodil 🔨
-* Mary grub rest des Skelettes aus🔨
-* Neuklassifizierung von  Naturforscher Charles Konig  gab Namen Ichtyosaurus🔨
-* mary war 12 fand später weitere Ichtyosaurus Fossilien🔨
+* mary war 12 fand später weitere Ichtyosaurus Fossilien
 
 Ichthyosaurier untertrias 251 - Oberkreide 93
 
@@ -64,7 +50,8 @@ kraft für Schwimmbewegung langer Schwanz hin und her schlug
 lenken mit paddelartigen Vorderflossen
 
 * sehr viele Fossilien erhalten, deshalb einer bekanntesten prähistorischen Tiere🔨
-* Im inneren der Erwachsenen winzige ichtyosaurus Knochen -> lebende geburt🍼
+
+Im inneren der Erwachsenen winzige ichtyosaurus Knochen -> lebende geburt
 
 Ichthyosaurier = erste Reptiliengruppe die  vollständig im Wasser lebte
 
@@ -82,15 +69,17 @@ KEIN DINOSAURIER
 
 *Ophthalmosaurus*, hatten riesige Augen – teils mit über 20 cm Durchmesser
 
-* größter, vollständiger Ichtyosauria *Temnodontosaurus trigonodon 2021 mehr als 10 m🫂*
 
-Ichtyosaurus communis, ein prähistorisches Tier, welches dem heutigen Delfin sehr ähnelt. Er ist KEIN Dinosaurier, lebte ebenfalls im Jura vor 201-190 Millionen Jahren. Somit lebten Dinosaurier und der Ichtyosaurus zur selben Zeit.\
-Der Ichtyosaurus hatte wie auch andere Ichtyosaururia eine stromlinienförmige Körperform, was das Schwimmen in den Meeren vereinfachte. Um schnell voran kommen zu können schlug der Ichtyosaurus seine Schwanzflosse immer wieder hin und her. Seine paddelförmigen Vorderflossen nutze er zum lenken. Ichtyosauria war die erste Reptiliengruppe die vollständig im Wasser lebte. Sie besaßen jedoch keine Kiemen, weshalb sie immer wieder an die Wasseroberfläche auftauchen mussten. Ichthyosauria hatten eine lange Schnauze, die mit vielen Zähnen ausgestattet war. In den Koprolithen (Exkrementen) einiger Exemplare, fand man Überreste von Fischen und Tintenfischen. Mit einer soliden Knochenstruktur des Trommelfells konnten die Ichtyosauria womöglich die Vibrationen spüren, die ihre Beute im Wasser erzeugen. Diese Fähigkeit machte sie wahrscheinlich zu exzellenten Jägern.\
-Ein für Ichtyosauria typischeds Merkmal sind die großen Knochenringe um ihre Augen. Diese nennen Sclerotische Ringe. Sie stabilisieren die Augen der Ichtyosauria, damit diese sich nicht verformen oder eingedrückt werden. Die Knochringe zeigen die wie groß die Augen tatsächlich gewesen waren. Der Ophthalmosaurus hatte von allen Ichtyosauria die größten Augen mit einem Durchmesser von manchmal bis zu 20 cm. Ichtyosauria hatten unter allen uns bekannten Wirbeltieren die größten Augen.
 
-Wenn von Ichtyosauria die Rede ist, handelt sich nicht um eine spezifische Art, sondern um rund 100 verschiedene. Je nach Art konnten die Ichtyosausia bis zu 20 m lang und bis zu 50 t schwer werden. Diese beindruckenden Wesen bevölkerten die Meere vor 251-93 Millionen Jahren.
 
-Die zehn bekanntesten Ichtyosauria:
+
+Ichthyosaurus communis, ein prähistorisches Tier, welches dem heutigen Delfin sehr ähnelt. Er ist KEIN Dinosaurier, lebte ebenfalls im Jura vor 201-190 Millionen Jahren. Somit lebten Dinosaurier und der Ichthyosaurus zur selben Zeit.\
+Der Ichthyosaurus hatte wie auch andere Ichtyosaururia eine stromlinienförmige Körperform, was das Schwimmen in den Meeren vereinfachte. Um schnell voran kommen zu können schlug der Ichthyosaurus seine Schwanzflosse immer wieder hin und her. Seine paddelförmigen Vorderflossen nutze er zum lenken. Ichthyosauria war die erste Reptiliengruppe die vollständig im Wasser lebte. Sie besaßen jedoch keine Kiemen, weshalb sie immer wieder an die Wasseroberfläche auftauchen mussten. Ichthyosauria hatten eine lange Schnauze, die mit vielen Zähnen ausgestattet war. In den Koprolithen (Exkrementen) einiger Exemplare, fand man Überreste von Fischen und Tintenfischen. Mit einer soliden Knochenstruktur des Trommelfells konnten die Ichthyosaurier womöglich die Vibrationen spüren, die ihre Beute im Wasser erzeugen. Diese Fähigkeit machte sie wahrscheinlich zu exzellenten Jägern.\
+Ein für Ichthyosauria typischeds Merkmal sind die großen Knochenringe um ihre Augen. Diese nennen Sclerotische Ringe. Sie stabilisieren die Augen der Ichthyosaurier, damit diese sich nicht verformen oder eingedrückt werden. Die Knochringe zeigen die wie groß die Augen tatsächlich gewesen waren. Der Ophthalmosaurus hatte von allen Ichthyosauria die größten Augen mit einem Durchmesser von manchmal bis zu 20 cm. Ichtyosauria hatten unter allen uns bekannten Wirbeltieren die größten Augen.
+
+Wenn von Ichthyosauria die Rede ist, handelt sich nicht um eine spezifische Art, sondern um rund 100 verschiedene. Je nach Art konnten die Ichtyosausia bis zu 20 m lang und bis zu 50 t schwer werden. Diese beindruckenden Wesen bevölkerten die Meere vor 251-93 Millionen Jahren.
+
+Die zehn bekanntesten Ichthyosauria:
 
 1. Ichthyosaurus communis
 2. Stenopterygius quadriscissus
@@ -103,9 +92,10 @@ Die zehn bekanntesten Ichtyosauria:
 9. Besanosaurus leptorhynchus
 10. Platypterygius australis
 
-Der größte bekannte Ichtyosauria war der Shastasaurus sikanniensis. Der in Kanada entdeckte Riese wurde bis zu 21 m lang. Dieser gigantische Meeresbewohner hatte vermutlich keine Zähne und ernährte sich vermutlich wie heutige Bartwale.
+Der größte bekannte Ichthyosauria war der Shastasaurus sikanniensis. Der in Kanada entdeckte Riese wurde bis zu 21 m lang. Dieser gigantische Meeresbewohner hatte vermutlich keine Zähne und ernährte sich vermutlich wie heutige Bartwale.
 
-Der kleinste bekannte Ichtyosauria war der Cartorhynchus lenticarpus\*\**  
+Der kleinste bekannte Ichthyosaurier war der Cartorhynchus lenticarpus. Dieser im frühen Trias lebende Ichthyosauria war nur 40 cm groß und wies noch Amphibien-ähnliche Merkmale auf.
 
-* Länge: \*\*etwa 40 cm\*\**  
-* – Einer der basalsten Ichthyosaurier (oder ichthyosauriformen Reptilien); lebte im frühen Trias. Zeigt noch Amphibien-ähnliche Merkmale.*
+Ichthyosaurier legten keine Eier, sie gebaren lebend. Im Inneren einiger erwachsener Exemplaren wurden winzige Knochen von Ichthyosauriern gefunden, die eine lebende Geburt beweisen. Die Jungtiere schlüpften wahrscheinlich zuerst mit dem Schwanz zuerst aus dem Körper der Mutter, damit sie nicht sofort ertranken.
+
+Der erste Ichthyosaurus wurde von Mary Anning gefunden. 1811 entdeckte ihr Bruder Joe einen Schädel eines Ichthyosaurus  zwischen den Felsen der Klippen von Lyme Regis in England. Zusammen legten die erst 12 Jahre alte Mary und der 15 jährige Joe das restliche Skelett frei. Zuerst wurde vermutet, dass es sich um ein Krokodil handelt. Der Naturforscher Charles König klassifizierte das Skelett neu und gab ihm den Namen Ichthyosaurus. Später fand Mary Anning noch weitere Ichthyosaurus-Fossilien. Durch die vielen Funde von Ichthyosaurus ist dieser einer best erforschten prähistorischen Tiere.
