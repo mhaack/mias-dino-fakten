@@ -8,7 +8,7 @@ dotm:
   - month: 2023-02-01
   - month: 2022-09-01
   - month: 2022-04-01
-image: ../../assets/images/ichthyosaurus.png
+image: ../../assets/images/da0avn2-e46f95e0-3495-4a80-b73e-ba85484eb8fa.jpg
 category: Meeressaurier
 tags:
   - Piscivore 🐟
@@ -26,6 +26,8 @@ weight: 91 kg
 size: 1,8-3,3
 years: 201-190
 family: Ichthyosauridae
+sources:
+  - https://www.deviantart.com/venofoot/art/Ophthalmosaurus-605169326
 ---
 Ichthyosaurus communis, ein prähistorisches Tier, welches dem heutigen Delfin sehr ähnelt. Er ist KEIN Dinosaurier, lebte ebenfalls im Jura vor 201-190 Millionen Jahren. Somit lebten Dinosaurier und der Ichthyosaurus zur selben Zeit.\
 Der Ichthyosaurus hatte wie auch andere Ichtyosaururia eine stromlinienförmige Körperform, was das Schwimmen in den Meeren vereinfachte. Um schnell voran kommen zu können schlug der Ichthyosaurus seine Schwanzflosse immer wieder hin und her. Seine paddelförmigen Vorderflossen nutze er zum lenken. Ichthyosauria war die erste Reptiliengruppe die vollständig im Wasser lebte. Sie besaßen jedoch keine Kiemen, weshalb sie immer wieder an die Wasseroberfläche auftauchen mussten. Ichthyosauria hatten eine lange Schnauze, die mit vielen Zähnen ausgestattet war. In den Koprolithen (Exkrementen) einiger Exemplare, fand man Überreste von Fischen und Tintenfischen. Mit einer soliden Knochenstruktur des Trommelfells konnten die Ichthyosaurier womöglich die Vibrationen spüren, die ihre Beute im Wasser erzeugen. Diese Fähigkeit machte sie wahrscheinlich zu exzellenten Jägern.\
