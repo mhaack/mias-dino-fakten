@@ -4,6 +4,7 @@ namesuffix: communis
 meaning: Fischechse
 published: 2022-01-12
 dotm:
+  - month: 2025-05-01
   - month: 2023-10-01
   - month: 2023-02-01
   - month: 2022-09-01
