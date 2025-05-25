@@ -38,7 +38,6 @@ if (!banner || typeof banner !== 'string' || banner.trim() === '') {
   banner = siteConfig.banner.src
 }
 
-// TODO don't use post cover as banner for now
 banner = siteConfig.banner.src
 
 const enableBanner = siteConfig.banner.enable
@@ -87,6 +86,10 @@ const siteLang = lang.replace('_', '-')
         <meta property="og:type" content="article" />
         ) : (
         <meta property="og:type" content="website" />
+        )}
+
+        {post?.image && (
+          <meta property="og:image" content={new URL(post.image, Astro.url)} />
         )}
 
         <meta name="twitter:card" content="summary_large_image">
