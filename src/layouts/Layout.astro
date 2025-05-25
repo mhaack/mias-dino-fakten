@@ -50,7 +50,7 @@ if (title) {
 }
 
 let pageDescription: string
-pageDescription = title
+pageDescription = description || title
 if (post?.namesuffix) {
   pageDescription = `${title} ${post.namesuffix}`
 }

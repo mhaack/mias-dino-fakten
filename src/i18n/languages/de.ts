@@ -4,7 +4,8 @@ import type { Translation } from '../translation'
 export const de: Translation = {
   [Key.home]: 'Home',
   [Key.about]: 'Über mich',
-  [Key.archive]: 'Archiv',
+  [Key.archive]: 'Dinoarchiv',
+  [Key.archiveDesc]: 'Alle Dinos aus der Kategorie',
   [Key.search]: 'Suche',
 
   [Key.tags]: 'Tags',

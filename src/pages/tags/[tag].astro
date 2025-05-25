@@ -30,9 +30,11 @@ export async function getStaticPaths() {
 const tag = Astro.params.tag as string
 const allTags = await getTagList()
 const displayTag = allTags.find(t => getTagSlug(t.slug) === tag)
+const title = `${i18n(I18nKey.archive)} - ${displayTag ? displayTag.name : tag}`
+const description = `${i18n(I18nKey.archiveDesc)} ${displayTag ? displayTag.name : tag}`
 ---
 
-<MainGridLayout title={i18n(I18nKey.archive)} description={i18n(I18nKey.archive)}>
+<MainGridLayout title={title} description={description}>
   <div class="card-base px-8 py-6">
     <Icon size="96" name="diplodocus" class="mx-auto mb-2" />
     <Heading>Tag: {displayTag ? displayTag.name : tag}</Heading>
