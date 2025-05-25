@@ -5,7 +5,11 @@ import '@fontsource/roboto/500.css'
 import '@fontsource/roboto/700.css'
 import ImageWrapper from '@components/misc/ImageWrapper.astro'
 
-import { profileConfig, siteConfig } from '@/config'
+import SEO, { type Props as SEOProps } from '@components/SEO.astro'
+
+import { getImage } from 'astro:assets'
+import { undefined } from 'astro:schema'
+import { siteConfig } from '@/config'
 import ConfigCarrier from '@components/ConfigCarrier.astro'
 import {
   AUTO_MODE,
@@ -58,12 +62,23 @@ if (post?.namesuffix) {
 const favicons: Favicon[] =
   siteConfig.favicon.length > 0 ? siteConfig.favicon : defaultFavicons
 
-// const siteLang = siteConfig.lang.replace('_', '-')
 let lang = post?.lang
 if (!lang) {
   lang = `${siteConfig.lang}`
 }
 const siteLang = lang.replace('_', '-')
+
+// prepare OG image
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/images/*.{jpeg,jpg,png,gif}',
+)
+let image = undefined
+if (post?.image) {
+  image = await getImage({
+    src: images[post?.image.replace('../..', '/src')](),
+    format: 'jpg',
+  })
+}
 ---
 
 <!DOCTYPE html>
@@ -75,30 +90,9 @@ const siteLang = lang.replace('_', '-')
         <title>{pageTitle}</title>
 
         <meta charset="UTF-8" />
-        <meta name="description" content={pageDescription || pageTitle}>
-        <meta name="author" content={profileConfig.name}>
-
-        <meta property="og:site_name" content={siteConfig.title}>
-        <meta property="og:url" content={Astro.url}>
-        <meta property="og:title" content={pageTitle}>
-        <meta property="og:description" content={pageDescription || pageTitle}>
-        {setOGTypeArticle ? (
-        <meta property="og:type" content="article" />
-        ) : (
-        <meta property="og:type" content="website" />
-        )}
-
-        {post?.image && (
-          <meta property="og:image" content={new URL(post.image, Astro.url)} />
-        )}
-
-        <meta name="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content={Astro.url}>
-        <meta name="twitter:title" content={pageTitle}>
-        <meta name="twitter:description" content={pageDescription || pageTitle}>
-
-        <meta name="viewport" content="width=device-width" />
-        <meta name="generator" content={Astro.generator} />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <SEO name={siteConfig.title} title={pageTitle} description={pageDescription || pageTitle} image={image}  og={{type: setOGTypeArticle ? 'article' : 'website'}} locale={siteLang}/>
+        <meta name="generator" content={Astro.generator} /> 
         {favicons.map(favicon => (
             <link rel="icon"
                   href={favicon.src.startsWith('/') ? url(favicon.src) : favicon.src}
@@ -126,7 +120,7 @@ const siteLang = lang.replace('_', '-')
 
         <slot name="head"></slot>
 
-        <link rel="alternate" type="application/rss+xml" title={profileConfig.name} href={`${Astro.site}rss.xml`}/>
+        <link rel="alternate" type="application/rss+xml" title={siteConfig.title} href={`${Astro.site}rss.xml`}/>
 
         {import.meta.env.PROD &&
         <script defer data-domain="dino-fakten.de" src="/js/script.js"></script>
