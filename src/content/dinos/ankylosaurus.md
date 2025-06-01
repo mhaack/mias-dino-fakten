@@ -19,9 +19,9 @@ size: 6-10 m
 years: 70-66
 family: Ankylosauridae
 sources:
-  - 1. https://en.wikipedia.org/wiki/Ankylosaurus
-  - 2. https://www.nhm.ac.uk/discover/dino-directory/ankylosaurus.html
-  - 3. https://www.britannica.com/animal/Ankylosaurus
+  - https://en.wikipedia.org/wiki/Ankylosaurus
+  - https://www.nhm.ac.uk/discover/dino-directory/ankylosaurus.html
+  - https://www.britannica.com/animal/Ankylosaurus
   - https://commons.wikimedia.org/wiki/File:Ankylosaurus_armor.png
   - https://commons.wikimedia.org/wiki/File:Ankylosaurus_UDL.png
 ---
