@@ -23,7 +23,7 @@ sources:
 ---
 Der **Ankylosaurus** ist einer der bekanntesten gepanzerten Dinosaurier. Er lebte vor 70-66 Millionen Jahren am Ende der Kreidezeit und teilte sich seinen Lebensraum mit berühmten Zeitgenossen wie [Tyrannosaurus rex](https://dino-fakten.de/dinos/tyrannosaurus-rex/) und [Triceratops](https://dino-fakten.de/dinos/triceratops/).
 
-Der Körper des **Ankylosaurus** war breit, massiv und niedrig gebaut. Besonders auffällig ist seine dicke Panzerung: Der Rücken war mit großen, flachen Knochenplatten und Reihen von knöchernen Stacheln bedeckt, die sogenannten Osteodermen. Die Panzerung zog sich bis zum Nacken und schützte auch den Schädel, der zudem mit Hörnern versehen war. 
+Der Körper des **Ankylosaurus** war breit, massiv und niedrig gebaut. Besonders auffällig ist seine dicke Panzerung. Der Rücken war mit großen, flachen Knochenplatten und Reihen von knöchernen Stacheln bedeckt, die sogenannten Osteodermen. Sie waren in die Haut eingelassen und variierten erheblich in der Größe, es gab breite, flache Platten und schmale, runde Höcker. Die Panzerung zog sich bis zum Nacken und schützte auch den Schädel, der zudem mit Hörnern versehen war. 
 
 ![Ankylosaurus von Oben](../../assets/images/ankylosaurus_armor.png)
 
