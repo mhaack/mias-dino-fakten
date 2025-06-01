@@ -14,7 +14,7 @@ locations:
   - USA
   - CAN
 finder: Barnum Brown
-weight: 4000-8000 t
+weight: 4000-8000 kg
 size: 6-10 m
 years: 70-66
 family: Ankylosauridae
