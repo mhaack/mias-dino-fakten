@@ -29,7 +29,7 @@ Der Körper des **Ankylosaurus** war breit, massiv und niedrig gebaut. Besonders
 
 Auch die Augenlider waren bei **Ankylosaurus** durch Knochenplatten geschützt, ein bei Dinosauriern eher seltenes Merkmal. Der Kopf des **Ankylosaurus** war breit und niedrig, mit einem Art Schnabel an der Vorderseite zum Abreißen von Pflanzen. Die Zähne waren klein, dreieckig und zum Zerkleinern von Pflanzen geeignet. Im Verhältnis zu seiner Körpergröße besaß er ein ungewöhnlich kleines Gehirn, was vermutlich auf ein eher einfaches Verhaltensrepertoire hindeutet.
 
-Am Ende seines Schwanzes trug **Ankylosaurus** eine schwere Keule. Diese Schwanzkeule konnte mit einem kräftigen Schlag Knochen von Angreifern brechen und diente der Verteidigung gegen große Raubsaurier wie den [Tyrannosaurus rex](https://dino-fakten.de/dinos/tyrannosaurus-rex/).
+Am Ende seines Schwanzes trug **Ankylosaurus** eine schwere Keule. Sie war mit den letzten Schwanzwirbeln verbunden, und kräftige Sehnen sorgten für die Beweglichkeit der Keule. Diese Schwanzkeule konnte mit einem kräftigen Schlag Knochen von Angreifern zerschmettern und diente der Verteidigung gegen große Raubsaurier wie den [Tyrannosaurus rex](https://dino-fakten.de/dinos/tyrannosaurus-rex/). 
 
 **Ankylosaurus** war ein Pflanzenfresser, der vermutlich vor allem niedrig wachsende Pflanzen, Farne, Sträucher und Früchte fraß. Aufgrund seines schweren Körperbaus bewegte er sich langsam und war auf allen vieren unterwegs. Seine Panzerung und die Schwanzkeule machten ihn zu einem schwer angreifbaren Beutetier. 
 
