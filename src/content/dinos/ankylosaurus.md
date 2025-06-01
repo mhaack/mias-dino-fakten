@@ -35,7 +35,7 @@ Auch die Augenlider waren bei **Ankylosaurus** durch Knochenplatten geschützt, 
 
 Am Ende seines Schwanzes trug **Ankylosaurus** eine schwere Keule. Sie war mit den letzten Schwanzwirbeln verbunden, und kräftige Sehnen sorgten für die Beweglichkeit der Keule. Diese Schwanzkeule konnte mit einem kräftigen Schlag Knochen von Angreifern zerschmettern und diente der Verteidigung gegen große Raubsaurier wie den [Tyrannosaurus rex](https://dino-fakten.de/dinos/tyrannosaurus-rex/).
 
-![Schwanzkeule Ankylosaurus](../../assets/images/ankylosaurus._schwanzkeule.jpeg)
+![Schwanzkeule Ankylosaurus](../../assets/images/ankylosaurus_schwanzkeule.jpeg)
 
 **Ankylosaurus** war ein Pflanzenfresser, der vermutlich vor allem niedrig wachsende Pflanzen, Farne, Sträucher fraß. Aufgrund seines schweren Körperbaus bewegte er sich langsam und war auf allen vieren unterwegs. Seine Panzerung und die Schwanzkeule machten ihn zu einem schwer angreifbaren Beutetier. Meist war der **Ankylosaurus** alleine auf Nahrungssuche. Möglicherweise waren sie aber zeitweilig auch mit anderen Pflanzenfressern in Herden unterwegs und schlossen sich ihnen für Wanderungen an.
 
