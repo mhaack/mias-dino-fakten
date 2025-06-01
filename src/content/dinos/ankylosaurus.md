@@ -9,9 +9,10 @@ tags:
   - Herbivore 🌿
   - Kreide 🦴
 food: Herbivore
-location: USA
+location: Kanada, USA
 locations:
   - USA
+  - CAN
 finder: Barnum Brown
 weight: 4000-8000 t
 size: 6-10 m
