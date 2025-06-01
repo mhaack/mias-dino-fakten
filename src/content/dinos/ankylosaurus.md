@@ -22,6 +22,7 @@ sources:
   - 1. https://en.wikipedia.org/wiki/Ankylosaurus
   - 2. https://www.nhm.ac.uk/discover/dino-directory/ankylosaurus.html
   - 3. https://www.britannica.com/animal/Ankylosaurus
+  - https://commons.wikimedia.org/wiki/File:Ankylosaurus_armor.png
 ---
 Der **Ankylosaurus** ist einer der bekanntesten gepanzerten Dinosaurier. Er lebte vor 70-66 Millionen Jahren am Ende der Kreidezeit und teilte sich seinen Lebensraum mit berühmten Zeitgenossen wie [Tyrannosaurus rex](https://dino-fakten.de/dinos/tyrannosaurus-rex/) und [Triceratops](https://dino-fakten.de/dinos/triceratops/).
 
