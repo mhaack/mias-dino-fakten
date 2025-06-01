@@ -3,7 +3,7 @@ title: Ankylosaurus
 namesuffix: magniventris
 meaning: gebogene Echse
 published: 2025-06-01
-image: ../../assets/images/10105344244_996711bd3d_b.jpg
+image: ../../assets/images/ankylosaurus_udl.png
 category: Dinos
 tags:
   - Herbivore 🌿
@@ -23,6 +23,7 @@ sources:
   - 2. https://www.nhm.ac.uk/discover/dino-directory/ankylosaurus.html
   - 3. https://www.britannica.com/animal/Ankylosaurus
   - https://commons.wikimedia.org/wiki/File:Ankylosaurus_armor.png
+  - https://commons.wikimedia.org/wiki/File:Ankylosaurus_UDL.png
 ---
 Der **Ankylosaurus** ist einer der bekanntesten gepanzerten Dinosaurier. Er lebte vor 70-66 Millionen Jahren am Ende der Kreidezeit und teilte sich seinen Lebensraum mit berühmten Zeitgenossen wie [Tyrannosaurus rex](https://dino-fakten.de/dinos/tyrannosaurus-rex/) und [Triceratops](https://dino-fakten.de/dinos/triceratops/).
 
