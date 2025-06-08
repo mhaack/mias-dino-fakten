@@ -71,7 +71,7 @@ export async function getDinosOfTheMonth(): Promise<
 
   const dinosOfTheMonth = new Array()
   for (const post of allDinos) {
-    for (const date of post.data.dotm) {
+    for (const date of post.data.dotm || []) {
       dinosOfTheMonth.push({
         month: date.month,
         data: post.data,

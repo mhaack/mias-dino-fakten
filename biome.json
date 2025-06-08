@@ -1,14 +1,14 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
   "extends": [],
-  "files": { "ignoreUnknown": true, "ignore": ["plugins/*"] },
+  "files": { "ignoreUnknown": true, "ignore": ["plugins/*", "src/components/map/countries.json"] },
   "organizeImports": {
     "enabled": true
   },
   "formatter": {
     "enabled": true,
     "formatWithErrors": false,
-    "ignore": ["src/config.ts"],
+    "ignore": ["src/config.ts", "**/*.svelte"],
     "indentStyle": "space",
     "indentWidth": 2,
     "lineWidth": 80

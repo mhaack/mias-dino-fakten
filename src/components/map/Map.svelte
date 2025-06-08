@@ -1,13 +1,12 @@
 <script lang="ts">
-  
 import { onMount } from 'svelte'
 import {
   FillLayer,
   GeoJSON,
   MapLibre,
   MarkerLayer,
+  NavigationControl,
   hoverStateFilter,
-  NavigationControl
 } from 'svelte-maplibre'
 
 import type { Feature } from 'svelte-maplibre'
@@ -17,16 +16,16 @@ const fillColor2 = '#e1a035'
 const center = { lon: 10.393661554752802, lat: 51.1065921857343 }
 
 const icons = [
-  "/icons/dinosaurier.svg",
-  "/icons/diplodocus.svg",
-  "/icons/spinosaurus.svg",
-  "/icons/stegosaurus.svg",
-  "/icons/styracosaurus.svg",
-  "/icons/triceratops.svg"
+  '/icons/dinosaurier.svg',
+  '/icons/diplodocus.svg',
+  '/icons/spinosaurus.svg',
+  '/icons/stegosaurus.svg',
+  '/icons/styracosaurus.svg',
+  '/icons/triceratops.svg',
 ]
 
 let mapData = {}
-let clickedCountry = {};
+let clickedCountry = {}
 
 onMount(async () => {
   const response = await fetch('/map.json/')
@@ -34,8 +33,8 @@ onMount(async () => {
 })
 
 function getRandomIcon() {
-    const randomIndex = Math.floor(Math.random() * icons.length);
-    return icons[randomIndex];
+  const randomIndex = Math.floor(Math.random() * icons.length)
+  return icons[randomIndex]
 }
 
 function getMarkerPos(feature: Feature) {
