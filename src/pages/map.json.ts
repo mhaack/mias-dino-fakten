@@ -7,17 +7,23 @@ const dinoCountryList = await getDinoCountryList()
 
 const mapData = {
   type: 'FeatureCollection',
-  features: [],
+  features: [] as any[],
 }
 
 for (const country of countries.features) {
   const isoCode = country.properties.iso3
-  const finds = dinoCountryList.get(isoCode)
-  if (finds) {
-    country.properties.dinoFind = true
-    country.properties.dinoFinds = finds.dinos
-    country.properties.dinoFindCount = finds.dinos.length
-    mapData.features.push(country)
+  const finds = dinoCountryList.get(isoCode || '')
+  if (finds && isoCode) {
+    const extendedCountry = {
+      ...country,
+      properties: {
+        ...country.properties,
+        dinoFind: true,
+        dinoFinds: finds.dinos,
+        dinoFindCount: finds.dinos.length,
+      },
+    }
+    mapData.features.push(extendedCountry)
   }
 }
 
