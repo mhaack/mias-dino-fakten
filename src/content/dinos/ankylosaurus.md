@@ -3,6 +3,8 @@ title: Ankylosaurus
 namesuffix: magniventris
 meaning: gebogene Echse
 published: 2025-06-01
+dotm:
+  - month: 2025-07-01
 image: ../../assets/images/ankylosaurus_udl.png
 category: Dinos
 tags:
