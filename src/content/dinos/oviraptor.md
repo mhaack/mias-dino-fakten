@@ -4,6 +4,7 @@ namesuffix: philoceratops
 meaning: Eierdieb
 published: 2022-08-21
 dotm:
+  - month: 2025-09-01
   - month: 2024-11-01
   - month: 2024-04-01
 image: ../../assets/images/oviraptor.png
