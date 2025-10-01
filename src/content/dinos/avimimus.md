@@ -1,13 +1,15 @@
 ---
 title: Avimimus
 namesuffix: portentosus
-meaning: "Ungewöhnlicher Vogelnachahmer"
+meaning: Ungewöhnlicher Vogelnachahmer
 published: 2022-10-28
+dotm:
+  - month: 2025-10-01
 image: ../../assets/images/avimimus.gif
+category: Dinos
 tags:
   - Omnivore 🍪
   - Kreide 🦴
-category: Dinos
 food: Omnivore
 location: Mongolei, China
 locations:
