@@ -3,7 +3,10 @@ title: Chasmosaurus
 namesuffix: belli
 meaning: Lochechse
 published: 2023-08-18
+dotm:
+  - month: 2025-11-01
 image: ../../assets/images/chasmosaurus_in_the_mountains_by_microcosmicecology_d79v90n-pre.jpg
+category: Dinos
 tags:
   - Herbivore 🌿
   - Kreide 🦴
@@ -15,13 +18,11 @@ finder: Lawrence Lambe
 weight: 2.500kg
 size: 5m
 years: 74-66
-category: Dinos
 family: Ceratopsidae
 sources:
   - http://mesozoicmondays.blogspot.com/2012/11/c-is-for-chasmosaurus.html>
   - http://zburian.blogspot.com/2012/06/chasmosaurus.html
   - https://www.deviantart.com/microcosmicecology/art/Chasmosaurus-in-the-Mountains-439837799
-
 ---
 D﻿er **Chasmosaurus** war ein relativ langsames Herdentier, aber durch sein gigantisches Nackenschild größer und bedeutsamer wirkte. Der Name Chasmosaurus bedeutet "*Lochechse*" und bezieht sich auf die zwei großen Löcher in seinem Nackenschild. Trotzdem wird er meistens ohne dargestellt. Das Schild diente vermutlich dazu, den Hals und die Schultern vor Angriffen zu schützen oder aber auch um Feinde abzuschrecken und Weibchen anzulocken.
 
