@@ -174,8 +174,6 @@ if (post?.image) {
 <script>
 import {getHue, getStoredTheme, setHue, setTheme} from "../utils/setting-utils";
 
-const bannerEnabled = !!document.getElementById('banner-wrapper')
-
 function setClickOutsideToClose(panel: string, ignores: string[]) {
     document.addEventListener("click", event => {
         let panelDom = document.getElementById(panel);
