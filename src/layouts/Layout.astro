@@ -1,8 +1,8 @@
 ---
 import GlobalStyles from '@components/GlobalStyles.astro'
-import '@fontsource/roboto/400.css'
-import '@fontsource/roboto/500.css'
-import '@fontsource/roboto/700.css'
+import '@fontsource/roboto/latin-400.css'
+import '@fontsource/roboto/latin-500.css'
+import '@fontsource/roboto/latin-700.css'
 import ImageWrapper from '@components/misc/ImageWrapper.astro'
 
 import SEO, { type Props as SEOProps } from '@components/SEO.astro'
@@ -81,9 +81,7 @@ if (post?.image) {
 ---
 
 <!DOCTYPE html>
-<html lang={siteLang} class="bg-[var(--page-bg)] transition text-[14px] md:text-[16px]"
-      data-overlayscrollbars-initialize
->
+<html lang={siteLang} class="bg-[var(--page-bg)] transition text-[14px] md:text-[16px]">
     <head>
 
         <title>{pageTitle}</title>
@@ -127,8 +125,7 @@ if (post?.image) {
 
         <style define:vars={{ configHue }}></style>  {/* defines global css variables. This will be applied to <html> <body> and some other elements idk why */}
     </head>
-    <body class=" min-h-screen transition " class:list={[{"is-large-banner": isLargeBanner, "enable-banner": enableBanner}]}
-          data-overlayscrollbars-initialize>
+    <body class=" min-h-screen transition " class:list={[{"is-large-banner": isLargeBanner, "enable-banner": enableBanner}]}>
         <ConfigCarrier></ConfigCarrier>
         <GlobalStyles>
         {siteConfig.banner.enable && <div id="banner-wrapper" class="absolute -top-[30vh] w-full transition duration-700 overflow-hidden">
@@ -175,8 +172,6 @@ if (post?.image) {
 }
 </style>
 <script>
-import 'overlayscrollbars/overlayscrollbars.css';
-import { OverlayScrollbars } from 'overlayscrollbars';
 import {getHue, getStoredTheme, setHue, setTheme} from "../utils/setting-utils";
 
 const bannerEnabled = !!document.getElementById('banner-wrapper')
@@ -208,37 +203,6 @@ function loadHue() {
     setHue(getHue())
 }
 
-function initCustomScrollbar() {
-    const bodyElement = document.querySelector('body');
-    if (!bodyElement) return;
-    OverlayScrollbars(
-        // docs say that a initialization to the body element would affect native functionality like window.scrollTo
-        // but just leave it here for now
-        {
-            target: bodyElement,
-            cancel: {
-                nativeScrollbarsOverlaid: true,    // don't initialize the overlay scrollbar if there is a native one
-            }
-        }, {
-        scrollbars: {
-            theme: 'scrollbar-base scrollbar-auto py-1',
-            autoHide: 'move',
-            autoHideDelay: 500,
-            autoHideSuspend: false,
-        },
-    });
-    document.querySelectorAll('pre').forEach((ele) => {
-        OverlayScrollbars(ele, {
-            scrollbars: {
-                theme: 'scrollbar-base scrollbar-dark px-2',
-                autoHide: 'leave',
-                autoHideDelay: 500,
-                autoHideSuspend: false
-            }
-        });
-    });
-}
-
 function showBanner() {
     const banner = document.getElementById('banner')
     if (!banner) {
@@ -251,7 +215,6 @@ function showBanner() {
 function init() {
     loadTheme();
     loadHue();
-    initCustomScrollbar();
     showBanner();
 }
 
@@ -317,3 +280,4 @@ const setup = () => {
 }
 setup();
 </script>
+
