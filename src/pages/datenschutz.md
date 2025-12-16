@@ -54,17 +54,14 @@ Um den Schutz Ihrer Persönlichkeitsrechte auch im Rahmen dieser Datenübertragu
 
 Die Daten werden spätestens nach 30 Tage wieder gelöscht, soweit keine weitere Aufbewahrung zu Beweiszwecken erforderlich ist. Andernfalls sind die Daten bis zur endgültigen Klärung eines Vorfalls ganz oder teilweise von der Löschung ausgenommen.
 
-### Plausible Analytics
+### Pirsch Analytics
 
-Wir nutzen den Webanalysedienst „Plausible Analytics“ um unser Angebot fortlaufend zu optimieren, sowohl technisch als auch inhaltlich. Plausible ist eine Marke der Plausible Insights OÜ, Västriku tn 2, 50403, Tartu, Estonia, Registration number 14709274, nachfolgend nur „Plausible“ genannt. Die Plausible Insights OÜ ist vollständig DSGVO-konform.
+Für die Webanalyse setzen wir Pirsch Analytics ein. Bei Pirsch Analytics handelt es sich um eine cookiefreie Webanalysesoftware, die nach dem Grundsatz Privacy by Design entwickelt wurde. Zur Analyse der Besucherströme generiert Pirsch Analytics bei Erhalt des Seitenaufrufs mit Hilfe eines Hashing-Algorithmus eine 16-stellige Zahl als Besucher-ID. Als Eingabewerte dienen die IP-Adresse, der User Agent, das Datum und ein Salt.
 
-Plausible verfolgt einen besonders datenschutzfreundlichen Ansatz zur Analyse Ihres Besuches. Plausible erfasst zu diesem Zweck unter anderem die folgenden Informationen: Datum und Uhrzeit ihres Besuches, Titel und URL der besuchten Seiten, eingehende Links, das Land in dem Sie sich befinden und den User Agent Ihrer Browser-Software. Plausible verwendet und speichert keine „Cookies“ auf Ihrem Endgerät. Sämtliche personenbezogenen Daten (bspw. Ihre IP-Adresse) werden vollständig anonymisiert in Form eines sogenannten Hashes gespeichert. Ein Hash ist eine Verschlüsselung von Daten, die nicht umkehrbar ist, also nicht „entschlüsselt“ werden kann. Auf diese Weise können wir Ihren Besuch analysieren ohne personenbezogenen Daten in einer Form zu speichern, die für uns, Plausible oder fremde Dritte lesbar wäre.
+Die IP-Adresse des Besuchers wird weder vollständig noch in Teilen persistiert und durch den Hash vollständig und nicht reversierbar anonymisiert. Durch die Einbindung des Datums und der Verwendung von einem Salt pro Webseite ist gewährleistet, dass Webseitenbesucher nicht länger als 24 Stunden wiederzuerkennen sind und nicht über mehrere Webseiten hinweg getrackt werden können. Über eine lokal eingebundene Datenbank wird eine grobe Lokalisierung vorgenommen (Land/Stadt).
 
-Um transparent zu machen welche Daten wir erheben, können Sie selbst einen Einblick in die vollständigen Statistiken dieser Seite nehmen: <https://plausible.io/open-election-compass.com>.
-
-Weitere Informationen zur technischen Implementierung findest du hier: <https://plausible.io/privacy-focused-web-analytics>.
-
-Weitere Informationen zum Datenschutz bei Plausible findest du unter <https://plausible.io/data-policy>.
+Weitere Informationen zur technischen Implementierung findest du 
+hier: https://docs.pirsch.io/privacy.
 
 Die Rechtsgrundlage für die Verarbeitung ist Art. 6 Abs. 1 lit. f) DSGVO.
 
