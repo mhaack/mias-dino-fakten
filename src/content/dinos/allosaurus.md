@@ -4,6 +4,7 @@ namesuffix: fragilis
 meaning: Andersartige Echse
 published: 2022-01-25
 dotm:
+  - month: 2026-01-01
   - month: 2025-12-01
   - month: 2025-08-01
   - month: 2025-06-01
