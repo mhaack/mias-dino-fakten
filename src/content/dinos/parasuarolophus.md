@@ -3,11 +3,13 @@ title: Parasaurolophus
 namesuffix: walkeri
 meaning: Fast eine Kammechse
 published: 2021-12-18
+dotm:
+  - month: 2026-04-01
 image: ../../assets/images/parasaurolophus.jpg
+category: Dinos
 tags:
   - Herbivore 🌿
   - Kreide 🦴
-  
 food: Herbivore
 location: Nordamerika
 locations:
@@ -17,7 +19,6 @@ finder: University of Toronto
 weight: 2.500kg
 size: 10m
 years: 76-72
-category: Dinos
 family: Hardrosauridae
 ---
  Der **Parasaurolophus** konnte sich wahrscheinlich wie viele andere Hardrosaurier auf zwei und auf vier Beinen fortbewegen. Ein typisches Merkmal der Hardrosaurier hatte auch der **Parasaurolophus**, denn er besaß einen "Entenschnabel" mit Mahlzähnen im Kiefer.
