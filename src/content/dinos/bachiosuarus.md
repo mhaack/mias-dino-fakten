@@ -4,6 +4,7 @@ namesuffix: altithorax
 meaning: Armechse
 published: 2021-12-18
 dotm:
+  - month: 2026-05-01
   - month: 2022-10-01
   - month: 2022-01-01
 image: ../../assets/images/commission__brachiosaurus_by_finwalsmd_dev4luj-pre.jpg
