@@ -4,7 +4,6 @@ namesuffix: walkeri
 meaning: Fast eine Kammechse
 published: 2021-12-18
 dotm:
-  - month: 2026-07-01
   - month: 2026-04-01
 image: ../../assets/images/parasaurolophus.jpg
 category: Dinos
