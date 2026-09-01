@@ -3,7 +3,10 @@ title: Velociraptor
 namesuffix: mongoliensis
 meaning: Schneller Räuber
 published: 2022-07-09
+dotm:
+  - month: 2026-09-01
 image: ../../assets/images/velociraptor.jpg
+category: Dinos
 tags:
   - Omnivore 🍪
   - Kreide 🦴
@@ -13,9 +16,8 @@ locations:
   - MNG
 finder: Henry Fairfield Osborn
 weight: 15kg
-size: "1,8-2m"
+size: 1,8-2m
 years: 85-76
-category: Dinos
 family: Dromaeosauridae
 sources:
   - https://www.deviantart.com/mmfrankford/art/Velociraptor-Concept-94243595
