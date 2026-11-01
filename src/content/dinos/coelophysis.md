@@ -4,6 +4,7 @@ namesuffix: bauri
 meaning: Hohlknochen
 published: 2024-10-04
 dotm:
+  - month: 2026-11-01
   - month: 2025-03-01
 image: ../../assets/images/coelophysis_jeff_martz.png
 category: Dinos
